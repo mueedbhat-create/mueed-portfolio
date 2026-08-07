@@ -47,7 +47,7 @@ export default function Projects() {
           Selected <span className="text-gradient">work</span>
         </h2>
         <p className="mt-3 max-w-2xl text-muted-foreground">
-          Campaigns, strategies and content that produced measurable results.
+          Automations, campaigns and content built with AI at the core — and real results behind them.
         </p>
 
         <div className="mt-12">

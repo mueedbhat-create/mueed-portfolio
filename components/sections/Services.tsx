@@ -1,12 +1,12 @@
-import { PenLine, Layers, BookOpen, Search, type LucideIcon } from "lucide-react";
+import { PenLine, Workflow, Target, LineChart, type LucideIcon } from "lucide-react";
 import { resume } from "@/data/resume";
 import { MagicCard } from "@/components/magicui/magic-card";
 
 const icons: Record<string, LucideIcon> = {
   PenLine,
-  Layers,
-  BookOpen,
-  Search,
+  Workflow,
+  Target,
+  LineChart,
 };
 
 export default function Services() {
@@ -20,7 +20,7 @@ export default function Services() {
           What I <span className="text-gradient">do</span>
         </h2>
         <p className="mt-3 max-w-2xl text-muted-foreground">
-          Strategy and copy built to move your numbers — from first word to final deliverable.
+          Automations, funnels and copy — built to move your metrics.
         </p>
 
         <div className="mt-12 grid gap-4 sm:grid-cols-2">

@@ -9,89 +9,107 @@ export type Project = {
 
 export const resume = {
   name: "Mueed Nazir Bhat",
-  title: "Marketing Strategist & Copywriter",
+  title: "AI Automation · Performance Marketing",
   tagline:
-    "I turn words into results — data-driven strategy, persuasive copy, and stories that sell.",
+    "I help teams eliminate busywork and grow — AI-powered automations and data-driven marketing that scale.",
   location: "Srinagar, India",
   email: "mueed.nazir@gmail.com",
   phone: "+91 6006628812",
   available: "Available for Projects",
+  socials: {
+    github: "", // TODO: add GitHub URL
+    linkedin: "", // TODO: add LinkedIn URL
+    twitter: "", // TODO: add X/Twitter URL
+  },
 
   about: [
-    "Marketing strategist and copywriter with 3+ years of experience crafting persuasive copy and data-driven campaigns that move metrics — a 35% boost in brand visibility, a 28% lift in audience engagement, and a 20% rise in customer interactions at Sadat Paints & Plastics.",
-    "I blend classic brand storytelling with AI-assisted research and modern content strategy to produce copy that connects with readers and converts. From full campaigns and brand voice to SEO-optimised blogs and scripts, I help brands sound like themselves — and get heard.",
+    "I combine a 3+ year marketing and copywriting background with a fast-growing focus on AI automation and performance marketing. I use LLMs, n8n, and workflow tools to automate the repetitive parts of marketing — while keeping the persuasive copy and brand voice that actually convert.",
+    "Today I help build AI-driven automations and performance marketing campaigns — landing pages, funnels, ads, and content workflows powered by AI — so teams spend less time on busywork and more on what moves the metrics.",
   ],
 
   services: [
     {
+      icon: "Workflow",
+      title: "AI Workflow Automation",
+      description:
+        "End-to-end marketing automations with LLMs, n8n, Zapier and custom agents — from lead capture to follow-up.",
+    },
+    {
+      icon: "Target",
+      title: "Performance Marketing",
+      description:
+        "Funnels, paid campaigns and analytics tuned to metrics — CTRs, ROAS, and conversion where it counts.",
+    },
+    {
       icon: "PenLine",
-      title: "Copywriting",
+      title: "AI-Assisted Copy & Content",
       description:
-        "Ads, campaigns, product launches, websites and social copy built to persuade and convert.",
+        "Persuasive ad copy, landing pages and content, generated and optimised with AI and human editorial skill.",
     },
     {
-      icon: "Layers",
-      title: "Content Strategy",
+      icon: "LineChart",
+      title: "AI Strategy & Consulting",
       description:
-        "Data-driven planning using audience insights, analytics and AI tools to shape your brand voice.",
-    },
-    {
-      icon: "BookOpen",
-      title: "Brand Storytelling",
-      description:
-        "Compelling narratives that connect your audience across every digital platform.",
-    },
-    {
-      icon: "Search",
-      title: "Market Research & SEO",
-      description:
-        "Audience behaviour, competitor analysis and keyword-fuelled content that's found and read.",
+        "Audit your workflows and build a roadmap for where AI automation pays off fastest.",
     },
   ],
 
   projects: [
     {
-      title: "Brand Campaign Copy Suite",
+      title: "AI-Assisted Campaign Suite",
       description:
-        "End-to-end campaign copy — brochures, launch ads, web and social — that lifted customer interactions by 20% at Sadat Paints & Plastics.",
-      tags: ["Copywriting", "Brand Strategy", "Campaigns"],
+        "Data-driven marketing strategy plus AI-assisted copy and targeting that lifted brand visibility by 35% and engagement by 28%.",
+      tags: ["AI Strategy", "Copywriting", "Campaigns"],
       featured: true,
     },
     {
-      title: "Content Marketing Strategy",
+      title: "Content Automation Workflow",
       description:
-        "Tailored content strategies that strengthened brand voice and lifted audience interaction and engagement for freelance clients.",
-      tags: ["Content Strategy", "SEO", "Analytics"],
+        "A workflow to research, generate and schedule SEO-optimised content with AI tools — keeping brand voice while cutting production time.",
+      tags: ["n8n", "AI Tools", "SEO"],
     },
     {
-      title: "SEO & Editorial Content",
+      title: "Performance Marketing Funnel",
       description:
-        "Blogs, articles and promotional pieces optimised for search and readability, reducing client revisions by 25%.",
-      tags: ["SEO", "Editorial", "Research"],
+        "Funnels and ad copy optimised against CTR and conversion data — built on a foundation of market research and competitor analysis.",
+      tags: ["Funnels", "Analytics", "Paid Ads"],
     },
     {
-      title: "Scripts & Voice Projects",
+      title: "AI-Assisted Editorial Engine",
       description:
-        "Engaging scripts for podcasts, audio shows and video content, plus professional voiceovers for radio and broadcasts.",
-      tags: ["Scriptwriting", "Voice Overs", "Audio"],
+        "Blogs, articles and promotional copy produced with AI-assisted research and editing, reducing revision cycles by 25%.",
+      tags: ["AI Tools", "Editorial", "Research"],
     },
   ],
 
   skills: {
-    "Writing & Strategy": [
-      "Copywriting",
-      "Creative Writing",
-      "Content Strategy",
-      "Editing & Proofreading",
-      "Scriptwriting",
+    "AI & Automation": [
+      "n8n",
+      "Workflow Automation",
+      "Prompt Engineering",
+      "OpenAI API",
+      "RAG",
+      "AI Assistants",
+      "Zapier / Make",
+      "Data Annotation",
     ],
-    "Brand & Marketing": [
-      "Brand Storytelling",
+    "Performance Marketing": [
+      "Funnels",
+      "Paid Ads",
+      "Analytics",
+      "A/B Testing",
+      "Conversion Optimisation",
       "Market Research",
-      "Competitor Analysis",
-      "AI & Prompt Engineering",
     ],
-    "Production": [
+    "Writing & Brand": [
+      "Copywriting",
+      "Content Strategy",
+      "SEO",
+      "Brand Storytelling",
+      "Editing & Proofreading",
+    ],
+    "Media & Production": [
+      "Scriptwriting",
       "Voice Overs",
       "Music Production",
       "Logic Pro",
@@ -100,18 +118,24 @@ export const resume = {
   },
 
   tech: [
+    "n8n",
+    "OpenAI",
+    "Prompt Engineering",
+    "Workflow Automation",
+    "RAG",
+    "Zapier",
+    "Make",
     "SEO",
     "Analytics",
-    "AI Tools",
-    "Keyword Research",
-    "Content Strategy",
+    "Funnels",
+    "Paid Ads",
     "Copywriting",
+    "Content Strategy",
     "Branding",
     "Scriptwriting",
-    "Editing",
     "Voice Overs",
+    "Editing",
     "Research",
-    "Campaigns",
   ],
 
   experience: [
@@ -120,21 +144,21 @@ export const resume = {
       role: "Marketing Strategist & Copywriter",
       period: "Feb 2022 – Sep 2025",
       points: [
-        "Designed data-driven strategies boosting brand visibility by 35% and engagement by 28%.",
+        "Designed data-driven strategies that lifted brand visibility by 35% and engagement by 28%.",
         "Created persuasive copy for brochures, campaigns, websites and social media — up 20% in customer interactions.",
-        "Ran market research and competitor analysis to guide a series of successful campaigns.",
-        "Partnered with distributors, retailers, and B2B channels to deliver measurable market gains.",
+        "Leveraged AI-assisted tools for keyword analysis, audience targeting and campaign optimisation.",
+        "Ran market research and competitor analysis throughout a series of successful campaigns.",
       ],
     },
     {
       company: "Freelance",
-      role: "Copywriter & Content Writer",
+      role: "Copywriter · Building AI Automations",
       period: "Jan 2022 – Present",
       points: [
-        "Crafted copy for campaigns, websites and social — boosting client engagement up to 40%.",
-        "Built content strategies that lifted brand voice and audience interaction by 30%.",
-        "Produced SEO-optimised blogs, articles and promo material for diverse clients.",
-        "Edited for clarity and tone, cutting revision cycles by 25%.",
+        "Crafted copy for campaigns, websites and social that boosted client engagement up to 40%.",
+        "Using AI tools for content research, generation and optimisation to accelerate client work.",
+        "Exploring and building AI automation workflows — n8n, prompting, and workflow design — for marketing tasks.",
+        "Produced SEO-optimised blogs, articles and promo material that cut revision cycles by 25%.",
       ],
     },
   ],
@@ -155,7 +179,7 @@ export const resume = {
   stats: [
     { value: 35, suffix: "%", label: "Brand visibility boost" },
     { value: 28, suffix: "%", label: "Engagement lift" },
-    { value: 40, suffix: "%", label: "Client engagement" },
-    { value: 7, suffix: "+", label: "Years writing" },
+    { value: 40, suffix: "%", label: "Client engagement " },
+    { value: 3, suffix: "+", label: "Years marketing & copy" },
   ],
 };

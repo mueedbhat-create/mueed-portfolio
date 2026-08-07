@@ -16,13 +16,13 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Mueed Nazir Bhat — Marketing Strategist & Copywriter",
+  title: "Mueed Nazir Bhat — AI Automation & Performance Marketing",
   description:
-    "Portfolio of Mueed Nazir Bhat: marketing strategist and copywriter crafting persuasive copy, content strategy and brand storytelling that convert.",
+    "Portfolio of Mueed Nazir Bhat: AI-powered automations and performance marketing built on a copywriting background — workflows, funnels, and AI-assisted content that scale.",
   openGraph: {
-    title: "Mueed Nazir Bhat — Marketing Strategist & Copywriter",
+    title: "Mueed Nazir Bhat — AI Automation & Performance Marketing",
     description:
-      "Data-driven strategy, persuasive copy, and stories that sell.",
+      "Automations, funnels and copy that move metrics — powered by AI.",
   },
 };
 

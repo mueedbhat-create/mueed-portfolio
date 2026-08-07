@@ -58,11 +58,11 @@ export default function Contact() {
             className="text-3xl font-bold tracking-tight sm:text-4xl"
             style={{ fontFamily: "var(--font-syne)", fontWeight: 700 }}
           >
-            Let&apos;s build your <span className="text-gradient">next story.</span>
+            Let&apos;s automate your <span className="text-gradient">next win.</span>
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Have a campaign, brand, or content project in mind? Tell me about it —
-            I&apos;ll help you shape copy that converts.
+            Want to automate a workflow or build an AI-assisted growth funnel? Tell me
+            what&apos;s slowing you down — I&apos;ll help you design a system that scales.
           </p>
 
           <div className="mt-8 space-y-3">
