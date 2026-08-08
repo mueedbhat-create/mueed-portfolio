@@ -175,11 +175,4 @@ export const resume = {
       year: "2014",
     },
   ],
-
-  stats: [
-    { value: 35, suffix: "%", label: "Brand visibility boost" },
-    { value: 28, suffix: "%", label: "Engagement lift" },
-    { value: 40, suffix: "%", label: "Client engagement " },
-    { value: 3, suffix: "+", label: "Years marketing & copy" },
-  ],
 };
