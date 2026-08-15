@@ -31,7 +31,13 @@ export default function Footer() {
           <a href="#" aria-label="GitHub" className="transition-colors hover:text-foreground">
             <GithubIcon className="h-4 w-4" />
           </a>
-          <a href="#" aria-label="LinkedIn" className="transition-colors hover:text-foreground">
+          <a
+            href="https://www.linkedin.com/in/mueed-nazir-bhat-20a297429/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            className="transition-colors hover:text-foreground"
+          >
             <LinkedInIcon className="h-4 w-4" />
           </a>
         </div>
