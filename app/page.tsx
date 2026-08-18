@@ -4,6 +4,7 @@ import Services from "@/components/sections/Services";
 import Projects from "@/components/sections/Projects";
 import TechStack from "@/components/sections/TechStack";
 import Experience from "@/components/sections/Experience";
+import Faq from "@/components/sections/Faq";
 import Contact from "@/components/sections/Contact";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Projects />
       <TechStack />
       <Experience />
+      <Faq />
       <Contact />
     </>
   );

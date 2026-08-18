@@ -20,6 +20,31 @@ export default function About() {
             ))}
           </div>
         </BlurFade>
+        <BlurFade delay={0.2}>
+          <div className="mt-10 max-w-xl rounded-2xl border border-border bg-card/60 p-6">
+            <h3
+              className="text-lg font-bold tracking-tight"
+              style={{ fontFamily: "var(--font-syne)", fontWeight: 700 }}
+            >
+              What does an AI automation &amp; performance marketing specialist do?
+            </h3>
+            <p className="mt-3 text-muted-foreground">
+              An AI automation and performance marketing specialist helps teams
+              eliminate busywork and grow with AI. I start by mapping repetitive
+              marketing tasks — lead capture, follow-up, content research,
+              drafting and publishing — then automate them with LLMs, n8n,
+              Zapier and Make, so the workflow runs itself while the strategy
+              stays human. On the performance side, I design funnels and paid
+              campaigns tuned to the numbers that matter: CTR, ROAS and
+              conversion rate. The two skills compound. In recent client work,
+              AI-assisted campaigns lifted brand visibility by 35% and
+              engagement by 28%, and automated content workflows cut production
+              time and revision cycles by 25%. The result is a marketing
+              operation that ships faster, spends smarter and scales without
+              adding headcount.
+            </p>
+          </div>
+        </BlurFade>
       </div>
     </section>
   );

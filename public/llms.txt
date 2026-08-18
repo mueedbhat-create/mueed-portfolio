@@ -1,0 +1,20 @@
+# Mueed Nazir Bhat — AI Automation & Performance Marketing
+
+> Portfolio of Mueed Nazir Bhat: AI-powered marketing automations, performance marketing and AI-assisted copy built on a 3+ year copywriting background. Based in Srinagar, India.
+
+## Main sections
+
+- [About](https://mueed-portfolio-dusky.vercel.app/#about): Mueed Nazir Bhat's background and what he does as an AI automation and performance marketing specialist.
+- [Services](https://mueed-portfolio-dusky.vercel.app/#services): AI workflow automation, performance marketing, AI-assisted copy and content, AI strategy and consulting.
+- [Projects](https://mueed-portfolio-dusky.vercel.app/#projects): Selected work — campaign suites, content automation workflows, marketing funnels and editorial engines.
+- [Skills](https://mueed-portfolio-dusky.vercel.app/#skills): Skills and expertise in AI & automation, performance marketing, writing & brand, media & production.
+- [Experience](https://mueed-portfolio-dusky.vercel.app/#experience): Marketing Strategist & Copywriter at Sadat Paints & Plastics Pvt. Ltd. (Feb 2022 – Sep 2025) and freelance work.
+- [Contact](https://mueed-portfolio-dusky.vercel.app/#contact): Contact Mueed Nazir Bhat at mueed.nazir@gmail.com.
+
+## Key facts
+
+- Mueed Nazir Bhat is an AI automation and performance marketing specialist from Srinagar, India.
+- He combines a 3+ year marketing and copywriting background with AI automation using LLMs, n8n, Zapier and Make.
+- He designs end-to-end marketing automations from lead capture to follow-up, and builds funnels and paid campaigns tuned to CTR, ROAS and conversion.
+- He has an M.Com from Jamia Millia Islamia, New Delhi, and a B.Com from the University of Delhi.
+- Contact: mueed.nazir@gmail.com · LinkedIn: https://www.linkedin.com/in/mueed-nazir-bhat-20a297429/

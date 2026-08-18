@@ -18,28 +18,38 @@ function LinkedInIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 
 export default function Footer() {
+  const socials = [
+    { href: resume.socials.github, label: "GitHub", Icon: GithubIcon },
+    { href: resume.socials.linkedin, label: "LinkedIn", Icon: LinkedInIcon },
+  ].filter((s) => s.href);
+
   return (
     <footer className="border-t border-border/60 py-8">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-5 sm:flex-row">
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} {resume.name}. All rights reserved.
+          © {new Date().getFullYear()} {resume.name}. All rights reserved. ·
+          Last updated August 2026
         </p>
         <div className="flex items-center gap-4 text-muted-foreground">
-          <a href={`mailto:${resume.email}`} aria-label="Email" className="transition-colors hover:text-foreground">
-            <Mail className="h-4 w-4" />
-          </a>
-          <a href="#" aria-label="GitHub" className="transition-colors hover:text-foreground">
-            <GithubIcon className="h-4 w-4" />
-          </a>
           <a
-            href="https://www.linkedin.com/in/mueed-nazir-bhat-20a297429/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn"
+            href={`mailto:${resume.email}`}
+            aria-label="Email"
             className="transition-colors hover:text-foreground"
           >
-            <LinkedInIcon className="h-4 w-4" />
+            <Mail className="h-4 w-4" />
           </a>
+          {socials.map(({ href, label, Icon }) => (
+            <a
+              key={label}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={label}
+              className="transition-colors hover:text-foreground"
+            >
+              <Icon className="h-4 w-4" />
+            </a>
+          ))}
         </div>
       </div>
     </footer>

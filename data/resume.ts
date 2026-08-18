@@ -17,9 +17,8 @@ export const resume = {
   phone: "+91 6006628812",
   available: "Available for Projects",
   socials: {
-    github: "", // TODO: add GitHub URL
-    linkedin: "", // TODO: add LinkedIn URL
-    twitter: "", // TODO: add X/Twitter URL
+    github: "https://github.com/mueedbhat-create",
+    linkedin: "https://www.linkedin.com/in/mueed-nazir-bhat-20a297429/",
   },
 
   about: [
