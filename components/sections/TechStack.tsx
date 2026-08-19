@@ -2,15 +2,6 @@ import { Badge } from "@/components/ui/badge";
 import { resume } from "@/data/resume";
 import { Marquee } from "@/components/magicui/marquee";
 
-function SectionLabel({ s }: { s: string }) {
-  return (
-    <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-1.5 text-sm text-muted-foreground">
-      <span className="h-2 w-2 rounded-full bg-blue-400" />
-      {s}
-    </span>
-  );
-}
-
 export default function TechStack() {
   const skills = Object.entries(resume.skills);
 

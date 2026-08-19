@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0a0e16"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)" rx="16"/>
+  <g opacity="0.05" stroke="#ffffff">
+    <path d="M0 90h800M0 180h800M0 270h800M0 360h800M160 0v450M320 0v450M480 0v450M640 0v450"/>
+  </g>
+
+  <rect x="40" y="36" width="180" height="46" rx="10" fill="#151b26"/>
+  <rect x="52" y="49" width="10" height="10" rx="3" fill="#3b82f6"/>
+  <text x="70" y="61" fill="#94a3b8" font-size="15" font-weight="600">Campaign Suite</text>
+  <text x="240" y="61" fill="#22c55e" font-size="14" font-weight="700">+35% visibility</text>
+
+  <path d="M60 320 L220 296 L380 258 L540 216 L700 168" fill="none" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M60 320 L220 296 L380 258 L540 216 L700 168 L700 450 L60 450 Z" fill="url(#area)"/>
+  <circle cx="700" cy="168" r="7" fill="#06b6d4"/>
+  <circle cx="700" cy="168" r="13" fill="#06b6d4" opacity="0.25"/>
+
+  <g>
+    <rect x="60" y="356" width="46" height="60" rx="6" fill="#3b82f6" opacity="0.85"/>
+    <rect x="118" y="336" width="46" height="80" rx="6" fill="#2563eb" opacity="0.9"/>
+    <rect x="176" y="322" width="46" height="94" rx="6" fill="#06b6d4" opacity="0.9"/>
+    <rect x="234" y="298" width="46" height="118" rx="6" fill="#0891b2" opacity="0.8"/>
+    <rect x="292" y="272" width="46" height="144" rx="6" fill="#3b82f6"/>
+  </g>
+
+  <g font-size="12" fill="#64748b">
+    <text x="60" y="336" text-anchor="middle">Q1</text>
+    <text x="118" y="324" text-anchor="middle">Q2</text>
+    <text x="176" y="310" text-anchor="middle">Q3</text>
+    <text x="234" y="286" text-anchor="middle">Q4</text>
+    <text x="292" y="260" text-anchor="middle">25'</text>
+  </g>
+
+  <rect x="500" y="280" width="240" height="34" rx="8" fill="#0f172a" stroke="#1e293b"/>
+  <text x="516" y="303" fill="#64748b" font-size="13">Engagement uplift</text>
+  <text x="724" y="303" fill="#22c55e" font-size="13" font-weight="700" text-anchor="end">+28%</text>
+
+  <rect x="500" y="324" width="240" height="34" rx="8" fill="#0f172a" stroke="#1e293b"/>
+  <text x="516" y="347" fill="#64748b" font-size="13">Audience segments</text>
+  <text x="724" y="347" fill="#60a5fa" font-size="13" font-weight="700" text-anchor="end">12</text>
+</svg>

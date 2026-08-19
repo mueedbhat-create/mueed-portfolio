@@ -1,7 +1,6 @@
 import { ArrowDown, MessageSquare } from "lucide-react";
 import { resume } from "@/data/resume";
 import { BlurFade } from "@/components/magicui/blur-fade";
-import { TypingAnimation } from "@/components/magicui/typing-animation";
 import { Spotlight } from "@/components/aceternity/spotlight";
 
 export default function Hero() {
@@ -25,23 +24,20 @@ export default function Hero() {
             className="mt-6 text-5xl font-bold leading-[1.05] tracking-tight sm:text-6xl md:text-7xl"
             style={{ fontFamily: "var(--font-syne)", fontWeight: 700 }}
           >
-            {resume.name}
+            <span className="block">{resume.name}</span>
+            <span className="mt-2 block text-2xl font-semibold leading-tight text-muted-foreground sm:text-3xl md:text-4xl">
+              AI Automation &amp; Performance Marketing
+            </span>
           </h1>
         </BlurFade>
 
         <BlurFade delay={0.3}>
-          <p className="mt-4 text-xl font-medium sm:text-2xl">
-            <TypingAnimation text={resume.title} />
-          </p>
-        </BlurFade>
-
-        <BlurFade delay={0.4}>
           <p className="mt-5 max-w-2xl text-lg text-muted-foreground">
             {resume.tagline}
           </p>
         </BlurFade>
 
-        <BlurFade delay={0.5}>
+        <BlurFade delay={0.4}>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
               href="#projects"

@@ -2,9 +2,16 @@ export type Project = {
   title: string;
   description: string;
   tags: string[];
+  image?: string;
+  imageAlt?: string;
   link?: string;
   demo?: string;
   featured?: boolean;
+};
+
+export type Faq = {
+  q: string;
+  a: string;
 };
 
 export const resume = {
@@ -22,8 +29,8 @@ export const resume = {
   },
 
   about: [
-    "I combine a 3+ year marketing and copywriting background with a fast-growing focus on AI automation and performance marketing. I use LLMs, n8n, and workflow tools to automate the repetitive parts of marketing — while keeping the persuasive copy and brand voice that actually convert.",
-    "Today I help build AI-driven automations and performance marketing campaigns — landing pages, funnels, ads, and content workflows powered by AI — so teams spend less time on busywork and more on what moves the metrics.",
+    "I combine a 3+ year marketing and copywriting background with a fast-growing focus on AI automation and performance marketing. I use LLMs, n8n, and workflow tools to automate the repetitive parts of marketing. The persuasive copy and brand voice that actually convert stay human.",
+    "Today I help build AI-driven automations and performance marketing campaigns. Landing pages, funnels, ads, and content workflows powered by AI mean teams spend less time on busywork. They spend more time on what moves the metrics.",
   ],
 
   services: [
@@ -59,6 +66,9 @@ export const resume = {
       description:
         "Data-driven marketing strategy plus AI-assisted copy and targeting that lifted brand visibility by 35% and engagement by 28%.",
       tags: ["AI Strategy", "Copywriting", "Campaigns"],
+      image: "/projects/campaign-suite.svg",
+      imageAlt:
+        "Preview graphic of the AI-Assisted Campaign Suite showing a rising analytics chart and audience segments",
       featured: true,
     },
     {
@@ -66,18 +76,27 @@ export const resume = {
       description:
         "A workflow to research, generate and schedule SEO-optimised content with AI tools — keeping brand voice while cutting production time.",
       tags: ["n8n", "AI Tools", "SEO"],
+      image: "/projects/content-automation.svg",
+      imageAlt:
+        "Preview graphic of the Content Automation Workflow showing an n8n-style automation node graph",
     },
     {
       title: "Performance Marketing Funnel",
       description:
         "Funnels and ad copy optimised against CTR and conversion data — built on a foundation of market research and competitor analysis.",
       tags: ["Funnels", "Analytics", "Paid Ads"],
+      image: "/projects/marketing-funnel.svg",
+      imageAlt:
+        "Preview graphic of the Performance Marketing Funnel showing a conversion funnel with stage metrics",
     },
     {
       title: "AI-Assisted Editorial Engine",
       description:
         "Blogs, articles and promotional copy produced with AI-assisted research and editing, reducing revision cycles by 25%.",
       tags: ["AI Tools", "Editorial", "Research"],
+      image: "/projects/editorial-engine.svg",
+      imageAlt:
+        "Preview graphic of the AI-Assisted Editorial Engine showing an AI editor assembling published articles",
     },
   ],
 
@@ -172,6 +191,29 @@ export const resume = {
       institution: "University of Delhi",
       degree: "B.Com — Business Communication, Marketing",
       year: "2014",
+    },
+  ],
+
+  faqs: [
+    {
+      q: "What is AI workflow automation for marketing?",
+      a: "AI workflow automation uses AI tools like LLMs, n8n, Zapier and Make to automate repetitive marketing tasks. That covers lead capture, follow-up, content research and publishing. Instead of a person copying data between tools, an automated workflow triggers, transforms and hands off the work. Marketing teams ship faster with fewer manual hours.",
+    },
+    {
+      q: "How do you combine AI with performance marketing?",
+      a: "AI speeds up the testing and content side while performance marketing governs the numbers. I use AI for research, ad copy, landing pages and campaign iteration. Then I measure everything against CTR, ROAS and conversion rate. In recent client work this combination lifted brand visibility by 35% and engagement by 28%.",
+    },
+    {
+      q: "Which tools and platforms do you work with?",
+      a: "I build automations with n8n, Zapier and Make. I use LLMs and the OpenAI API for content and reasoning, and RAG for working with a client's own documents. On the marketing side I work with funnels, paid ads, analytics and A/B testing. I write all the copy myself.",
+    },
+    {
+      q: "What results can AI-assisted copy and content deliver?",
+      a: "AI-assisted editorial workflows reduce production time and revision cycles. I've seen revision cycles cut by 25% on blogs, articles and promotional copy. The key is keeping the human editor in control. AI handles research and first drafts. Persuasive brand voice stays with a skilled copywriter.",
+    },
+    {
+      q: "How do we get started with AI automation?",
+      a: "Start with a workflow audit. I review the repetitive tasks eating your team's time, pick the highest-leverage automations, and build a roadmap. Contact me via the form below with what's slowing you down. I'll come back with a plan to automate it.",
     },
   ],
 };

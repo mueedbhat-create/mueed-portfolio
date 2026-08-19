@@ -5,8 +5,7 @@ import { Toaster } from "sonner";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { resume } from "@/data/resume";
-
-const SITE_URL = "https://mueed-portfolio-dusky.vercel.app";
+import { SITE_URL, SITE_TITLE, SITE_DESCRIPTION } from "@/lib/site";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -20,20 +19,8 @@ const syne = Syne({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Mueed Nazir Bhat — AI Automation & Performance Marketing",
-  description:
-    "Portfolio of Mueed Nazir Bhat: AI-powered automations and performance marketing built on a copywriting background — workflows, funnels, and AI-assisted content that scale.",
-  keywords: [
-    "Mueed Nazir Bhat",
-    "AI automation specialist",
-    "performance marketing",
-    "AI workflow automation",
-    "n8n workflows",
-    "marketing copywriter",
-    "funnel builder",
-    "AI content strategy",
-    "freelance AI automation",
-  ],
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
   creator: "Mueed Nazir Bhat",
   publisher: "Mueed Nazir Bhat",
   authors: [{ name: resume.name, url: SITE_URL }],
@@ -44,22 +31,22 @@ export const metadata: Metadata = {
     type: "website",
     url: SITE_URL,
     siteName: resume.name,
-    title: "Mueed Nazir Bhat — AI Automation & Performance Marketing",
+    title: SITE_TITLE,
     description:
       "Automations, funnels and copy that move metrics — powered by AI.",
     locale: "en_US",
     images: [
       {
         url: `${SITE_URL}/og-image.jpg`,
-        width: 2400,
-        height: 1260,
-        alt: "Mueed Nazir Bhat — AI Automation & Performance Marketing",
+        width: 1200,
+        height: 630,
+        alt: SITE_TITLE,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mueed Nazir Bhat — AI Automation & Performance Marketing",
+    title: SITE_TITLE,
     description:
       "Automations, funnels and copy that move metrics — powered by AI.",
     images: [`${SITE_URL}/og-image.jpg`],
@@ -128,16 +115,52 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: resume.name,
-    alternateName: "Mueed Nazir Bhat — AI Automation & Performance Marketing",
+    alternateName: SITE_TITLE,
     url: SITE_URL,
-    description:
-      "Portfolio of Mueed Nazir Bhat: AI-powered automations and performance marketing built on a copywriting background.",
+    description: SITE_DESCRIPTION,
     inLanguage: "en",
     publisher: {
-      "@type": "Person",
+      "@type": "Organization",
       name: resume.name,
       url: SITE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/og-image.jpg`,
+      },
     },
+  };
+
+  const serviceJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Mueed Nazir Bhat — Services",
+    itemListElement: resume.services.map((s, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": "Service",
+        name: s.title,
+        description: s.description,
+        provider: {
+          "@type": "Person",
+          name: resume.name,
+          url: SITE_URL,
+        },
+      },
+    })),
+  };
+
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: resume.faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: f.a,
+      },
+    })),
   };
 
   return (
@@ -148,6 +171,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-full bg-background text-foreground antialiased">
         <JsonLd data={personJsonLd} />
         <JsonLd data={websiteJsonLd} />
+        <JsonLd data={serviceJsonLd} />
+        <JsonLd data={faqJsonLd} />
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

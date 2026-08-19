@@ -32,16 +32,18 @@ export default function About() {
               An AI automation and performance marketing specialist helps teams
               eliminate busywork and grow with AI. I start by mapping repetitive
               marketing tasks — lead capture, follow-up, content research,
-              drafting and publishing — then automate them with LLMs, n8n,
-              Zapier and Make, so the workflow runs itself while the strategy
-              stays human. On the performance side, I design funnels and paid
-              campaigns tuned to the numbers that matter: CTR, ROAS and
-              conversion rate. The two skills compound. In recent client work,
-              AI-assisted campaigns lifted brand visibility by 35% and
-              engagement by 28%, and automated content workflows cut production
-              time and revision cycles by 25%. The result is a marketing
-              operation that ships faster, spends smarter and scales without
-              adding headcount.
+              drafting and publishing. Then I automate them with LLMs, n8n,
+              Zapier and Make. The workflow runs itself while the strategy stays
+              human.
+            </p>
+            <p className="mt-3 text-muted-foreground">
+              On the performance side, I design funnels and paid campaigns tuned
+              to the numbers that matter: CTR, ROAS and conversion rate. The two
+              skills compound. In recent client work, AI-assisted campaigns
+              lifted brand visibility by 35% and engagement by 28%. Automated
+              content workflows cut production time and revision cycles by 25%.
+              The result is a marketing operation that ships faster, spends
+              smarter and scales without adding headcount.
             </p>
           </div>
         </BlurFade>

@@ -4,17 +4,27 @@
 
 ## Main sections
 
-- [About](https://mueed-portfolio-dusky.vercel.app/#about): Mueed Nazir Bhat's background and what he does as an AI automation and performance marketing specialist.
-- [Services](https://mueed-portfolio-dusky.vercel.app/#services): AI workflow automation, performance marketing, AI-assisted copy and content, AI strategy and consulting.
-- [Projects](https://mueed-portfolio-dusky.vercel.app/#projects): Selected work — campaign suites, content automation workflows, marketing funnels and editorial engines.
-- [Skills](https://mueed-portfolio-dusky.vercel.app/#skills): Skills and expertise in AI & automation, performance marketing, writing & brand, media & production.
-- [Experience](https://mueed-portfolio-dusky.vercel.app/#experience): Marketing Strategist & Copywriter at Sadat Paints & Plastics Pvt. Ltd. (Feb 2022 – Sep 2025) and freelance work.
-- [Contact](https://mueed-portfolio-dusky.vercel.app/#contact): Contact Mueed Nazir Bhat at mueed.nazir@gmail.com.
+- [About](https://www.mueednazir.site/#about): Mueed Nazir Bhat's background and what he does as an AI automation and performance marketing specialist.
+- [Services](https://www.mueednazir.site/#services): AI workflow automation, performance marketing, AI-assisted copy and content, AI strategy and consulting.
+- [Projects](https://www.mueednazir.site/#projects): Selected work — campaign suites, content automation workflows, marketing funnels and editorial engines.
+- [Skills](https://www.mueednazir.site/#skills): Skills and expertise in AI & automation, performance marketing, writing & brand, media & production.
+- [Experience](https://www.mueednazir.site/#experience): Marketing Strategist & Copywriter at Sadat Paints & Plastics Pvt. Ltd. (Feb 2022 – Sep 2025) and freelance work.
+- [FAQ](https://www.mueednazir.site/#faq): Answers on AI workflow automation, combining AI with performance marketing, tools used and how to get started.
+- [Contact](https://www.mueednazir.site/#contact): Contact Mueed Nazir Bhat at mueed.nazir@gmail.com.
 
 ## Key facts
 
 - Mueed Nazir Bhat is an AI automation and performance marketing specialist from Srinagar, India.
 - He combines a 3+ year marketing and copywriting background with AI automation using LLMs, n8n, Zapier and Make.
 - He designs end-to-end marketing automations from lead capture to follow-up, and builds funnels and paid campaigns tuned to CTR, ROAS and conversion.
+- Recent AI-assisted client campaigns lifted brand visibility by 35% and engagement by 28%; automated content workflows cut production time and revision cycles by 25%.
 - He has an M.Com from Jamia Millia Islamia, New Delhi, and a B.Com from the University of Delhi.
-- Contact: mueed.nazir@gmail.com · LinkedIn: https://www.linkedin.com/in/mueed-nazir-bhat-20a297429/
+- He was Marketing Strategist & Copywriter at Sadat Paints & Plastics Pvt. Ltd. from Feb 2022 to Sep 2025, and has worked freelance since Jan 2022.
+
+## Contact
+
+- Email: mueed.nazir@gmail.com
+- Phone: +91 6006628812
+- LinkedIn: https://www.linkedin.com/in/mueed-nazir-bhat-20a297429/
+- GitHub: https://github.com/mueedbhat-create
+- Location: Srinagar, Jammu & Kashmir, India

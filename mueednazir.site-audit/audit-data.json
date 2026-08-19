@@ -1,0 +1,281 @@
+{
+  "summary": {
+    "health_score": 68,
+    "business_type": "Personal portfolio / freelance services (AI automation & performance marketing)",
+    "top_findings": [
+      "Canonical, og:url, og:image, rel=author and all schema URLs point to the Vercel preview host mueed-portfolio-dusky.vercel.app instead of www.mueednazir.site",
+      "sitemap.xml contains only the Vercel preview URL; robots.txt Sitemap: directive points to the Vercel host",
+      "~1.1 MB of JavaScript across 10 chunks (largest 499 KB) — INP risk; content is SSR so LCP is text-based",
+      "FAQ content exists but is not marked up as FAQPage; no Service/ProfessionalService schema",
+      "Readability is college-level (FRE 40.6, FK grade 11.6) — fine for B2B but hard for broader audience",
+      "0 content images on the page — no image-search presence"
+    ],
+    "quick_wins": [
+      "Change metadataBase / absolute site URL in Next.js config to https://www.mueednazir.site and redeploy — fixes canonical, og tags, schema, sitemap, robots and llms.txt in one shot",
+      "Add FAQPage JSON-LD to the existing FAQ section",
+      "Add Service JSON-LD for the 4 services",
+      "Add name + value prop to the H1",
+      "Split the longest sentences (16.1 words avg) for readability"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Technical SEO",
+      "score": 45,
+      "what_works": [
+        "Correct 308 apex->www and http->https redirects",
+        "robots.txt allows all crawlers including AI bots",
+        "meta robots index, follow with max-image-preview:large",
+        "Proper 404 status",
+        "SSR content in initial HTML (crawlable without JS)"
+      ],
+      "findings": [
+        {
+          "title": "Canonical points to Vercel preview host",
+          "severity": "Critical",
+          "description": "rel=canonical, og:url, og:image, twitter:image and rel=author all hardcode https://mueed-portfolio-dusky.vercel.app. Google may index the Vercel deployment and treat mueednazir.site as a duplicate.",
+          "recommendation": "Set metadataBase / canonical base to https://www.mueednazir.site in the Next.js app (next.config / metadata) and redeploy. Verify the live page canonical afterwards."
+        },
+        {
+          "title": "sitemap.xml lists only the Vercel preview URL",
+          "severity": "Critical",
+          "description": "Single <loc> is https://mueed-portfolio-dusky.vercel.app; the real domain is absent.",
+          "recommendation": "Regenerate the sitemap from the canonical domain and resubmit in Search Console."
+        },
+        {
+          "title": "robots.txt Sitemap directive points to Vercel host",
+          "severity": "Critical",
+          "description": "Sitemap: https://mueed-portfolio-dusky.vercel.app/sitemap.xml",
+          "recommendation": "Update robots.txt Sitemap line to https://www.mueednazir.site/sitemap.xml."
+        },
+        {
+          "title": "Missing security headers",
+          "severity": "Medium",
+          "description": "Only HSTS present; no CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy.",
+          "recommendation": "Add headers via Vercel (vercel.json headers config)."
+        }
+      ]
+    },
+    {
+      "name": "Content Quality",
+      "score": 82,
+      "what_works": [
+        "QRG quality score 90/100 — no filler, no AI-slop patterns",
+        "Strong E-E-A-T: named employer + tenure, two degrees, contact, sameAs",
+        "Quantified results (35%/28%/25%/20%/40%)",
+        "Substantive 5-question FAQ",
+        "948–1055 words of original, specific content"
+      ],
+      "findings": [
+        {
+          "title": "Readability at college level",
+          "severity": "Medium",
+          "description": "FRE 40.6, FK grade 11.6, 16.1 words/sentence.",
+          "recommendation": "Split longest sentences; target FRE 55–65 / grade 9 for broader reach."
+        },
+        {
+          "title": "Single page limits topical footprint",
+          "severity": "Medium",
+          "description": "All topics live on one URL — no long-tail capture for AI automation or performance marketing queries.",
+          "recommendation": "Consider service/case-study pages or a blog as the site grows."
+        },
+        {
+          "title": "keywords meta overstuffed",
+          "severity": "Low",
+          "description": "180-char keywords meta; irrelevant to Google ranking.",
+          "recommendation": "Optionally remove it."
+        }
+      ]
+    },
+    {
+      "name": "On-Page SEO",
+      "score": 78,
+      "what_works": [
+        "60-char keyword-rich title",
+        "171-char compelling meta description",
+        "Clean H1>H2>H3 hierarchy",
+        "author/creator/publisher metas",
+        "og + twitter cards complete (but wrong domain)"
+      ],
+      "findings": [
+        {
+          "title": "Social meta resolves to Vercel host",
+          "severity": "Critical",
+          "description": "og:url, og:image, twitter:image use the preview domain.",
+          "recommendation": "Fixed by the same metadataBase change as the canonical."
+        },
+        {
+          "title": "H1 is name only",
+          "severity": "Medium",
+          "description": "H1 'Mueed Nazir Bhat' omits the value proposition.",
+          "recommendation": "Add primary keywords to the H1 (e.g. 'Mueed Nazir Bhat — AI Automation & Performance Marketing')."
+        },
+        {
+          "title": "No content images",
+          "severity": "Medium",
+          "description": "0 <img> tags; no visual interest or image-search presence; og-image 262 KB.",
+          "recommendation": "Add optimized alt-tagged visuals (work samples, previews) and recompress og-image."
+        },
+        {
+          "title": "Meta description slightly long",
+          "severity": "Low",
+          "description": "171 chars truncates on desktop SERPs.",
+          "recommendation": "Tighten to <=155 chars."
+        }
+      ]
+    },
+    {
+      "name": "Schema / Structured Data",
+      "score": 62,
+      "what_works": [
+        "Valid Person JSON-LD (rich: address, sameAs, knowsAbout, alumniOf, worksFor)",
+        "Valid WebSite JSON-LD with publisher"
+      ],
+      "findings": [
+        {
+          "title": "Schema URLs reference Vercel host",
+          "severity": "High",
+          "description": "Every url/image/publisher URL in both blocks uses the preview domain.",
+          "recommendation": "Point all schema URLs at www.mueednazir.site."
+        },
+        {
+          "title": "FAQ not marked up",
+          "severity": "Medium",
+          "description": "FAQ content present but no FAQPage JSON-LD.",
+          "recommendation": "Add FAQPage schema for the 5 Q&As."
+        },
+        {
+          "title": "No service schema",
+          "severity": "Medium",
+          "description": "4 defined services, no Service/ProfessionalService markup.",
+          "recommendation": "Add Service or ItemList of services."
+        }
+      ]
+    },
+    {
+      "name": "Performance (CWV)",
+      "score": 70,
+      "what_works": [
+        "SSR content — LCP almost certainly text-based (no hero image)",
+        "Fonts preloaded with correct crossorigin",
+        "fetchPriority=low on preloaded script"
+      ],
+      "findings": [
+        {
+          "title": "~1.1 MB JavaScript payload",
+          "severity": "High",
+          "description": "10 chunks, largest 499 KB; INP/interaction risk on mobile.",
+          "recommendation": "Profile bundle; code-split, remove unused deps; measure with CrUX after."
+        },
+        {
+          "title": "No field data available",
+          "severity": "Medium",
+          "description": "PSI/CrUX quota exhausted and no API key; CWV scores are lab estimates.",
+          "recommendation": "Run a keyed PSI/CrUX pass and validate LCP/INP/CLS before heavy optimization."
+        }
+      ]
+    },
+    {
+      "name": "AI Search Readiness",
+      "score": 78,
+      "what_works": [
+        "All major AI crawlers explicitly allowed in robots.txt",
+        "Structured llms.txt present",
+        "Highly citable FAQ + quantified outcomes",
+        "Strong entity signals (name, sameAs, address, education)"
+      ],
+      "findings": [
+        {
+          "title": "llms.txt links point to Vercel host",
+          "severity": "High",
+          "description": "All llms.txt URLs use mueed-portfolio-dusky.vercel.app.",
+          "recommendation": "Regenerate llms.txt with www.mueednazir.site URLs."
+        },
+        {
+          "title": "Host mismatch splits AI authority",
+          "severity": "High",
+          "description": "Canonical/sitemap point to Vercel host, confusing AI crawlers about the canonical identity.",
+          "recommendation": "Resolve the domain canonicalization first; AI signals inherit the fix."
+        },
+        {
+          "title": "llms.txt facts block lacks contact row",
+          "severity": "Low",
+          "description": "Email/phone only in section prose.",
+          "recommendation": "Add a Contact key-fact line with email and LinkedIn URL."
+        }
+      ]
+    },
+    {
+      "name": "Images",
+      "score": 60,
+      "what_works": [
+        "No missing alt text (no content images to break)",
+        "og:image has width/height/alt attributes"
+      ],
+      "findings": [
+        {
+          "title": "Zero content images",
+          "severity": "Medium",
+          "description": "No visual content, no image-search presence for a visual-services portfolio.",
+          "recommendation": "Add portfolio previews / work samples with descriptive alt text."
+        },
+        {
+          "title": "og-image is 262 KB",
+          "severity": "Low",
+          "description": "Heavy for a social image.",
+          "recommendation": "Re-compress to <150 KB (still 1200x630 min)."
+        }
+      ]
+    }
+  ],
+  "action_plan": {
+    "phases": [
+      {
+        "name": "Phase 1: Critical Fixes",
+        "timeframe": "Week 1",
+        "items": [
+          "Set Next.js metadataBase / canonical base to https://www.mueednazir.site and redeploy",
+          "Regenerate sitemap.xml from the canonical domain",
+          "Update robots.txt Sitemap directive",
+          "Regenerate llms.txt with correct URLs",
+          "Resubmit sitemap in Google Search Console"
+        ]
+      },
+      {
+        "name": "Phase 2: High-Impact Improvements",
+        "timeframe": "Weeks 2-3",
+        "items": [
+          "Add FAQPage JSON-LD for the 5 questions",
+          "Add Service JSON-LD for the 4 services",
+          "Add name + value prop to the H1",
+          "Add optimized, alt-tagged content images / work previews",
+          "Reduce JS payload (biggest chunk 499 KB); validate with CrUX",
+          "Run keyed PSI/CrUX to confirm real CWV"
+        ]
+      },
+      {
+        "name": "Phase 3: Content & Authority",
+        "timeframe": "Month 2",
+        "items": [
+          "Improve readability (FRE 40 -> 55+, split long sentences)",
+          "Consider service pages or case-study/blog pages to widen topical footprint",
+          "Add contact key-fact row to llms.txt",
+          "Build external authority: guest posts, HARO, community answers linking to the domain"
+        ]
+      },
+      {
+        "name": "Phase 4: Monitoring & Iteration",
+        "timeframe": "Ongoing",
+        "items": [
+          "Add security headers via vercel.json",
+          "Monitor indexation of www.mueednazir.site in GSC after canonical fix",
+          "Re-run audit in 30 days to confirm canonical/sitemap signals"
+        ]
+      }
+    ]
+  },
+  "artifacts": {
+    "findings_dir": "findings/",
+    "screenshots_dir": "screenshots/"
+  }
+}

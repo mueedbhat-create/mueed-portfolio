@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { resume, type Project } from "@/data/resume";
 import { MagicCard } from "@/components/magicui/magic-card";
@@ -11,6 +12,15 @@ function ProjectCard({
 }) {
   return (
     <div className="relative z-10">
+      {project.image && (
+        <Image
+          src={project.image}
+          alt={project.imageAlt ?? project.title}
+          width={800}
+          height={450}
+          className="mb-5 h-auto w-full rounded-xl border border-border/60 object-cover"
+        />
+      )}
       <div className="space-y-3">
         <div className="flex flex-wrap gap-2">
           {project.tags.map((t) => (
