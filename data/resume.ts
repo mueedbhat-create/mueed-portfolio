@@ -1,3 +1,11 @@
+export type Experience = {
+  company: string;
+  role: string;
+  period: string;
+  link?: string;
+  points: string[];
+};
+
 export type Project = {
   title: string;
   description: string;
@@ -26,11 +34,13 @@ export const resume = {
   socials: {
     github: "https://github.com/mueedbhat-create",
     linkedin: "https://www.linkedin.com/in/mueed-nazir-bhat-20a297429/",
+    anarchylabs: "https://www.anarchylabs.in/team/mueed-nazir-bhat",
   },
 
   about: [
     "I combine a 3+ year marketing and copywriting background with a fast-growing focus on AI automation and performance marketing. I use LLMs, n8n, and workflow tools to automate the repetitive parts of marketing. The persuasive copy and brand voice that actually convert stay human.",
-    "Today I help build AI-driven automations and performance marketing campaigns. Landing pages, funnels, ads, and content workflows powered by AI mean teams spend less time on busywork. They spend more time on what moves the metrics.",
+    "Today I build the AI automation behind the growth work at Anarchy Labs — paid performance, SEO, and the workflows that keep both running without a person on them every day.",
+    "Landing pages, funnels, ads, and content workflows powered by AI mean teams spend less time on busywork. They spend more time on what moves the metrics.",
   ],
 
   services: [
@@ -157,6 +167,18 @@ export const resume = {
   ],
 
   experience: [
+    {
+      company: "Anarchy Labs",
+      role: "AI Automation & Performance Marketing",
+      period: "2025 – Present",
+      link: "https://www.anarchylabs.in/team/mueed-nazir-bhat",
+      points: [
+        "Builds the AI automation behind Anarchy Labs' growth work — paid performance, SEO, and the workflows that keep both running without daily hands-on.",
+        "Designs marketing automations on n8n, Zapier and Make — from lead capture and follow-up to content research, drafting and publishing.",
+        "Pairs AI-assisted copy and campaign strategy with performance marketing: funnels, paid ads, and analytics tuned to CTR, ROAS and conversion.",
+        "Audits client workflows and builds AI automation roadmaps for where automation pays off fastest.",
+      ],
+    },
     {
       company: "Sadat Paints & Plastics Pvt. Ltd.",
       role: "Marketing Strategist & Copywriter",

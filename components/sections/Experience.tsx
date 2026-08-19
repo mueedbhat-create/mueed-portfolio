@@ -19,7 +19,30 @@ export default function Experience() {
             <BlurFade key={e.company} delay={0.1 * i}>
               <div>
                 <div className="flex flex-wrap items-baseline justify-between gap-2">
-                  <h3 className="text-lg font-semibold">{e.company}</h3>
+                  <h3 className="text-lg font-semibold">
+                    {e.link ? (
+                      <a
+                        href={e.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 transition-colors hover:text-blue-400"
+                      >
+                        {e.company}
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          className="h-3.5 w-3.5"
+                          aria-hidden
+                        >
+                          <path d="M7 17 17 7M8 7h9v9" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
+                      </a>
+                    ) : (
+                      e.company
+                    )}
+                  </h3>
                   <span className="text-sm text-muted-foreground">{e.period}</span>
                 </div>
                 <p className="mt-1 text-sm text-blue-400">{e.role}</p>

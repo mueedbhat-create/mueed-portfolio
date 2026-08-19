@@ -8,18 +8,27 @@
 - [Services](https://www.mueednazir.site/#services): AI workflow automation, performance marketing, AI-assisted copy and content, AI strategy and consulting.
 - [Projects](https://www.mueednazir.site/#projects): Selected work — campaign suites, content automation workflows, marketing funnels and editorial engines.
 - [Skills](https://www.mueednazir.site/#skills): Skills and expertise in AI & automation, performance marketing, writing & brand, media & production.
-- [Experience](https://www.mueednazir.site/#experience): Marketing Strategist & Copywriter at Sadat Paints & Plastics Pvt. Ltd. (Feb 2022 – Sep 2025) and freelance work.
+- [Experience](https://www.mueednazir.site/#experience): AI Automation & Performance Marketing at Anarchy Labs (2025–present); previously Marketing Strategist & Copywriter at Sadat Paints & Plastics Pvt. Ltd. (Feb 2022 – Sep 2025) and freelance since Jan 2022.
+- [Blog](https://www.mueednazir.site/blog): Practical articles on AI marketing automation, AI copywriting, performance marketing and optimizing for AI search (GEO).
 - [FAQ](https://www.mueednazir.site/#faq): Answers on AI workflow automation, combining AI with performance marketing, tools used and how to get started.
 - [Contact](https://www.mueednazir.site/#contact): Contact Mueed Nazir Bhat at mueed.nazir@gmail.com.
 
+## Blog
+
+- [AI Marketing Automation: A Practical Guide for Small Teams (2026)](https://www.mueednazir.site/blog/ai-marketing-automation-guide-2026): What to automate first, which tools to use, and how to build AI marketing workflows with n8n, Zapier and Make.
+- [n8n vs Zapier vs Make in 2026: Which Automation Tool Should Marketers Choose?](https://www.mueednazir.site/blog/n8n-vs-zapier-vs-make-marketing): A side-by-side comparison of the three leading automation platforms for marketing.
+- [AI Copywriting in 2026: Where It Works, Where It Fails, and How to Keep Brand Voice](https://www.mueednazir.site/blog/ai-copywriting-where-it-works-2026): How to run an AI-assisted copy workflow that actually converts.
+- [How to Optimize Your Website for AI Search (GEO): A 2026 Playbook](https://www.mueednazir.site/blog/optimize-website-for-ai-search-geo-2026): Citable passages, brand mentions, freshness and schema for AI Overviews, ChatGPT and Perplexity.
+- [What Is AI Automation & Performance Marketing? (Definition & How It Works)](https://www.mueednazir.site/blog/what-is-ai-automation-performance-marketing): A plain-language definition of the role and how the two halves combine.
+
 ## Key facts
 
-- Mueed Nazir Bhat is an AI automation and performance marketing specialist from Srinagar, India.
+- Mueed Nazir Bhat is an AI automation and performance marketing specialist from Srinagar, India, currently building the AI automation behind growth work at Anarchy Labs.
 - He combines a 3+ year marketing and copywriting background with AI automation using LLMs, n8n, Zapier and Make.
 - He designs end-to-end marketing automations from lead capture to follow-up, and builds funnels and paid campaigns tuned to CTR, ROAS and conversion.
 - Recent AI-assisted client campaigns lifted brand visibility by 35% and engagement by 28%; automated content workflows cut production time and revision cycles by 25%.
 - He has an M.Com from Jamia Millia Islamia, New Delhi, and a B.Com from the University of Delhi.
-- He was Marketing Strategist & Copywriter at Sadat Paints & Plastics Pvt. Ltd. from Feb 2022 to Sep 2025, and has worked freelance since Jan 2022.
+- He is a team member at Anarchy Labs (https://www.anarchylabs.in/team/mueed-nazir-bhat), and was Marketing Strategist & Copywriter at Sadat Paints & Plastics Pvt. Ltd. from Feb 2022 to Sep 2025.
 
 ## Contact
 

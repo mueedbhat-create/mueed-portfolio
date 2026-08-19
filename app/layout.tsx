@@ -107,7 +107,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     })),
     worksFor: {
       "@type": "Organization",
-      name: "Freelance",
+      name: "Anarchy Labs",
+      url: "https://www.anarchylabs.in",
+      sameAs: "https://www.anarchylabs.in/team/mueed-nazir-bhat",
     },
   };
 

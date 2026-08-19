@@ -1,4 +1,5 @@
 import { Mail } from "lucide-react";
+import Link from "next/link";
 import { resume } from "@/data/resume";
 
 function GithubIcon(props: React.SVGProps<SVGSVGElement>) {
@@ -28,9 +29,24 @@ export default function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-5 sm:flex-row">
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} {resume.name}. All rights reserved. ·
-          Last updated August 2026
+          <Link href="/blog" className="transition-colors hover:text-foreground">
+            {" "}
+            Blog
+          </Link>
+          <span> · Last updated August 2026</span>
         </p>
         <div className="flex items-center gap-4 text-muted-foreground">
+          <a
+            href={resume.socials.anarchylabs}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden text-xs transition-colors hover:text-foreground sm:inline-flex sm:items-center sm:gap-1"
+          >
+            Anarchy Labs
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-3 w-3" aria-hidden>
+              <path d="M7 17 17 7M8 7h9v9" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </a>
           <a
             href={`mailto:${resume.email}`}
             aria-label="Email"
