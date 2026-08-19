@@ -26,7 +26,7 @@ export default function Hero() {
           >
             <span className="block">{resume.name}</span>
             <span className="mt-2 block text-2xl font-semibold leading-tight text-muted-foreground sm:text-3xl md:text-4xl">
-              AI Automation &amp; Performance Marketing
+              Applied AI Engineer · AI Automation &amp; Performance Marketing
             </span>
           </h1>
         </BlurFade>
