@@ -169,7 +169,7 @@ export default async function BlogPostPage({ params }: Props) {
           <div>
             <p className="text-sm font-medium">{resume.name}</p>
             <p className="text-xs text-muted-foreground">
-              Applied AI Engineer · AI Automation &amp; Performance Marketing ·{" "}
+              AI Automation &amp; Performance Marketing ·{" "}
               <a
                 href="https://www.anarchylabs.in/team/mueed-nazir-bhat"
                 target="_blank"

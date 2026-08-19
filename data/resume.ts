@@ -24,9 +24,9 @@ export type Faq = {
 
 export const resume = {
   name: "Mueed Nazir Bhat",
-  title: "Applied AI Engineer · AI Automation & Performance Marketing",
+  title: "AI Automation · Performance Marketing",
   tagline:
-    "I design, build and ship AI-powered products — voice agents, LLM workflows and full-stack applications that eliminate busywork and move metrics.",
+    "I help teams eliminate busywork and grow — AI-powered automations and data-driven marketing that scale.",
   location: "Srinagar, India",
   email: "mueed.nazir@gmail.com",
   phone: "+91 6006628812",
@@ -38,8 +38,8 @@ export const resume = {
   },
 
   about: [
-    "I'm an applied AI engineer with a 3+ year background in marketing and copywriting. I design, build and ship AI-powered systems — voice agents, LLM workflows and full-stack applications — using Python, React and Django on the build side, with LLMs, RAG and the OpenAI API at the core.",
-    "Today I build the AI automation behind the growth work at Anarchy Labs — paid performance, SEO, and the workflows that keep both running without a person on them every day, including automated voice and chat flows for lead capture and follow-up.",
+    "I combine a 3+ year marketing and copywriting background with a fast-growing focus on AI automation and performance marketing. I use LLMs, n8n, and workflow tools to automate the repetitive parts of marketing. The persuasive copy and brand voice that actually convert stay human.",
+    "Today I build the AI automation behind the growth work at Anarchy Labs — paid performance, SEO, and the workflows that keep both running without a person on them every day.",
     "Landing pages, funnels, ads, and content workflows powered by AI mean teams spend less time on busywork. They spend more time on what moves the metrics.",
   ],
 
@@ -111,16 +111,6 @@ export const resume = {
   ],
 
   skills: {
-    "AI Engineering": [
-      "Python",
-      "React",
-      "Django",
-      "Voice AI",
-      "AI Agents",
-      "LLM App Development",
-      "LangChain",
-      "REST APIs",
-    ],
     "AI & Automation": [
       "n8n",
       "Workflow Automation",
@@ -128,6 +118,9 @@ export const resume = {
       "OpenAI API",
       "RAG",
       "AI Assistants",
+      "Voice AI",
+      "AI Agents",
+      "Python",
       "Zapier / Make",
       "Data Annotation",
     ],
@@ -156,17 +149,14 @@ export const resume = {
   },
 
   tech: [
-    "Python",
-    "React",
-    "Django",
-    "Voice AI",
-    "AI Agents",
-    "LangChain",
     "n8n",
     "OpenAI",
     "Prompt Engineering",
     "Workflow Automation",
     "RAG",
+    "Voice AI",
+    "AI Agents",
+    "Python",
     "Zapier",
     "Make",
     "SEO",
@@ -185,13 +175,13 @@ export const resume = {
   experience: [
     {
       company: "Anarchy Labs",
-      role: "Applied AI Engineer · AI Automation & Performance Marketing",
+      role: "AI Automation & Performance Marketing",
       period: "2025 – Present",
       link: "https://www.anarchylabs.in/team/mueed-nazir-bhat",
       points: [
-        "Builds and ships applied AI systems — automated voice agents and chat flows for lead capture and follow-up, wired into real business workflows.",
+        "Builds AI automations — automated voice agents and chat flows for lead capture and follow-up, wired into real business workflows.",
         "Designs marketing automations on n8n, Zapier and Make — from lead capture and follow-up to content research, drafting and publishing.",
-        "Develops LLM-powered applications with Python and the OpenAI API, using RAG and prompt engineering to turn client documents into working tools.",
+        "Builds LLM-powered automation workflows with the OpenAI API, using RAG and prompt engineering to turn client documents into working tools.",
         "Pairs AI-assisted copy and campaign strategy with performance marketing: funnels, paid ads, and analytics tuned to CTR, ROAS and conversion.",
         "Audits client workflows and builds AI automation roadmaps for where automation pays off fastest.",
       ],
@@ -209,11 +199,11 @@ export const resume = {
     },
     {
       company: "Freelance",
-      role: "Applied AI Engineering · Copywriting",
+      role: "Copywriter · Building AI Automations",
       period: "Jan 2022 – Present",
       points: [
         "Built custom AI automation workflows — n8n, prompt engineering and LLM API integrations — for client marketing tasks.",
-        "Prototyped and deployed Python-based AI agents for content research, generation and optimisation to accelerate client work.",
+        "Built AI agents for content research, generation and optimisation to accelerate client work.",
         "Crafted copy for campaigns, websites and social that boosted client engagement up to 40%.",
         "Produced SEO-optimised blogs, articles and promo material that cut revision cycles by 25%.",
       ],
