@@ -613,7 +613,6 @@ export const posts: BlogPost[] = [
     ],
     category: "About",
     readingMinutes: 5,
-    hidden: true,
     content: (
       <>
         <h2>The two halves of the role</h2>
@@ -683,6 +682,305 @@ export const posts: BlogPost[] = [
           </a>
           , see the <Link href="/#services">services I offer</Link>, or{" "}
           <Link href="/#contact">contact me</Link> to start.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "rag-for-marketing-2026",
+    title: "RAG for Marketing: Put AI to Work on Your Own Data (2026)",
+    description:
+      "A plain-language guide to RAG for marketing teams: what retrieval-augmented generation is, where it beats plain prompts, and how to build a grounded pipeline over your own brand docs and data.",
+    intro:
+      "RAG, short for retrieval-augmented generation, is the way to get an LLM to answer from your own data instead of from what it was trained on. The model does not learn from your files. At query time, the system searches a knowledge base, pulls the most relevant passages, and stuffs them into the prompt before the model writes. That changes the answer from a guess about what you probably meant into a response built on the documents you actually provided. For marketing teams this matters because the data that makes your work distinct, your brand guidelines, product details, past campaign results and customer questions, almost never exists inside the model. It sits in Notion, Drive, a CRM or a spreadsheet. Without RAG, an AI writing for you is writing blind. With it, the AI drafts from the same source material your best hire would use. The pieces are straightforward: chunk the documents, embed them into a vector store, retrieve the relevant chunks at query time, and feed them to the model with a prompt. Tools like n8n make this buildable without a dedicated ML team. The catch is that RAG only works if the source material is current, clean and actually relevant. Garbage in, plausible-sounding garbage out. In the content workflows I build at Anarchy Labs, RAG is what keeps AI drafts tied to a client's own documents and brand voice, and it is the difference between generic output and output a human editor can approve quickly.",
+    date: "2026-08-19",
+    keywords: [
+      "RAG for marketing",
+      "retrieval augmented generation",
+      "ground AI in your own data",
+      "n8n RAG pipeline",
+    ],
+    category: "AI Automation",
+    readingMinutes: 8,
+    content: (
+      <>
+        <h2>What RAG is (and what it isn&apos;t)</h2>
+        <p>
+          RAG retrieves relevant chunks from a knowledge base and injects them
+          into the prompt at query time. The model treats that context like any
+          other text it was given. It is not fine-tuning, which retrains the
+          model on your data, and it is not a bigger model. It is a search step
+          bolted onto generation. The model stays the same. What changes is that
+          it now has the right documents in front of it when it writes.
+        </p>
+
+        <h2>Why marketing teams outgrow plain prompts</h2>
+        <p>
+          A plain prompt works when the context is small: a one-page brief, a
+          product name, a handful of facts. It falls apart when the source of
+          truth is large, like 200 pages of brand guidelines, a year of campaign
+          data, or a knowledge base of customer questions. You cannot paste any
+          of that into a prompt, and even if you could, the model would bury the
+          relevant parts. RAG lets the AI pull the few passages that matter for
+          each individual request, so a landing page draft uses the brand
+          section, not the whole guideline.
+        </p>
+
+        <h2>Where RAG pays off in marketing</h2>
+        <ul>
+          <li>
+            Content grounded in brand docs. Blog posts and landing pages drafted
+            from actual brand guidelines and product specs, not the model&apos;s
+            generic idea of what your brand sounds like.
+          </li>
+          <li>
+            Lead qualification. An AI reads an inbound form answer, pulls the
+            matching details from your services and pricing docs, and routes or
+            replies with accurate information.
+          </li>
+          <li>
+            Customer support and FAQ. Answers drawn from your real help center
+            and past tickets instead of the model guessing at your policies.
+          </li>
+          <li>
+            Reporting. An AI that can read your own dashboards and decks and
+            write a summary from the actual numbers.
+          </li>
+          <li>
+            Onboarding and training. New writers get answers about the brand
+            from the company&apos;s own materials instead of hunting through
+            shared drives.
+          </li>
+        </ul>
+
+        <h2>How a RAG pipeline works</h2>
+        <ol>
+          <li>
+            Gather the source. Pick the documents that hold the answers: brand
+            guidelines, product pages, past reports, FAQs.
+          </li>
+          <li>
+            Chunk and clean. Split each document into pieces the model can
+            handle, roughly 500 to 1000 words. Remove anything stale or wrong
+            before it reaches the store.
+          </li>
+          <li>
+            Embed. Turn every chunk into a vector with an embedding model.
+          </li>
+          <li>
+            Store. Put the vectors in a vector database such as Pinecone, Qdrant
+            or pgvector.
+          </li>
+          <li>
+            Retrieve. At query time, embed the question and fetch the nearest
+            chunks.
+          </li>
+          <li>
+            Generate. Hand the chunks to the model with a prompt that says
+            answer only from this context and name which source you used.
+          </li>
+        </ol>
+
+        <h2>Building it in n8n</h2>
+        <p>
+          n8n has native nodes for LLMs, embeddings and vector stores, and it can
+          read from Google Drive, Notion, Airtable and the rest. A typical
+          pipeline is a trigger, a chunking step, an embed step, and a write to
+          the vector store. On the query side, a chat trigger or webhook
+          retrieves and answers. Because n8n can run self-hosted, client data
+          stays on your own server, which is often the whole reason a client
+          wants RAG in the first place.
+        </p>
+
+        <h2>What goes wrong, and how to fix it</h2>
+        <ul>
+          <li>
+            Stale data. If the source never updates, the AI confidently cites
+            last year&apos;s pricing. Put a refresh schedule on the pipeline.
+          </li>
+          <li>
+            Bad chunking. Chunks too big bury the answer; chunks too small lose
+            context. Adjust per document type until retrieval finds what you
+            expect.
+          </li>
+          <li>
+            Weak retrieval. The answer is only as good as the chunks pulled. If
+            the model drifts back into guessing, check what it actually
+            retrieved before blaming the model.
+          </li>
+          <li>
+            No citations. If the model cannot say which document it used, you
+            cannot audit it. Ask for the source in every answer.
+          </li>
+        </ul>
+
+        <h2>When RAG is overkill</h2>
+        <p>
+          If your knowledge fits in a prompt, a short FAQ or a one-page brief,
+          keep it simple. RAG adds moving parts: an embedding model, a vector
+          store, and a retrieval step to maintain. Add it when the source is
+          large, changes often, or needs to be searched by more than one team.
+          The tooling is cheap to try, so the honest test is small: point one
+          workflow at one document set and see whether the answers improve
+          enough to justify the maintenance.
+        </p>
+        <p>
+          Want to see where RAG would pay off in your own marketing? That is
+          what I do daily at{" "}
+          <a href="https://www.anarchylabs.in/team/mueed-nazir-bhat">
+            Anarchy Labs
+          </a>
+          . <Link href="/#services">See the services</Link> or{" "}
+          <Link href="/#contact">start a workflow audit</Link>.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "ai-agents-vs-workflows-marketing",
+    title: "AI Agents vs Workflows for Marketing: When to Use Each (2026)",
+    description:
+      "Workflows are predictable, agents are autonomous. How to tell which your marketing task needs, the cost and control tradeoff, and how to add agents without losing your grip.",
+    intro:
+      "Workflows and agents are two ways to automate marketing with AI, and they answer different problems. A workflow is deterministic: when X happens, do Y, then Z. Every run follows the same path, and you can see the whole path ahead of time. An agent is closer to delegation: you give it a goal, and it plans, picks tools, checks results and adjusts its own steps until it finishes or gives up. That freedom is both the advantage and the risk. For repetitive, rules-based work like lead capture, follow-up and publishing, a workflow is cheaper, faster and easier to audit. For open-ended work like researching a market, drafting a campaign brief or finding content gaps, an agent can do in an hour what a workflow would need dozens of branches to fake. The practical approach is a ladder: start with workflows, prove them, and add an agent only where the task genuinely needs judgment. Most marketing teams overestimate how much agent autonomy they need. The cost difference is real, agents burn tokens every time they think, and the harder they are to audit, the harder they are to trust. In the automations I build at Anarchy Labs, the pipeline stays in workflows and the agent layer sits on top, doing research and drafting while a human keeps final control.",
+    date: "2026-08-19",
+    keywords: [
+      "AI agents for marketing",
+      "workflow automation vs AI agents",
+      "marketing automation agents",
+      "when to use AI agents",
+    ],
+    category: "AI Automation",
+    readingMinutes: 8,
+    content: (
+      <>
+        <h2>The difference in plain terms</h2>
+        <p>
+          A workflow maps every step in advance. You know that a form leads to a
+          lookup, a lookup leads to a decision, a decision leads to an email.
+          An agent is given a goal and figures out the steps as it goes, calling
+          tools, reading results and changing course. Both run on the same
+          models and APIs. The difference is who decides the path.
+        </p>
+
+        <h2>When a workflow is the right answer</h2>
+        <p>
+          Choose a workflow when the rules are known, the volume is high, and a
+          wrong step costs money or a customer. These tasks never need
+          autonomy, and autonomy would only add cost and risk:
+        </p>
+        <ul>
+          <li>Lead capture and routing from forms, chat and inbound email.</li>
+          <li>Follow-up sequences that never drop a lead.</li>
+          <li>Content scheduling, publishing and cross-posting.</li>
+          <li>Reporting that pulls numbers into a weekly summary.</li>
+          <li>Cleanup and deduplication across your tools.</li>
+        </ul>
+        <p>
+          A workflow is cheap to run, easy to debug, and you can see exactly
+          where a failure happened. That alone is worth a lot in a busy
+          marketing operation.
+        </p>
+
+        <h2>When an agent earns its keep</h2>
+        <p>
+          An agent earns its keep when the path depends on what it finds, and
+          when getting it wrong is cheap enough to retry:
+        </p>
+        <ul>
+          <li>
+            Market research. An agent reads competitor sites and reviews
+            overnight and comes back with a structured summary.
+          </li>
+          <li>
+            Campaign briefs that require reading and synthesizing several
+            sources into one angle.
+          </li>
+          <li>
+            A/B test ideas generated from your past performance data.
+          </li>
+          <li>
+            Content gap and topic clustering analysis for SEO.
+          </li>
+        </ul>
+        <p>
+          The pattern is open-ended input and a defined output. If the input is
+          a folder of sources and the output is a shortlist or a draft, an agent
+          is worth the tokens.
+        </p>
+
+        <h2>The cost and control tradeoff</h2>
+        <p>
+          Workflows run predictably: one input, one path, a known bill. Agents
+          loop. Every step is another call, another chance to go sideways, and
+          another thing you have to explain to whoever signs the invoice. An
+          agent&apos;s reasoning is also harder to audit than a workflow&apos;s
+          steps, which matters when a client asks why something shipped. Keep
+          the audit question in front of the autonomy question, and the tool
+          choice mostly settles itself.
+        </p>
+
+        <h2>How to decide</h2>
+        <ul>
+          <li>
+            Can you write the steps in advance? Use a workflow.
+          </li>
+          <li>
+            Does the task end with one defined output either way? Both work, so
+            prefer the workflow.
+          </li>
+          <li>
+            Does the path change with what it finds? Consider an agent.
+          </li>
+          <li>
+            Does a wrong step cost a customer or a contract? Workflow, or an
+            agent with a hard human checkpoint.
+          </li>
+          <li>
+            Is the goal open-ended research with a summary as the output?
+            Agent.
+          </li>
+        </ul>
+
+        <h2>Adding agents without losing control</h2>
+        <ul>
+          <li>
+            Keep a human approval step before anything ships to a customer.
+          </li>
+          <li>
+            Give the agent a budget and a maximum number of steps.
+          </li>
+          <li>
+            Give it only the tools it needs, not read and write access to
+            everything.
+          </li>
+          <li>
+            Ask it to return sources and reasoning with its answer.
+          </li>
+          <li>
+            Run an evaluation before you trust it: feed it known cases and check
+            the answers by hand.
+          </li>
+        </ul>
+
+        <h2>The ladder in practice</h2>
+        <p>
+          The best setups mix both. A content pipeline keeps publishing,
+          formatting and scheduling in workflows, then hands the research and
+          first draft to an agent for a human to approve. A lead pipeline routes
+          in a workflow and uses an agent only to draft the personalized reply.
+          Start on the workflow rung, prove the automation, then add autonomy
+          one task at a time. The workflows give you the reliable base; the
+          agent gives you leverage on top of it.
+        </p>
+        <p>
+          Not sure whether your task is a workflow or an agent? That is the
+          first thing I figure out when I audit automation at{" "}
+          <a href="https://www.anarchylabs.in/team/mueed-nazir-bhat">
+            Anarchy Labs
+          </a>
+          . <Link href="/#services">See the services</Link> or{" "}
+          <Link href="/#contact">start a workflow audit</Link>.
         </p>
       </>
     ),
