@@ -24,7 +24,7 @@ export const posts: BlogPost[] = [
       "What to automate first, which tools to use, and how to build AI marketing workflows with n8n, Zapier and Make. A practical 2026 guide for small teams.",
     intro:
       "AI marketing automation is the use of AI tools, like large language models and workflow platforms such as n8n, Zapier and Make, to run repetitive marketing tasks without a person doing them by hand. It covers lead capture, follow-up, content research, drafting, publishing and reporting. A typical workflow triggers on an event, transforms data with AI, and hands the result to the next step: a lead fills a form, an AI drafts a personalized reply, and a sequence schedules follow-ups until the lead replies or converts. Teams use it to respond to leads in minutes instead of days, ship content faster, and cut manual hours. The best automations feel invisible: the same work gets done faster, with fewer errors and nothing dropped. It does not replace strategy or brand voice. It removes the busywork, so marketers can spend their time on what actually moves the metrics.",
-    date: "2026-08-19",
+    date: "2026-07-28",
     keywords: [
       "AI marketing automation",
       "how to automate marketing with AI",
@@ -196,7 +196,7 @@ export const posts: BlogPost[] = [
       "A side-by-side comparison of n8n, Zapier and Make for marketing automation in 2026, covering pricing, AI support, complexity, and when each is the right choice.",
     intro:
       "n8n, Zapier and Make are the three most-used automation platforms in marketing in 2026, and the right pick depends on your team, your data and your budget. Zapier is the fastest way to connect two apps with almost no learning curve. It is best for simple, high-volume integrations on a team that hates maintenance. Make offers a visual, flexible canvas for mid-complexity scenarios at a friendlier price point. n8n is the power pick: open source, self-hostable, code-friendly, with the best native support for AI through LLM nodes, RAG and private data. That makes it the default for teams that want AI marketing automation without sending sensitive data to third parties. Most teams end up picking one and staying with it, so it pays to get the decision right the first time. There is no single winner. Choose n8n for AI-heavy, custom or data-sensitive work, Make for visual workflows, and Zapier for speed and simplicity.",
-    date: "2026-08-19",
+    date: "2026-07-18",
     keywords: [
       "n8n vs zapier vs make",
       "n8n marketing automation",
@@ -334,7 +334,7 @@ export const posts: BlogPost[] = [
       "AI copywriting is great at first drafts and variations, weak at persuasion and brand voice. How to run an AI-assisted copy workflow that actually converts.",
     intro:
       "AI copywriting is using large language models to produce marketing copy, such as ads, landing pages, emails, blogs and social posts, with a human editor deciding what ships. In 2026 the tooling is good enough that AI handles the heavy lifting of research, first drafts and variations, and weak exactly where it has always been weak: originality, persuasion and brand voice. The gap between the best and worst AI copy is rarely the model. It is the brief and the editor behind it. Used well, an AI-assisted workflow cuts production time and revision cycles. In my client work that has meant around 25% fewer revisions on blogs and promotional copy. Used carelessly, it produces generic text that reads like everyone else's. The difference is process: give the model a tight brief and brand guidance, generate options, then edit like a copywriter. The models are the junior writers; the human is the senior.",
-    date: "2026-08-19",
+    date: "2026-07-09",
     keywords: [
       "AI copywriting",
       "AI copywriting tools",
@@ -464,7 +464,7 @@ export const posts: BlogPost[] = [
       "GEO (Generative Engine Optimization) done right: citable passages, brand mentions, freshness and schema. How AI Overviews, ChatGPT and Perplexity choose sources.",
     intro:
       "Generative Engine Optimization (GEO) is the practice of making your website the source an AI answer cites. Google frames it as SEO fundamentals applied to AI search: the same content quality, structure and authority that win rankings also win citations in AI Overviews. The evidence points to a few levers that matter most. Brand mentions correlate roughly 3x more strongly with AI citations than backlinks do. Citable passages, self-contained answers of roughly 134 to 167 words, get extracted into AI answers, with nearly half of citations coming from the first 30% of a page. Freshness matters: content updated within three months is about 3x more likely to be cited, and pages left stale for six months lose citation eligibility. Content with images and structure sees higher selection rates. Finally, only about 11% of domains are cited by both ChatGPT and Google AI Overviews, so the same content can behave very differently across AI surfaces.",
-    date: "2026-08-19",
+    date: "2026-08-11",
     keywords: [
       "optimize for AI search",
       "GEO optimization",
@@ -604,7 +604,7 @@ export const posts: BlogPost[] = [
       "A plain-language definition of AI automation and performance marketing: what it is, how the two halves combine, and what results teams can expect in 2026.",
     intro:
       "AI automation and performance marketing is the combination of two disciplines. AI automation uses large language models and workflow platforms like n8n, Zapier and Make to run repetitive marketing tasks, such as lead capture, follow-up, content research, drafting and publishing, without a person doing them by hand. Performance marketing is the numbers side: funnels, paid campaigns and analytics tuned to measurable outcomes such as CTR, ROAS and conversion rate. The two compound because automation produces more, faster and more consistently, while performance marketing ensures what gets produced is measured and improved. In practice, AI drafts and automates the pipeline; a human keeps strategy, brand voice and final approval. Teams using the combination respond to leads in minutes, ship content several times faster and cut manual hours, freeing marketers to spend their time on the decisions that move the metrics.",
-    date: "2026-08-19",
+    date: "2026-06-30",
     keywords: [
       "AI automation and performance marketing",
       "AI automation",
@@ -693,7 +693,7 @@ export const posts: BlogPost[] = [
       "A plain-language guide to RAG for marketing teams: what retrieval-augmented generation is, where it beats plain prompts, and how to build a grounded pipeline over your own brand docs and data.",
     intro:
       "RAG, short for retrieval-augmented generation, is the way to get an LLM to answer from your own data instead of from what it was trained on. The model does not learn from your files. At query time, the system searches a knowledge base, pulls the most relevant passages, and stuffs them into the prompt before the model writes. That changes the answer from a guess about what you probably meant into a response built on the documents you actually provided. For marketing teams this matters because the data that makes your work distinct, your brand guidelines, product details, past campaign results and customer questions, almost never exists inside the model. It sits in Notion, Drive, a CRM or a spreadsheet. Without RAG, an AI writing for you is writing blind. With it, the AI drafts from the same source material your best hire would use. The pieces are straightforward: chunk the documents, embed them into a vector store, retrieve the relevant chunks at query time, and feed them to the model with a prompt. Tools like n8n make this buildable without a dedicated ML team. The catch is that RAG only works if the source material is current, clean and actually relevant. Garbage in, plausible-sounding garbage out. In the content workflows I build at Anarchy Labs, RAG is what keeps AI drafts tied to a client's own documents and brand voice, and it is the difference between generic output and output a human editor can approve quickly.",
-    date: "2026-08-19",
+    date: "2026-08-05",
     keywords: [
       "RAG for marketing",
       "retrieval augmented generation",
