@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
-  <rect width="16" height="16" fill="#2e5d8a"/>
-  <rect x="2" y="2" width="2" height="12" fill="#f6f5f3"/>
-  <rect x="12" y="2" width="2" height="12" fill="#f6f5f3"/>
-  <rect x="4" y="4" width="2" height="2" fill="#f6f5f3"/>
-  <rect x="10" y="4" width="2" height="2" fill="#f6f5f3"/>
-  <rect x="6" y="6" width="2" height="2" fill="#f6f5f3"/>
-  <rect x="8" y="6" width="2" height="2" fill="#f6f5f3"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><circle cx="8" cy="8" r="8" fill="#e9e8e5"/><path transform="translate(1.02,12.87) scale(0.012821,-0.012821)" d="M506.0 -10.0 219.0 646.0H215.0V189.0Q215.0 123.0 222.5 91.5Q230.0 60.0 253.5 50.0Q277.0 40.0 324.0 38.0V0.0H45.0V38.0Q92.0 40.0 115.5 50.0Q139.0 60.0 147.0 90.0Q155.0 120.0 155.0 182.0V588.0Q155.0 645.0 148.0 675.0Q141.0 705.0 119.5 717.5Q98.0 730.0 55.0 732.0V770.0H294.0L546.0 179.0H550.0L810.0 770.0H1034.0V732.0Q991.0 731.0 970.0 718.5Q949.0 706.0 942.0 674.0Q935.0 642.0 935.0 581.0V189.0Q935.0 123.0 942.5 91.5Q950.0 60.0 973.5 50.0Q997.0 40.0 1044.0 38.0V0.0H720.0V38.0Q767.0 40.0 790.5 50.0Q814.0 60.0 822.0 90.0Q830.0 120.0 830.0 182.0V646.0H820.0L528.0 -10.0Z" fill="#2e5d8a"/></svg>
