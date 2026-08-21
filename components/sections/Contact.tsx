@@ -54,14 +54,14 @@ export default function Contact() {
     <section id="contact" className="border-t border-border py-24">
       <div className="mx-auto grid max-w-6xl gap-12 px-5 md:grid-cols-2">
         <div>
-          <p className="font-mono text-xs uppercase tracking-[0.2em] text-primary">
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground">
             Contact
           </p>
           <h2
             className="mt-4 text-3xl leading-tight tracking-tight sm:text-5xl"
             style={{
-              fontFamily: "var(--font-fraunces), Georgia, serif",
-              fontWeight: 560,
+              fontFamily: "var(--font-display), Georgia, serif",
+              fontWeight: 400,
             }}
           >
             Let&apos;s automate your <span className="text-gradient">next win.</span>
@@ -76,13 +76,13 @@ export default function Contact() {
               href={`mailto:${resume.email}`}
               className="link-underline flex w-fit items-center gap-3 text-muted-foreground transition-colors hover:text-primary"
             >
-              <Send className="h-4 w-4 text-primary" /> {resume.email}
+              <Send className="h-4 w-4 text-muted-foreground" /> {resume.email}
             </a>
             <a
               href={`tel:${resume.phone.replace(/\s/g, "")}`}
               className="link-underline flex w-fit items-center gap-3 text-muted-foreground transition-colors hover:text-primary"
             >
-              <Phone className="h-4 w-4 text-primary" /> {resume.phone}
+              <Phone className="h-4 w-4 text-muted-foreground" /> {resume.phone}
             </a>
           </div>
         </div>

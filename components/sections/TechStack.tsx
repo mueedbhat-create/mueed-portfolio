@@ -6,14 +6,14 @@ export default function TechStack() {
   return (
     <section id="skills" className="border-t border-border py-24">
       <div className="mx-auto max-w-6xl px-5">
-        <p className="font-mono text-xs uppercase tracking-[0.2em] text-primary">
+        <p className="font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground">
           Skills
         </p>
         <h2
           className="mt-4 text-3xl tracking-tight sm:text-5xl"
           style={{
-            fontFamily: "var(--font-fraunces), Georgia, serif",
-            fontWeight: 560,
+            fontFamily: "var(--font-display), Georgia, serif",
+            fontWeight: 400,
           }}
         >
           Skills &amp; <span className="text-gradient">expertise</span>
@@ -22,7 +22,7 @@ export default function TechStack() {
         <div className="mt-14 grid gap-x-12 gap-y-10 md:grid-cols-3">
           {skills.map(([group, items]) => (
             <div key={group} className="border-t border-border pt-6">
-              <h3 className="font-mono text-xs uppercase tracking-[0.14em] text-primary">
+              <h3 className="font-mono text-xs uppercase tracking-[0.14em] text-muted-foreground">
                 {group}
               </h3>
               <p className="mt-4 leading-loose text-muted-foreground">

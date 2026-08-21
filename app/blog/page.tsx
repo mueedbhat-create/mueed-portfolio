@@ -24,14 +24,14 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-4xl px-5 pt-28 pb-24">
-      <p className="font-mono text-xs uppercase tracking-[0.2em] text-primary">
+      <p className="font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground">
         Blog
       </p>
       <h1
         className="mt-4 text-4xl leading-tight tracking-tight sm:text-5xl"
         style={{
-          fontFamily: "var(--font-fraunces), Georgia, serif",
-          fontWeight: 560,
+          fontFamily: "var(--font-display), Georgia, serif",
+          fontWeight: 400,
         }}
       >
         Ideas on AI automation &amp; performance marketing
@@ -47,7 +47,7 @@ export default function BlogPage() {
           className="lift group mt-14 block rounded-sm border border-border bg-card p-8"
         >
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-xs tracking-wide text-muted-foreground">
-            <span className="uppercase text-primary">
+            <span className="uppercase text-muted-foreground">
               Featured · {featured.category}
             </span>
             <span className="inline-flex items-center gap-1.5">
@@ -66,8 +66,8 @@ export default function BlogPage() {
           <h2
             className="mt-4 text-2xl leading-snug tracking-tight transition-colors group-hover:text-primary sm:text-3xl"
             style={{
-              fontFamily: "var(--font-fraunces), Georgia, serif",
-              fontWeight: 600,
+              fontFamily: "var(--font-display), Georgia, serif",
+              fontWeight: 400,
             }}
           >
             {featured.title}
@@ -86,14 +86,14 @@ export default function BlogPage() {
             className="lift group flex flex-col rounded-sm border border-border bg-card p-6"
           >
             <div className="flex items-center gap-3 font-mono text-xs tracking-wide text-muted-foreground">
-              <span className="uppercase text-primary">{p.category}</span>
+              <span className="uppercase text-muted-foreground">{p.category}</span>
               <span>{p.readingMinutes} min read</span>
             </div>
             <h2
               className="mt-3 text-xl leading-snug tracking-tight transition-colors group-hover:text-primary"
               style={{
-                fontFamily: "var(--font-fraunces), Georgia, serif",
-                fontWeight: 600,
+                fontFamily: "var(--font-display), Georgia, serif",
+                fontWeight: 400,
               }}
             >
               {p.title}

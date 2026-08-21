@@ -25,7 +25,7 @@ function ProjectCard({
         <p className="font-mono text-xs uppercase tracking-[0.14em] text-muted-foreground">
           {project.tags.join(" · ")}
           {featured && (
-            <span className="ml-3 text-primary">Featured</span>
+            <span className="ml-3 text-muted-foreground">Featured</span>
           )}
         </p>
         <h3
@@ -33,8 +33,8 @@ function ProjectCard({
             featured ? "text-3xl" : "text-xl"
           }`}
           style={{
-            fontFamily: "var(--font-fraunces), Georgia, serif",
-            fontWeight: 600,
+            fontFamily: "var(--font-display), Georgia, serif",
+            fontWeight: 400,
           }}
         >
           {project.title}
@@ -53,14 +53,14 @@ export default function Projects() {
   return (
     <section id="projects" className="border-t border-border py-24">
       <div className="mx-auto max-w-6xl px-5">
-        <p className="font-mono text-xs uppercase tracking-[0.2em] text-primary">
+        <p className="font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground">
           Projects
         </p>
         <h2
           className="mt-4 text-3xl tracking-tight sm:text-5xl"
           style={{
-            fontFamily: "var(--font-fraunces), Georgia, serif",
-            fontWeight: 560,
+            fontFamily: "var(--font-display), Georgia, serif",
+            fontWeight: 400,
           }}
         >
           Selected <span className="text-gradient">work</span>

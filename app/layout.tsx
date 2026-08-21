@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Fraunces, Instrument_Sans, IBM_Plex_Mono } from "next/font/google";
+import { Libre_Baskerville, Work_Sans, Space_Mono } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "sonner";
 import Navbar from "@/components/layout/Navbar";
@@ -7,21 +7,22 @@ import Footer from "@/components/layout/Footer";
 import { resume } from "@/data/resume";
 import { SITE_URL, SITE_TITLE, SITE_DESCRIPTION } from "@/lib/site";
 
-const fraunces = Fraunces({
-  variable: "--font-fraunces",
+const libreBaskerville = Libre_Baskerville({
+  variable: "--font-display",
   subsets: ["latin"],
   style: ["normal", "italic"],
+  weight: ["400", "700"],
 });
 
-const instrumentSans = Instrument_Sans({
-  variable: "--font-instrument",
+const workSans = Work_Sans({
+  variable: "--font-body",
   subsets: ["latin"],
 });
 
-const plexMono = IBM_Plex_Mono({
-  variable: "--font-plex-mono",
+const spaceMono = Space_Mono({
+  variable: "--font-label",
   subsets: ["latin"],
-  weight: ["400", "500"],
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -175,7 +176,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en"
-      className={`${fraunces.variable} ${instrumentSans.variable} ${plexMono.variable} h-full antialiased`}
+      className={`${libreBaskerville.variable} ${workSans.variable} ${spaceMono.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-background text-foreground antialiased">
         <JsonLd data={personJsonLd} />

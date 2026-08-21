@@ -4,14 +4,14 @@ export default function Faq() {
   return (
     <section id="faq" className="border-t border-border py-24">
       <div className="mx-auto max-w-6xl px-5">
-        <p className="font-mono text-xs uppercase tracking-[0.2em] text-primary">
+        <p className="font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground">
           FAQ
         </p>
         <h2
           className="mt-4 text-3xl tracking-tight sm:text-5xl"
           style={{
-            fontFamily: "var(--font-fraunces), Georgia, serif",
-            fontWeight: 560,
+            fontFamily: "var(--font-display), Georgia, serif",
+            fontWeight: 400,
           }}
         >
           Frequently asked <span className="text-gradient">questions</span>
@@ -27,8 +27,8 @@ export default function Faq() {
               <h3
                 className="text-lg leading-snug tracking-tight"
                 style={{
-                  fontFamily: "var(--font-fraunces), Georgia, serif",
-                  fontWeight: 600,
+                  fontFamily: "var(--font-display), Georgia, serif",
+                  fontWeight: 400,
                 }}
               >
                 {f.q}

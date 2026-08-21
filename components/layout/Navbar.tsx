@@ -24,9 +24,9 @@ export default function Navbar() {
           href="/"
           className="font-heading text-xl tracking-tight"
           style={{
-            fontFamily: "var(--font-fraunces), Georgia, serif",
+            fontFamily: "var(--font-display), Georgia, serif",
             fontStyle: "italic",
-            fontWeight: 600,
+            fontWeight: 400,
           }}
         >
           Mueed<span className="text-primary">.</span>

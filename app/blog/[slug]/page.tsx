@@ -133,7 +133,7 @@ export default async function BlogPostPage({ params }: Props) {
         </Link>
 
         <div className="mt-8 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-xs tracking-wide text-muted-foreground">
-          <span className="uppercase text-primary">{post.category}</span>
+          <span className="uppercase text-muted-foreground">{post.category}</span>
           <span className="inline-flex items-center gap-1.5">
             <CalendarDays className="h-3.5 w-3.5" />
             {new Date(post.date).toLocaleDateString("en-US", {
@@ -151,8 +151,8 @@ export default async function BlogPostPage({ params }: Props) {
         <h1
           className="mt-4 text-4xl leading-tight tracking-tight sm:text-5xl"
           style={{
-            fontFamily: "var(--font-fraunces), Georgia, serif",
-            fontWeight: 560,
+            fontFamily: "var(--font-display), Georgia, serif",
+            fontWeight: 400,
           }}
         >
           {post.title}
@@ -163,7 +163,7 @@ export default async function BlogPostPage({ params }: Props) {
         </p>
 
         <div className="mt-8 flex items-center gap-3 border-y border-border py-5">
-          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 font-mono text-sm font-medium text-primary">
+          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-muted font-mono text-sm text-muted-foreground">
             {resume.name
               .split(" ")
               .map((n) => n[0])
@@ -186,7 +186,7 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
 
         <div className="mt-10 border-l-2 border-primary py-1 pl-6">
-          <p className="font-mono text-xs uppercase tracking-[0.14em] text-primary">
+          <p className="font-mono text-xs uppercase tracking-[0.14em] text-muted-foreground">
             Short answer
           </p>
           <p className="mt-2 leading-relaxed text-muted-foreground">{post.intro}</p>
@@ -198,8 +198,8 @@ export default async function BlogPostPage({ params }: Props) {
           <p
             className="text-xl tracking-tight"
             style={{
-              fontFamily: "var(--font-fraunces), Georgia, serif",
-              fontWeight: 600,
+              fontFamily: "var(--font-display), Georgia, serif",
+              fontWeight: 400,
             }}
           >
             Need this built, not just read?
@@ -229,8 +229,8 @@ export default async function BlogPostPage({ params }: Props) {
             <h2
               className="text-2xl tracking-tight"
               style={{
-                fontFamily: "var(--font-fraunces), Georgia, serif",
-                fontWeight: 600,
+                fontFamily: "var(--font-display), Georgia, serif",
+                fontWeight: 400,
               }}
             >
               Keep reading
@@ -242,14 +242,14 @@ export default async function BlogPostPage({ params }: Props) {
                   href={`/blog/${p.slug}`}
                   className="lift group rounded-sm border border-border bg-card p-5"
                 >
-                  <p className="font-mono text-xs uppercase tracking-wide text-primary">
+                  <p className="font-mono text-xs uppercase tracking-wide text-muted-foreground">
                     {p.category}
                   </p>
                   <p
                     className="mt-2 leading-snug tracking-tight transition-colors group-hover:text-primary"
                     style={{
-                      fontFamily: "var(--font-fraunces), Georgia, serif",
-                      fontWeight: 600,
+                      fontFamily: "var(--font-display), Georgia, serif",
+                      fontWeight: 400,
                     }}
                   >
                     {p.title}

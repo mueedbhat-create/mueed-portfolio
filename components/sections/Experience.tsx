@@ -4,14 +4,14 @@ export default function Experience() {
   return (
     <section id="experience" className="border-t border-border py-24">
       <div className="mx-auto max-w-4xl px-5">
-        <p className="font-mono text-xs uppercase tracking-[0.2em] text-primary">
+        <p className="font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground">
           Career
         </p>
         <h2
           className="mt-4 text-3xl tracking-tight sm:text-5xl"
           style={{
-            fontFamily: "var(--font-fraunces), Georgia, serif",
-            fontWeight: 560,
+            fontFamily: "var(--font-display), Georgia, serif",
+            fontWeight: 400,
           }}
         >
           Experience
@@ -27,8 +27,8 @@ export default function Experience() {
                 <h3
                   className="text-2xl tracking-tight"
                   style={{
-                    fontFamily: "var(--font-fraunces), Georgia, serif",
-                    fontWeight: 600,
+                    fontFamily: "var(--font-display), Georgia, serif",
+                    fontWeight: 400,
                   }}
                 >
                   {e.link ? (
@@ -44,7 +44,7 @@ export default function Experience() {
                         fill="none"
                         stroke="currentColor"
                         strokeWidth="2"
-                        className="ml-1.5 inline h-3.5 w-3.5 text-primary"
+                        className="ml-1.5 inline h-3.5 w-3.5 text-muted-foreground"
                         aria-hidden
                       >
                         <path d="M7 17 17 7M8 7h9v9" strokeLinecap="round" strokeLinejoin="round" />
@@ -58,10 +58,10 @@ export default function Experience() {
                   {e.period}
                 </span>
               </div>
-              <p className="mt-2 font-mono text-xs uppercase tracking-[0.14em] text-primary">
+              <p className="mt-2 font-mono text-xs uppercase tracking-[0.14em] text-muted-foreground">
                 {e.role}
               </p>
-              <ul className="mt-5 list-disc space-y-2 pl-5 leading-relaxed text-muted-foreground marker:text-primary">
+              <ul className="mt-5 list-disc space-y-2 pl-5 leading-relaxed text-muted-foreground marker:text-muted-foreground">
                 {e.points.map((p, j) => (
                   <li key={j}>{p}</li>
                 ))}
@@ -74,8 +74,8 @@ export default function Experience() {
           <h3
             className="text-2xl tracking-tight"
             style={{
-              fontFamily: "var(--font-fraunces), Georgia, serif",
-              fontWeight: 600,
+              fontFamily: "var(--font-display), Georgia, serif",
+              fontWeight: 400,
             }}
           >
             Education

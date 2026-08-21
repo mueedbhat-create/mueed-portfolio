@@ -4,14 +4,14 @@ export default function Services() {
   return (
     <section id="services" className="border-t border-border py-24">
       <div className="mx-auto max-w-6xl px-5">
-        <p className="font-mono text-xs uppercase tracking-[0.2em] text-primary">
+        <p className="font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground">
           Services
         </p>
         <h2
           className="mt-4 text-3xl tracking-tight sm:text-5xl"
           style={{
-            fontFamily: "var(--font-fraunces), Georgia, serif",
-            fontWeight: 560,
+            fontFamily: "var(--font-display), Georgia, serif",
+            fontWeight: 400,
           }}
         >
           What I <span className="text-gradient">do</span>
@@ -23,14 +23,14 @@ export default function Services() {
         <div className="mt-14 grid gap-x-12 gap-y-10 sm:grid-cols-2">
           {resume.services.map((s, i) => (
             <div key={s.title} className="border-t border-border pt-6">
-              <p className="font-mono text-xs tracking-[0.14em] text-primary">
+              <p className="font-mono text-xs tracking-[0.14em] text-muted-foreground">
                 ({String(i + 1).padStart(2, "0")})
               </p>
               <h3
                 className="mt-3 text-xl tracking-tight"
                 style={{
-                  fontFamily: "var(--font-fraunces), Georgia, serif",
-                  fontWeight: 600,
+                  fontFamily: "var(--font-display), Georgia, serif",
+                  fontWeight: 400,
                 }}
               >
                 {s.title}

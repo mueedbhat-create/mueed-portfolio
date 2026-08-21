@@ -4,14 +4,14 @@ export default function About() {
   return (
     <section id="about" className="border-t border-border py-24">
       <div className="mx-auto max-w-6xl px-5">
-        <p className="font-mono text-xs uppercase tracking-[0.2em] text-primary">
+        <p className="font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground">
           About
         </p>
         <h2
           className="mt-4 max-w-2xl text-3xl leading-tight tracking-tight sm:text-5xl"
           style={{
-            fontFamily: "var(--font-fraunces), Georgia, serif",
-            fontWeight: 560,
+            fontFamily: "var(--font-display), Georgia, serif",
+            fontWeight: 400,
           }}
         >
           Words that <span className="text-gradient">drive decisions.</span>
@@ -27,8 +27,8 @@ export default function About() {
           <h3
             className="text-xl leading-snug tracking-tight"
             style={{
-              fontFamily: "var(--font-fraunces), Georgia, serif",
-              fontWeight: 600,
+              fontFamily: "var(--font-display), Georgia, serif",
+              fontWeight: 400,
             }}
           >
             What does an AI automation &amp; performance marketing specialist do?
