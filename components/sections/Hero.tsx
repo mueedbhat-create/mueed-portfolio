@@ -1,58 +1,123 @@
-import { ArrowDown, MessageSquare } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import { resume } from "@/data/resume";
-import { BlurFade } from "@/components/magicui/blur-fade";
-import { Spotlight } from "@/components/aceternity/spotlight";
+
+const strip = [
+  { value: "03+", label: "Years marketing & copy", italic: false },
+  { value: "Human", label: "Strategy, brand voice & judgment", italic: true },
+  { value: "Automated", label: "Research, drafts & follow-up", italic: true },
+];
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-screen items-center overflow-hidden">
-      <Spotlight />
-      <div className="hero-grid absolute inset-0" aria-hidden />
-      <div className="absolute -left-20 top-1/3 h-72 w-72 rounded-full bg-blue-600/20 blur-[100px]" aria-hidden />
-      <div className="absolute -right-20 bottom-1/4 h-72 w-72 rounded-full bg-cyan-500/20 blur-[100px]" aria-hidden />
+    <section className="relative flex min-h-screen items-center">
+      <div className="mx-auto w-full max-w-6xl px-5 py-24">
+        <div className="grid items-end gap-12 lg:grid-cols-[1fr_auto]">
+          <div>
+            <p className="inline-flex items-center gap-2.5 rounded-sm border border-border bg-card px-4 py-1.5 font-mono text-xs uppercase tracking-[0.14em] text-muted-foreground">
+              <span className="h-1.5 w-1.5 rounded-full bg-primary" />
+              {resume.available}
+            </p>
 
-      <div className="relative z-10 mx-auto w-full max-w-6xl px-5">
-        <BlurFade delay={0.1}>
-          <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-4 py-1.5 text-xs text-muted-foreground">
-            <span className="h-2 w-2 rounded-full bg-emerald-400" />
-            {resume.available}
-          </span>
-        </BlurFade>
-
-        <BlurFade delay={0.2}>
-          <h1
-            className="mt-6 text-5xl font-bold leading-[1.05] tracking-tight sm:text-6xl md:text-7xl"
-            style={{ fontFamily: "var(--font-syne)", fontWeight: 700 }}
-          >
-            <span className="block">{resume.name}</span>
-            <span className="mt-2 block text-2xl font-semibold leading-tight text-muted-foreground sm:text-3xl md:text-4xl">
-              AI Automation &amp; Performance Marketing
-            </span>
-          </h1>
-        </BlurFade>
-
-        <BlurFade delay={0.3}>
-          <p className="mt-5 max-w-2xl text-lg text-muted-foreground">
-            {resume.tagline}
-          </p>
-        </BlurFade>
-
-        <BlurFade delay={0.4}>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <a
-              href="#projects"
-              className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+            <h1
+              className="mt-10 text-5xl leading-[1.02] tracking-tight sm:text-7xl md:text-8xl"
+              style={{
+                fontFamily: "var(--font-fraunces), Georgia, serif",
+                fontWeight: 560,
+              }}
             >
-              View work <ArrowDown className="h-4 w-4" />
-            </a>
-            <a
-              href="#contact"
-              className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-6 py-3 text-sm font-medium transition-colors hover:bg-card"
-            >
-              <MessageSquare className="h-4 w-4" /> Let&apos;s talk
-            </a>
+              <span className="block">{resume.name}</span>
+              <span
+                className="mt-4 block text-2xl font-normal italic leading-snug text-muted-foreground sm:text-3xl md:text-4xl"
+                style={{ fontWeight: 400 }}
+              >
+                AI Automation &amp; Performance Marketing
+              </span>
+            </h1>
+
+            <div className="mt-8 h-px w-24 bg-primary" aria-hidden />
+
+            <p className="mt-8 max-w-2xl text-lg leading-relaxed text-muted-foreground">
+              {resume.tagline}
+            </p>
+
+            <div className="mt-10 flex flex-wrap gap-3">
+              <a
+                href="#projects"
+                className="btn-sweep inline-flex items-center gap-2 rounded-sm bg-foreground px-6 py-3 text-sm font-medium text-background hover:text-primary-foreground"
+              >
+                View work <ArrowDown className="h-4 w-4" />
+              </a>
+              <a
+                href="#contact"
+                className="inline-flex items-center gap-2 rounded-sm border border-border bg-transparent px-6 py-3 text-sm font-medium transition-colors hover:border-primary hover:bg-muted hover:text-primary"
+              >
+                Let&apos;s talk
+              </a>
+            </div>
           </div>
-        </BlurFade>
+
+          <div className="hidden flex-col gap-5 border-l border-border pl-8 pb-1 font-mono text-xs leading-relaxed lg:flex">
+            <div>
+              <p className="uppercase tracking-[0.14em] text-muted-foreground">
+                Location
+              </p>
+              <p className="mt-1 text-foreground">{resume.location}</p>
+            </div>
+            <div>
+              <p className="uppercase tracking-[0.14em] text-muted-foreground">
+                Currently
+              </p>
+              <a
+                href={resume.socials.anarchylabs}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link-underline mt-1 inline-block text-foreground transition-colors hover:text-primary"
+              >
+                Anarchy Labs
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  className="ml-1 inline h-3 w-3 text-primary"
+                  aria-hidden
+                >
+                  <path d="M7 17 17 7M8 7h9v9" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </a>
+            </div>
+            <div>
+              <p className="uppercase tracking-[0.14em] text-muted-foreground">
+                Say hello
+              </p>
+              <a
+                href={`mailto:${resume.email}`}
+                className="link-underline mt-1 inline-block text-foreground transition-colors hover:text-primary"
+              >
+                {resume.email}
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-20 grid border-y border-border sm:grid-cols-3 sm:divide-x sm:divide-border">
+          {strip.map((s) => (
+            <div key={s.label} className="border-b border-border px-6 py-7 last:border-b-0 sm:border-b-0 sm:px-8 sm:first:pl-0">
+              <p
+                className={`text-4xl tracking-tight sm:text-5xl ${s.italic ? "italic" : ""}`}
+                style={{
+                  fontFamily: "var(--font-fraunces), Georgia, serif",
+                  fontWeight: s.italic ? 480 : 560,
+                }}
+              >
+                {s.value}
+              </p>
+              <p className="mt-2 font-mono text-xs uppercase tracking-[0.14em] text-muted-foreground">
+                {s.label}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

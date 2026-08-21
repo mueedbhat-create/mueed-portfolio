@@ -132,10 +132,8 @@ export default async function BlogPostPage({ params }: Props) {
           <ArrowLeft className="h-4 w-4" /> All articles
         </Link>
 
-        <div className="mt-8 flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
-          <span className="rounded-full border border-border px-3 py-1">
-            {post.category}
-          </span>
+        <div className="mt-8 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-xs tracking-wide text-muted-foreground">
+          <span className="uppercase text-primary">{post.category}</span>
           <span className="inline-flex items-center gap-1.5">
             <CalendarDays className="h-3.5 w-3.5" />
             {new Date(post.date).toLocaleDateString("en-US", {
@@ -151,16 +149,21 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
 
         <h1
-          className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl"
-          style={{ fontFamily: "var(--font-syne)", fontWeight: 700 }}
+          className="mt-4 text-4xl leading-tight tracking-tight sm:text-5xl"
+          style={{
+            fontFamily: "var(--font-fraunces), Georgia, serif",
+            fontWeight: 560,
+          }}
         >
           {post.title}
         </h1>
 
-        <p className="mt-5 text-lg text-muted-foreground">{post.description}</p>
+        <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
+          {post.description}
+        </p>
 
-        <div className="mt-6 flex items-center gap-3 border-y border-border/60 py-4">
-          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-blue-500/20 text-sm font-semibold text-blue-400">
+        <div className="mt-8 flex items-center gap-3 border-y border-border py-5">
+          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 font-mono text-sm font-medium text-primary">
             {resume.name
               .split(" ")
               .map((n) => n[0])
@@ -168,13 +171,13 @@ export default async function BlogPostPage({ params }: Props) {
           </div>
           <div>
             <p className="text-sm font-medium">{resume.name}</p>
-            <p className="text-xs text-muted-foreground">
+            <p className="mt-0.5 font-mono text-xs tracking-wide text-muted-foreground">
               AI Automation &amp; Performance Marketing ·{" "}
               <a
                 href="https://www.anarchylabs.in/team/mueed-nazir-bhat"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-300"
+                className="transition-colors hover:text-primary"
               >
                 Anarchy Labs
               </a>
@@ -182,26 +185,32 @@ export default async function BlogPostPage({ params }: Props) {
           </div>
         </div>
 
-        <div className="mt-10 rounded-2xl border border-border bg-card/60 p-6">
-          <p className="text-sm font-semibold uppercase tracking-wide text-blue-400">
+        <div className="mt-10 border-l-2 border-primary py-1 pl-6">
+          <p className="font-mono text-xs uppercase tracking-[0.14em] text-primary">
             Short answer
           </p>
-          <p className="mt-2 text-muted-foreground">{post.intro}</p>
+          <p className="mt-2 leading-relaxed text-muted-foreground">{post.intro}</p>
         </div>
 
-        <div className="blog-content mt-10">{post.content}</div>
+        <div className="blog-content mt-12">{post.content}</div>
 
-        <div className="mt-16 rounded-2xl border border-border bg-card/60 p-6 text-center">
-          <p className="text-lg font-semibold" style={{ fontFamily: "var(--font-syne)" }}>
+        <div className="mt-16 rounded-sm border border-border bg-card p-8 text-center">
+          <p
+            className="text-xl tracking-tight"
+            style={{
+              fontFamily: "var(--font-fraunces), Georgia, serif",
+              fontWeight: 600,
+            }}
+          >
             Need this built, not just read?
           </p>
-          <p className="mt-2 text-sm text-muted-foreground">
+          <p className="mt-2 leading-relaxed text-muted-foreground">
             I automate marketing workflows and run performance campaigns at{" "}
             <a
               href="https://www.anarchylabs.in/team/mueed-nazir-bhat"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-400"
+              className="text-primary hover:text-primary/80"
             >
               Anarchy Labs
             </a>
@@ -209,7 +218,7 @@ export default async function BlogPostPage({ params }: Props) {
           </p>
           <Link
             href="/#contact"
-            className="mt-4 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+            className="btn-sweep mt-6 inline-flex items-center gap-2 rounded-sm bg-foreground px-6 py-3 text-sm font-medium text-background hover:text-primary-foreground"
           >
             Start a project
           </Link>
@@ -218,23 +227,34 @@ export default async function BlogPostPage({ params }: Props) {
         {related.length > 0 && (
           <div className="mt-16">
             <h2
-              className="text-xl font-bold"
-              style={{ fontFamily: "var(--font-syne)", fontWeight: 700 }}
+              className="text-2xl tracking-tight"
+              style={{
+                fontFamily: "var(--font-fraunces), Georgia, serif",
+                fontWeight: 600,
+              }}
             >
               Keep reading
             </h2>
-            <div className="mt-6 grid gap-4 sm:grid-cols-2">
+            <div className="mt-6 grid gap-5 sm:grid-cols-2">
               {related.map((p) => (
                 <Link
                   key={p.slug}
                   href={`/blog/${p.slug}`}
-                  className="group rounded-2xl border border-border bg-card p-5 transition-colors hover:bg-card/60"
+                  className="lift group rounded-sm border border-border bg-card p-5"
                 >
-                  <p className="text-xs text-blue-400">{p.category}</p>
-                  <p className="mt-2 font-medium leading-snug group-hover:text-blue-300">
+                  <p className="font-mono text-xs uppercase tracking-wide text-primary">
+                    {p.category}
+                  </p>
+                  <p
+                    className="mt-2 leading-snug tracking-tight transition-colors group-hover:text-primary"
+                    style={{
+                      fontFamily: "var(--font-fraunces), Georgia, serif",
+                      fontWeight: 600,
+                    }}
+                  >
                     {p.title}
                   </p>
-                  <p className="mt-2 line-clamp-2 text-sm text-muted-foreground">
+                  <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted-foreground">
                     {p.description}
                   </p>
                 </Link>

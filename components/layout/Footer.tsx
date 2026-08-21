@@ -25,11 +25,11 @@ export default function Footer() {
   ].filter((s) => s.href);
 
   return (
-    <footer className="border-t border-border/60 py-8">
+    <footer className="border-t border-border py-8">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-5 sm:flex-row">
-        <p className="text-sm text-muted-foreground">
+        <p className="font-mono text-xs tracking-wide text-muted-foreground">
           © {new Date().getFullYear()} {resume.name}. All rights reserved. ·
-          <Link href="/blog" className="transition-colors hover:text-foreground">
+          <Link href="/blog" className="transition-colors hover:text-primary">
             {" "}
             Blog
           </Link>
@@ -40,7 +40,7 @@ export default function Footer() {
             href={resume.socials.anarchylabs}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden text-xs transition-colors hover:text-foreground sm:inline-flex sm:items-center sm:gap-1"
+            className="hidden font-mono text-xs transition-colors hover:text-primary sm:inline-flex sm:items-center sm:gap-1"
           >
             Anarchy Labs
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-3 w-3" aria-hidden>
@@ -50,7 +50,7 @@ export default function Footer() {
           <a
             href={`mailto:${resume.email}`}
             aria-label="Email"
-            className="transition-colors hover:text-foreground"
+            className="transition-colors hover:text-primary"
           >
             <Mail className="h-4 w-4" />
           </a>
@@ -61,7 +61,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={label}
-              className="transition-colors hover:text-foreground"
+              className="transition-colors hover:text-primary"
             >
               <Icon className="h-4 w-4" />
             </a>

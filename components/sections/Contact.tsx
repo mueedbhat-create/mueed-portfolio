@@ -51,16 +51,22 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="border-t border-border/60 py-24">
+    <section id="contact" className="border-t border-border py-24">
       <div className="mx-auto grid max-w-6xl gap-12 px-5 md:grid-cols-2">
         <div>
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-primary">
+            Contact
+          </p>
           <h2
-            className="text-3xl font-bold tracking-tight sm:text-4xl"
-            style={{ fontFamily: "var(--font-syne)", fontWeight: 700 }}
+            className="mt-4 text-3xl leading-tight tracking-tight sm:text-5xl"
+            style={{
+              fontFamily: "var(--font-fraunces), Georgia, serif",
+              fontWeight: 560,
+            }}
           >
             Let&apos;s automate your <span className="text-gradient">next win.</span>
           </h2>
-          <p className="mt-4 text-muted-foreground">
+          <p className="mt-5 leading-relaxed text-muted-foreground">
             Want to automate a workflow or build an AI-assisted growth funnel? Tell me
             what&apos;s slowing you down — I&apos;ll help you design a system that scales.
           </p>
@@ -68,15 +74,15 @@ export default function Contact() {
           <div className="mt-8 space-y-3">
             <a
               href={`mailto:${resume.email}`}
-              className="flex items-center gap-3 text-muted-foreground transition-colors hover:text-foreground"
+              className="link-underline flex w-fit items-center gap-3 text-muted-foreground transition-colors hover:text-primary"
             >
-              <Send className="h-4 w-4 text-blue-400" /> {resume.email}
+              <Send className="h-4 w-4 text-primary" /> {resume.email}
             </a>
             <a
               href={`tel:${resume.phone.replace(/\s/g, "")}`}
-              className="flex items-center gap-3 text-muted-foreground transition-colors hover:text-foreground"
+              className="link-underline flex w-fit items-center gap-3 text-muted-foreground transition-colors hover:text-primary"
             >
-              <Phone className="h-4 w-4 text-blue-400" /> {resume.phone}
+              <Phone className="h-4 w-4 text-primary" /> {resume.phone}
             </a>
           </div>
         </div>
@@ -87,14 +93,14 @@ export default function Contact() {
               <Label htmlFor="name">Name</Label>
               <Input id="name" placeholder="Your name" {...register("name")} />
               {errors.name && (
-                <p className="text-xs text-red-400">{errors.name.message}</p>
+                <p className="text-xs text-destructive">{errors.name.message}</p>
               )}
             </div>
             <div className="space-y-2">
               <Label htmlFor="email">Email</Label>
               <Input id="email" type="email" placeholder="you@email.com" {...register("email")} />
               {errors.email && (
-                <p className="text-xs text-red-400">{errors.email.message}</p>
+                <p className="text-xs text-destructive">{errors.email.message}</p>
               )}
             </div>
           </div>
@@ -102,7 +108,7 @@ export default function Contact() {
             <Label htmlFor="subject">Subject</Label>
             <Input id="subject" placeholder="What's this about?" {...register("subject")} />
             {errors.subject && (
-              <p className="text-xs text-red-400">{errors.subject.message}</p>
+              <p className="text-xs text-destructive">{errors.subject.message}</p>
             )}
           </div>
           <div className="space-y-2">
@@ -114,7 +120,7 @@ export default function Contact() {
               {...register("message")}
             />
             {errors.message && (
-              <p className="text-xs text-red-400">{errors.message.message}</p>
+              <p className="text-xs text-destructive">{errors.message.message}</p>
             )}
           </div>
           <Button type="submit" disabled={pending} className="w-full sm:w-auto">
