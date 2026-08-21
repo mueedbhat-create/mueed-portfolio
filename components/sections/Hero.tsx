@@ -1,23 +1,10 @@
 import { ArrowDown } from "lucide-react";
 import { resume } from "@/data/resume";
-import { PixelTypewriter, PixelDesktop } from "@/components/icons/pixel";
 
 const strip = [
-  {
-    value: "03+",
-    label: "Years marketing & copy",
-    Icon: null,
-  },
-  {
-    value: "Human",
-    label: "Strategy, brand voice & judgment",
-    Icon: PixelTypewriter,
-  },
-  {
-    value: "Automated",
-    label: "Research, drafts & follow-up",
-    Icon: PixelDesktop,
-  },
+  { value: "03+", label: "Years marketing & copy" },
+  { value: "Human", label: "Strategy, brand voice & judgment" },
+  { value: "Automated", label: "Research, drafts & follow-up" },
 ];
 
 export default function Hero() {
@@ -114,31 +101,25 @@ export default function Hero() {
         </div>
 
         <div className="mt-20 grid border-y border-border sm:grid-cols-3 sm:divide-x sm:divide-border">
-          {strip.map((s) => {
-            const Icon = s.Icon;
-            return (
-              <div
-                key={s.label}
-                className="border-b border-border px-6 py-7 last:border-b-0 sm:border-b-0 sm:px-8 sm:first:pl-0"
+          {strip.map((s) => (
+            <div
+              key={s.label}
+              className="border-b border-border px-6 py-7 last:border-b-0 sm:border-b-0 sm:px-8 sm:first:pl-0"
+            >
+              <p
+                className="text-4xl tracking-tight sm:text-5xl"
+                style={{
+                  fontFamily: "var(--font-display), Georgia, serif",
+                  fontWeight: 400,
+                }}
               >
-                <p
-                  className="text-4xl tracking-tight sm:text-5xl"
-                  style={{
-                    fontFamily: "var(--font-display), Georgia, serif",
-                    fontWeight: 400,
-                  }}
-                >
-                  {s.value}
-                </p>
-                <p className="mt-3 flex items-center gap-2.5 font-mono text-xs uppercase tracking-[0.14em] text-muted-foreground">
-                  {Icon && (
-                    <Icon className="h-[18px] w-[22px] shrink-0 opacity-80" />
-                  )}
-                  {s.label}
-                </p>
-              </div>
-            );
-          })}
+                {s.value}
+              </p>
+              <p className="mt-3 font-mono text-xs uppercase tracking-[0.14em] text-muted-foreground">
+                {s.label}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
