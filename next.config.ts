@@ -34,12 +34,20 @@ const securityHeaders = [
   },
 ];
 
+const isPreviewDeployment =
+  process.env.VERCEL_ENV !== undefined && process.env.VERCEL_ENV !== "production";
+
 const nextConfig: NextConfig = {
   async headers() {
     return [
       {
         source: "/(.*)",
-        headers: securityHeaders,
+        headers: [
+          ...securityHeaders,
+          ...(isPreviewDeployment
+            ? [{ key: "X-Robots-Tag", value: "noindex, nofollow" }]
+            : []),
+        ],
       },
     ];
   },
