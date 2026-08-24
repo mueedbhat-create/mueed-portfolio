@@ -5,13 +5,20 @@
 ## Main sections
 
 - [About](https://www.mueednazir.site/#about): Mueed Nazir Bhat's background and what he does as an AI automation and performance marketing specialist.
-- [Services](https://www.mueednazir.site/#services): AI workflow automation, performance marketing, AI-assisted copy and content, AI strategy and consulting.
+- [Services](https://www.mueednazir.site/services): Dedicated service pages: AI workflow automation, performance marketing, AI-assisted copy and content, AI strategy and consulting.
 - [Projects](https://www.mueednazir.site/#projects): Selected work — campaign suites, content automation workflows, marketing funnels and editorial engines.
 - [Skills](https://www.mueednazir.site/#skills): Skills and expertise in AI & automation, performance marketing, writing & brand, media & production.
 - [Experience](https://www.mueednazir.site/#experience): AI Automation & Performance Marketing at Anarchy Labs (2025–present); previously Marketing Strategist & Copywriter at Sadat Paints & Plastics Pvt. Ltd. (Feb 2022 – Sep 2025) and freelance since Jan 2022.
 - [Blog](https://www.mueednazir.site/blog): Practical articles on AI marketing automation, AI copywriting, performance marketing and optimizing for AI search (GEO).
 - [FAQ](https://www.mueednazir.site/#faq): Answers on AI workflow automation, combining AI with performance marketing, tools used and how to get started.
 - [Contact](https://www.mueednazir.site/#contact): Contact Mueed Nazir Bhat at mueed.nazir@gmail.com.
+
+## Services
+
+- [AI Workflow Automation for Marketing Teams](https://www.mueednazir.site/services/ai-automation): Lead capture, automated follow-up, voice agents, content engines and reporting built with n8n, Zapier, Make and the OpenAI API.
+- [Performance Marketing Tuned to CTR, ROAS and Conversion](https://www.mueednazir.site/services/performance-marketing): Funnel planning, paid campaigns and analytics where budget follows measured results.
+- [AI-Assisted Copy & Content That Keeps Your Brand Voice](https://www.mueednazir.site/services/ai-copy-content): Ad copy, landing pages and SEO articles produced with AI speed and human editorial control.
+- [AI Strategy & Workflow Audits](https://www.mueednazir.site/services/ai-strategy): Workflow audits scored by payback speed, tool selection between n8n, Zapier, Make and custom builds, and a sequenced automation roadmap.
 
 ## Blog
 
@@ -20,6 +27,8 @@
 - [AI Copywriting in 2026: Where It Works, Where It Fails, and How to Keep Brand Voice](https://www.mueednazir.site/blog/ai-copywriting-where-it-works-2026): How to run an AI-assisted copy workflow that actually converts.
 - [How to Optimize Your Website for AI Search (GEO): A 2026 Playbook](https://www.mueednazir.site/blog/optimize-website-for-ai-search-geo-2026): Citable passages, brand mentions, freshness and schema for AI Overviews, ChatGPT and Perplexity.
 - [What Is AI Automation & Performance Marketing? (Definition & How It Works)](https://www.mueednazir.site/blog/what-is-ai-automation-performance-marketing): A plain-language definition of the role and how the two halves combine.
+- [RAG for Marketing: Grounding AI in Your Own Content (2026)](https://www.mueednazir.site/blog/rag-for-marketing-2026): How retrieval-augmented generation lets AI answer from your own documents.
+- [AI Agents vs Workflows: What Marketers Actually Need in 2026](https://www.mueednazir.site/blog/ai-agents-vs-workflows-marketing): When to build a fixed workflow and when an autonomous agent earns its keep.
 
 ## Key facts
 

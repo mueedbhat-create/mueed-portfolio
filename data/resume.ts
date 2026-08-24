@@ -45,24 +45,28 @@ export const resume = {
 
   services: [
     {
+      slug: "ai-automation",
       icon: "Workflow",
       title: "AI Workflow Automation",
       description:
         "End-to-end marketing automations with LLMs, n8n, Zapier and custom agents — from lead capture to follow-up.",
     },
     {
+      slug: "performance-marketing",
       icon: "Target",
       title: "Performance Marketing",
       description:
         "Funnels, paid campaigns and analytics tuned to metrics — CTRs, ROAS, and conversion where it counts.",
     },
     {
+      slug: "ai-copy-content",
       icon: "PenLine",
       title: "AI-Assisted Copy & Content",
       description:
         "Persuasive ad copy, landing pages and content, generated and optimised with AI and human editorial skill.",
     },
     {
+      slug: "ai-strategy",
       icon: "LineChart",
       title: "AI Strategy & Consulting",
       description:

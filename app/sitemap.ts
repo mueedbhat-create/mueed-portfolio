@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/site";
 import { resume } from "@/data/resume";
 import { posts } from "@/data/posts";
+import { services } from "@/data/services";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const images = resume.projects
@@ -16,6 +17,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
       images,
     },
+    {
+      url: `${SITE_URL}/services`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    ...services.map((s) => ({
+      url: `${SITE_URL}/services/${s.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
     {
       url: `${SITE_URL}/blog`,
       lastModified: new Date(),

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CalendarDays, Clock, ArrowLeft } from "lucide-react";
@@ -76,6 +77,7 @@ export default async function BlogPostPage({ params }: Props) {
       "@type": "Person",
       name: resume.name,
       url: `${SITE_URL}`,
+      image: `${SITE_URL}/mueed-nazir-bhat.jpg`,
       jobTitle: "AI Automation & Performance Marketing",
     },
     publisher: {
@@ -163,12 +165,13 @@ export default async function BlogPostPage({ params }: Props) {
         </p>
 
         <div className="mt-8 flex items-center gap-3 border-y border-border py-5">
-          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-muted font-mono text-sm text-muted-foreground">
-            {resume.name
-              .split(" ")
-              .map((n) => n[0])
-              .join("")}
-          </div>
+          <Image
+            src="/mueed-nazir-bhat.jpg"
+            alt={`Portrait of ${resume.name}`}
+            width={40}
+            height={40}
+            className="h-10 w-10 rounded-full border border-border object-cover"
+          />
           <div>
             <p className="text-sm font-medium">{resume.name}</p>
             <p className="mt-0.5 font-mono text-xs tracking-wide text-muted-foreground">

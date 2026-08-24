@@ -93,7 +93,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     "@type": "Person",
     name: resume.name,
     url: SITE_URL,
-    image: `${SITE_URL}/og-image.jpg`,
+    image: `${SITE_URL}/mueed-nazir-bhat.jpg`,
     jobTitle: "AI Automation & Performance Marketing Specialist",
     description: resume.tagline,
     email: "mailto:mueed.nazir@gmail.com",
@@ -148,6 +148,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         "@type": "Service",
         name: s.title,
         description: s.description,
+        url: `${SITE_URL}/services/${s.slug}`,
         provider: {
           "@type": "Person",
           name: resume.name,

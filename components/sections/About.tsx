@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { resume } from "@/data/resume";
 
 export default function About() {
@@ -21,6 +22,37 @@ export default function About() {
           {resume.about.map((p, i) => (
             <p key={i}>{p}</p>
           ))}
+        </div>
+
+        <div className="mt-10 flex max-w-xl flex-wrap items-center gap-6">
+          <Image
+            src="/mueed-nazir-bhat.jpg"
+            alt={`Portrait of ${resume.name}, AI automation and performance marketing specialist`}
+            width={144}
+            height={145}
+            className="h-36 w-36 rounded-sm border border-border object-cover"
+          />
+          <p className="flex-1 font-mono text-xs leading-relaxed tracking-wide text-muted-foreground">
+            {resume.name} · AI Automation &amp; Performance Marketing at{" "}
+            <a
+              href={resume.socials.anarchylabs}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-primary"
+            >
+              Anarchy Labs
+            </a>{" "}
+            · M.Com, Jamia Millia Islamia · Srinagar, India · Writing here
+            since 2022 ·{" "}
+            <a
+              href={resume.socials.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-primary"
+            >
+              LinkedIn
+            </a>
+          </p>
         </div>
 
         <div className="mt-14 max-w-xl border-y border-border py-8">
