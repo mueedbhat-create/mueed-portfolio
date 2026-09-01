@@ -1074,7 +1074,7 @@ export const posts: BlogPost[] = [
       "The difference between calling the OpenAI API directly and using n8n's built-in AI nodes. When each makes sense, with practical examples for marketing workflows.",
     intro:
       "If you are building AI automations in n8n, you will hit this choice: use the built-in AI nodes or call the OpenAI API directly with an HTTP request. Both work. They are not interchangeable. Here is how to pick.",
-    date: "2026-09-02",
+    date: "2026-07-05",
     keywords: [
       "n8n AI nodes vs OpenAI API",
       "n8n automation",
@@ -1212,7 +1212,7 @@ export const posts: BlogPost[] = [
       "A step-by-step framework for finding the highest-leverage places to add AI automation to your marketing workflow. Based on real client audits.",
     intro:
       "Most marketing teams know AI could help them. They do not know where to start. The answer is not to automate everything. It is to find the three or four tasks where AI saves the most time with the least risk. Here is the audit process I use with clients.",
-    date: "2026-09-03",
+    date: "2026-07-12",
     keywords: [
       "marketing workflow audit",
       "AI automation audit",
@@ -1313,7 +1313,7 @@ export const posts: BlogPost[] = [
       "A step-by-step guide to building your first AI-powered marketing automation in n8n. From zero to a working workflow in 30 minutes, no coding required.",
     intro:
       "n8n is a visual workflow automation tool. You connect nodes on a canvas, data flows between them, and things happen. Here is how to build your first AI marketing automation in 30 minutes, starting from nothing.",
-    date: "2026-09-04",
+    date: "2026-08-20",
     keywords: [
       "n8n tutorial beginners",
       "first n8n workflow",
@@ -1428,7 +1428,7 @@ export const posts: BlogPost[] = [
       "Five high-impact marketing tasks you can automate with AI tools right now. Each one takes under an hour to set up and saves hours every week.",
     intro:
       "AI automation is not about replacing your marketing team. It is about removing the tasks that eat time without adding value. These five are the fastest wins. Each one takes under an hour to set up and saves hours every week.",
-    date: "2026-09-05",
+    date: "2026-07-26",
     keywords: [
       "marketing tasks automate AI",
       "AI marketing automation quick wins",
@@ -1540,7 +1540,7 @@ export const posts: BlogPost[] = [
       "A deep dive into JobTailor: an open-source AI pipeline that scrapes 8+ job boards, tailors a resume per job using LLMs, compiles PDFs, and opens applications every morning at 7am.",
     intro:
       "JobTailor is an open-source tool I built to automate the most repetitive part of job hunting. It runs every morning, finds 15+ remote jobs, rewrites my resume for each one, and hands me a stack of tailored PDFs ready to submit. Here is how it works under the hood.",
-    date: "2026-09-06",
+    date: "2026-08-22",
     keywords: [
       "AI job application automation",
       "JobTailor open source",
@@ -1657,7 +1657,7 @@ export const posts: BlogPost[] = [
       "How the team at Anarchy Labs redesigned a luxury real estate website with Next.js, IDX Broker API integration, admin portal, and AI-friendly architecture.",
     intro:
       "Alif Realty is a luxury real estate brokerage. We redesigned their website from the ground up: a new homepage, about page with founder bios, editorial project grid, simplified contact form, IDX Broker integration for live listings, and an admin portal the client can manage themselves.",
-    date: "2026-09-07",
+    date: "2026-08-24",
     keywords: [
       "AI real estate marketing",
       "real estate website redesign",
@@ -1767,7 +1767,7 @@ export const posts: BlogPost[] = [
       "How Starboard uses QR-code scanning, multi-platform routing, and AI-drafted reviews to help Indian businesses collect more customer reviews with less friction.",
     intro:
       "Most businesses know reviews matter. Few have a system for collecting them. Starboard is a review collection platform that turns a QR code scan into a review on the right platform. Here is how it works and why it works.",
-    date: "2026-09-08",
+    date: "2026-08-27",
     keywords: [
       "QR code review collection",
       "AI customer reviews",
@@ -1866,7 +1866,7 @@ export const posts: BlogPost[] = [
       "An honest look at what AI is actually doing to marketing roles in 2026. What changes, what stays, and where the real opportunities are.",
     intro:
       "The question everyone asks: will AI replace marketers? After building AI automation for marketing teams and working with clients who use it daily, here is what I have seen. The short answer is no. The longer answer is more useful.",
-    date: "2026-09-09",
+    date: "2026-07-14",
     keywords: [
       "AI replace marketers",
       "AI marketing jobs 2026",
@@ -1966,7 +1966,7 @@ export const posts: BlogPost[] = [
       "What actually works with AI content, what does not, and the lessons I have learned building and publishing AI-assisted content for clients and my own site.",
     intro:
       "I have been building AI content workflows for clients and using them on my own site for about six months. Here is what I have learned. No hype, no doom. Just what works, what does not, and what I would do differently.",
-    date: "2026-09-10",
+    date: "2026-07-30",
     keywords: [
       "AI content honest review",
       "AI content what works",
