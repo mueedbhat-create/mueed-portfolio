@@ -8,6 +8,7 @@ import { resume } from "@/data/resume";
 const links = [
   { href: "#about", label: "About" },
   { href: "#services", label: "Services" },
+  { href: "/work", label: "Work" },
   { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
   { href: "/blog", label: "Blog" },

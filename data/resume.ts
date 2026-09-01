@@ -38,9 +38,9 @@ export const resume = {
   },
 
   about: [
-    "I combine a 3+ year marketing and copywriting background with a fast-growing focus on AI automation and performance marketing. I use LLMs, n8n, and workflow tools to automate the repetitive parts of marketing. The persuasive copy and brand voice that actually convert stay human.",
-    "Today I build the AI automation behind the growth work at Anarchy Labs — paid performance, SEO, and the workflows that keep both running without a person on them every day.",
-    "Landing pages, funnels, ads, and content workflows powered by AI mean teams spend less time on busywork. They spend more time on what moves the metrics.",
+    "I combine a 3+ year marketing and copywriting background with hands-on software development and AI automation. I build full-stack products, automate repetitive marketing with LLMs and n8n, and write the copy that actually converts.",
+    "As a developer at Anarchy Labs, I built Starboard — a review collection SaaS for Indian businesses with QR-based ratings, multi-platform routing and AI-drafted reviews. I also build automation pipelines, dashboards and internal tools with Python, TypeScript and Next.js.",
+    "Landing pages, funnels, SaaS products, and content workflows — built and shipped with AI where it accelerates, human skill where it matters.",
   ],
 
   services: [
@@ -76,13 +76,26 @@ export const resume = {
 
   projects: [
     {
+      title: "Starboard",
+      description:
+        "Customer review collection platform for Indian local businesses — QR-code scanning at counters, multi-platform routing to Google/Zomato/Practo/Justdial/TripAdvisor by business category, staff attribution with live leaderboards, AI-drafted reviews, and real-time analytics dashboard.",
+      tags: ["Next.js", "TypeScript", "QR Codes", "AI Reviews", "SaaS", "Payments"],
+      link: "https://getbetterreviews.online",
+      featured: true,
+    },
+    {
+      title: "JobTailor",
+      description:
+        "Full-stack AI job application automation pipeline — scrapes 8+ remote job sources, tailors LaTeX resumes per job using LLMs, compiles PDFs with Tectonic, and opens applications for human-in-the-loop submit. Includes a Next.js + FastAPI dashboard.",
+      tags: ["Python", "LLMs", "FastAPI", "Next.js", "Scrapling", "LaTeX"],
+      link: "https://github.com/mueedbhat-create/jobtailor",
+      featured: true,
+    },
+    {
       title: "AI-Assisted Campaign Suite",
       description:
         "Data-driven marketing strategy plus AI-assisted copy and targeting that lifted brand visibility by 35% and engagement by 28%.",
       tags: ["AI Strategy", "Copywriting", "Campaigns"],
-      image: "/projects/campaign-suite.svg",
-      imageAlt:
-        "Preview graphic of the AI-Assisted Campaign Suite showing a rising analytics chart and audience segments",
       featured: true,
     },
     {
@@ -90,27 +103,18 @@ export const resume = {
       description:
         "A workflow to research, generate and schedule SEO-optimised content with AI tools — keeping brand voice while cutting production time.",
       tags: ["n8n", "AI Tools", "SEO"],
-      image: "/projects/content-automation.svg",
-      imageAlt:
-        "Preview graphic of the Content Automation Workflow showing an n8n-style automation node graph",
     },
     {
       title: "Performance Marketing Funnel",
       description:
         "Funnels and ad copy optimised against CTR and conversion data — built on a foundation of market research and competitor analysis.",
       tags: ["Funnels", "Analytics", "Paid Ads"],
-      image: "/projects/marketing-funnel.svg",
-      imageAlt:
-        "Preview graphic of the Performance Marketing Funnel showing a conversion funnel with stage metrics",
     },
     {
       title: "AI-Assisted Editorial Engine",
       description:
         "Blogs, articles and promotional copy produced with AI-assisted research and editing, reducing revision cycles by 25%.",
       tags: ["AI Tools", "Editorial", "Research"],
-      image: "/projects/editorial-engine.svg",
-      imageAlt:
-        "Preview graphic of the AI-Assisted Editorial Engine showing an AI editor assembling published articles",
     },
   ],
 
@@ -127,6 +131,21 @@ export const resume = {
       "Python",
       "Zapier / Make",
       "Data Annotation",
+    ],
+    "Software Development": [
+      "Python",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "Next.js",
+      "FastAPI",
+      "React",
+      "REST APIs",
+      "Git & CI/CD",
+      "LaTeX",
+      "Scrapling / Web Scraping",
+      "PostgreSQL",
+      "Docker",
     ],
     "Performance Marketing": [
       "Funnels",
@@ -161,6 +180,12 @@ export const resume = {
     "Voice AI",
     "AI Agents",
     "Python",
+    "TypeScript",
+    "Next.js",
+    "FastAPI",
+    "Node.js",
+    "React",
+    "LaTeX",
     "Zapier",
     "Make",
     "SEO",
@@ -179,10 +204,11 @@ export const resume = {
   experience: [
     {
       company: "Anarchy Labs",
-      role: "AI Automation & Performance Marketing",
+      role: "Software Developer & AI Automation Specialist",
       period: "2025 – Present",
       link: "https://www.anarchylabs.in/team/mueed-nazir-bhat",
       points: [
+        "Built Starboard — a customer review collection SaaS for Indian businesses with QR-code scanning, multi-platform routing (Google, Zomato, Practo), staff leaderboards, AI-drafted reviews and real-time analytics.",
         "Builds AI automations — automated voice agents and chat flows for lead capture and follow-up, wired into real business workflows.",
         "Designs marketing automations on n8n, Zapier and Make — from lead capture and follow-up to content research, drafting and publishing.",
         "Builds LLM-powered automation workflows with the OpenAI API, using RAG and prompt engineering to turn client documents into working tools.",
@@ -203,7 +229,7 @@ export const resume = {
     },
     {
       company: "Freelance",
-      role: "Copywriter · Building AI Automations",
+      role: "Developer · Copywriter · Building AI Automations",
       period: "Jan 2022 – Present",
       points: [
         "Built custom AI automation workflows — n8n, prompt engineering and LLM API integrations — for client marketing tasks.",
