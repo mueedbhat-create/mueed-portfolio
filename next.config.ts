@@ -38,6 +38,20 @@ const isPreviewDeployment =
   process.env.VERCEL_ENV !== undefined && process.env.VERCEL_ENV !== "production";
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/work/:slug",
+        destination: "/projects/:slug",
+        permanent: true,
+      },
+      {
+        source: "/work",
+        destination: "/projects",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
