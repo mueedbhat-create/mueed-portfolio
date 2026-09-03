@@ -246,10 +246,10 @@ export const caseStudies: CaseStudy[] = [
 
         <h2>My role</h2>
         <p>
-          I was part of the team at Anarchy Labs that built this. I worked on
-          the homepage redesign, the projects grid, the contact form updates,
-          the WhatsApp button with its admin-configurable backend, and the
-          settings page with database migrations.
+          I was part of the team at Anarchy Labs that built this. My work
+          covered the frontend development across the site, from the homepage
+          and project pages to the contact form, admin portal, and third-party
+          API integrations.
         </p>
 
         <h2>Tech stack</h2>
