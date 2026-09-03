@@ -33,23 +33,21 @@ export const caseStudies: CaseStudy[] = [
       <>
         <h2>The problem</h2>
         <p>
-          Job hunting for AI automation and performance marketing roles means
-          trawling 8+ job boards, reading each description, rewriting your
-          resume to match, and repeating that for every application. Most people
-          either send the same generic resume everywhere or burn hours tailoring
-          by hand.
+          Job hunting means trawling multiple job boards, reading each
+          description, rewriting your resume to match, and repeating that for
+          every application. Most people either send the same generic resume
+          everywhere or spend hours tailoring by hand.
         </p>
 
         <h2>What it does</h2>
         <p>
-          JobTailor is a factory line with five stages. Each stage does one
-          thing and hands the result to the next:
+          JobTailor is a pipeline with five stages. Each stage does one thing
+          and hands the result to the next:
         </p>
         <ul>
           <li>
-            <strong>Find jobs</strong> — searches Adzuna, Wellfound, Glassdoor,
-            foundit, SimplyHired, DailyRemote, LinkedIn, and company career
-            pages. Everything is filtered to remote-only.
+            <strong>Find jobs</strong> — searches multiple job boards and
+            company career pages. Everything is filtered to remote-only.
           </li>
           <li>
             <strong>Read jobs</strong> — pulls the full job description and
@@ -57,25 +55,25 @@ export const caseStudies: CaseStudy[] = [
           </li>
           <li>
             <strong>Rewrite resume</strong> — an LLM adjusts a LaTeX resume
-            (Awesome-CV template) to highlight matching skills. Each version
-            lives on its own git branch. The original is never touched.
+            to highlight matching skills. Each version lives on its own git
+            branch. The original is never touched.
           </li>
           <li>
             <strong>Make PDF</strong> — compiles the rewritten LaTeX into a
-            ready-to-upload PDF using Tectonic.
+            ready-to-upload PDF.
           </li>
           <li>
-            <strong>Open applications</strong> — opens each job's application
-            page with the tailored PDF pre-attached. You review and click
-            Submit.
+            <strong>Open applications</strong> — opens each job&apos;s
+            application page with the tailored PDF pre-attached. You review
+            and click Submit.
           </li>
         </ul>
 
         <h2>The guardrail</h2>
         <p>
           The AI never invents skills or experience. It only rephrases,
-          reorders, and emphasises what is already on the resume. Nothing ships
-          that you couldn't defend in an interview.
+          reorders, and emphasises what is already on the resume. Nothing
+          ships that you could not defend in an interview.
         </p>
 
         <h2>Tech stack</h2>
@@ -86,20 +84,22 @@ export const caseStudies: CaseStudy[] = [
           <li>Tectonic for LaTeX to PDF compilation</li>
           <li>Next.js + FastAPI dashboard for monitoring runs</li>
           <li>ego-browser for application auto-fill</li>
-          <li>macOS LaunchAgent for 7am daily scheduling</li>
+          <li>macOS LaunchAgent for daily scheduling</li>
         </ul>
 
         <h2>Results</h2>
         <p>
-          End-to-end verified: 10 leads in, 2 job descriptions matched, 2
-          tailored PDFs out, 2 application pages opened. The pipeline runs
-          daily and hands me a stack of ready-to-submit applications every
-          morning.
+          The pipeline runs daily and produces a stack of tailored
+          applications every morning. What used to take hours of manual work
+          now takes minutes of review. Each resume is customised to the
+          specific job description, and the human reviews every application
+          before it goes out.
         </p>
 
         <p>
-          The project is open source. Anyone can install it, point it at their
-          own resume and job keywords, and run their own automated job search.
+          The project is open source. Anyone can install it, point it at
+          their own resume and job keywords, and run their own automated job
+          search.
         </p>
       </>
     ),
