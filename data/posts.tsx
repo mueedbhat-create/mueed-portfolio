@@ -1780,11 +1780,12 @@ export const posts: BlogPost[] = [
       <>
         <h2>The problem</h2>
         <p>
-          Indian local businesses know reviews matter. But asking customers to
-          leave them is awkward and manual. Staff forget. Customers do not know
-          which platform to use. A restaurant customer might post on Google
-          when the business needs Zomato reviews. A clinic patient might skip
-          the review entirely because they do not know Practo exists.
+          Local businesses in India understand that reviews drive foot traffic.
+          But collecting them is a manual process. Staff have other priorities.
+          Customers are unsure which platform to use. A restaurant customer
+          might post on Google when the business needs Zomato reviews. A
+          clinic patient might skip the review entirely because they do not
+          know Practo exists.
         </p>
 
         <h2>The solution</h2>
@@ -1792,15 +1793,15 @@ export const posts: BlogPost[] = [
         <h3>QR code at the counter</h3>
         <p>
           A printed QR code sits at the checkout counter or reception desk.
-          Customer scans it with their phone. No app download. No login
+          The customer scans it with their phone. No app download. No login
           required. The scan takes them directly to the review flow.
         </p>
 
         <h3>Multi-platform routing</h3>
         <p>
           The system detects the business category and routes the customer to
-          the right review platform. A restaurant goes to Zomato. A clinic goes
-          to Practo. A retail shop goes to Google or Justdial. A hotel goes to
+          the correct review platform. Restaurants go to Zomato. Clinics go
+          to Practo. Retail shops go to Google or Justdial. Hotels go to
           TripAdvisor. The business decides which platforms matter most, and
           the system handles the rest.
         </p>
@@ -1808,53 +1809,54 @@ export const posts: BlogPost[] = [
         <h3>Staff attribution and leaderboards</h3>
         <p>
           Each QR scan is tied to the staff member on shift. Live leaderboards
-          show who is generating the most reviews. This turns review collection
-          from a chore into a friendly competition. Staff start asking
-          customers to scan because they want to move up the board.
+          surface who is generating the most reviews. This makes collection a
+          measured activity rather than an afterthought. Staff drive scans
+          because they can see the results on the board.
         </p>
 
         <h3>AI-drafted reviews</h3>
         <p>
-          Some customers want to leave a review but do not know what to write.
-          The system generates a suggested review based on their rating and
+          Some customers want to leave a review but are unsure what to write.
+          The system generates a suggested draft based on their rating and
           business category. They can edit it or post as-is. The draft is
-          based on what the customer actually experienced, not generic filler.
+          grounded in their actual experience, not generic filler.
         </p>
 
         <h3>Real-time analytics</h3>
         <p>
           The dashboard shows reviews collected, platform breakdown, staff
-          performance, and trends over time. The business can see which staff
-          members drive the most reviews, which platforms get the most traffic,
-          and where the gaps are.
+          performance, and trends over time. The business can see which team
+          members drive the most reviews, which platforms get the most
+          traffic, and where the gaps are.
         </p>
 
         <h2>Why QR works better than verbal asks</h2>
         <p>
-          Asking a customer to "leave us a review" puts them on the spot. They
-          say yes and forget. A QR code is passive. The customer scans when
+          Asking a customer to leave a review puts them on the spot. They
+          agree and forget. A QR code is passive. The customer scans when
           they want to. The friction is lower: scan, tap, submit. The
-          conversion rate from scan to review is significantly higher than from
-          verbal ask to review.
+          conversion rate from scan to review is significantly higher than
+          from a verbal request to a review.
         </p>
 
         <h2>The AI angle</h2>
         <p>
-          The AI-drafted reviews are the multiplier. Without them, maybe 10% of
-          customers who scan actually write a review. With a suggested draft,
-          that number jumps. The customer reads the draft, edits one or two
-          sentences, and posts. The review is authentic because it is based on
-          their actual rating and visit. The AI just removes the blank-page
-          problem.
+          The AI-drafted reviews are the multiplier. Without them, a fraction
+          of customers who scan actually write a review. With a suggested
+          draft, that number increases. The customer reads the draft, edits
+          one or two sentences, and posts. The review is authentic because it
+          is based on their actual rating and visit. The AI removes the
+          blank-page problem.
         </p>
 
         <h2>Results</h2>
         <p>
-          Starboard is live at getbetterreviews.online and serving Indian local
-          businesses. The QR-to-review flow removes the friction from review
-          collection, and the leaderboard mechanic gives staff a reason to keep
-          pushing it. Businesses using the system report a steady increase in
-          review volume across all connected platforms.
+          Starboard is live at getbetterreviews.online and serving businesses
+          across India. The QR-to-review flow removes the friction from
+          review collection, and the leaderboard mechanic gives staff a
+          measurable reason to keep driving it. Businesses using the system
+          report a steady increase in review volume across all connected
+          platforms.
         </p>
       </>
     ),

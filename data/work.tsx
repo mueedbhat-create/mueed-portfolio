@@ -121,48 +121,50 @@ export const caseStudies: CaseStudy[] = [
       <>
         <h2>The problem</h2>
         <p>
-          Indian local businesses know reviews matter, but asking customers to
-          leave them is awkward and manual. Staff forget. Customers don't know
-          which platform to use. The result: few reviews, spread thin across
-          Google, Zomato, Practo, Justdial, and TripAdvisor.
+          Local businesses in India understand that reviews drive foot traffic,
+          but collecting them remains a manual process. Staff have other
+          priorities. Customers are unsure which platform to use. The result is
+          a low volume of reviews spread thin across Google, Zomato, Practo,
+          Justdial, and TripAdvisor.
         </p>
 
         <h2>What it does</h2>
         <ul>
           <li>
-            <strong>QR code at the counter</strong> — customers scan it with
+            <strong>QR code at the counter</strong> — customers scan with
             their phone. No app download, no login required.
           </li>
           <li>
             <strong>Multi-platform routing</strong> — the system detects the
-            business category and routes the customer to the right review
-            platform. A restaurant goes to Zomato. A clinic goes to Practo. A
-            shop goes to Google or Justdial.
+            business category and routes the customer to the correct review
+            platform. Restaurants go to Zomato. Clinics go to Practo. Retail
+            shops go to Google or Justdial.
           </li>
           <li>
             <strong>Staff attribution and leaderboards</strong> — each QR scan
-            is tied to the staff member on shift. Live leaderboards show who's
-            generating the most reviews, turning review collection into a
-            friendly competition.
+            is tied to the staff member on shift. Live leaderboards surface
+            who is generating the most reviews, turning collection into a
+            measurable activity.
           </li>
           <li>
             <strong>AI-drafted reviews</strong> — for customers who want to
-            leave a review but don't know what to write, the system generates a
-            suggested review based on their rating. They can edit or post as-is.
+            leave a review but are unsure what to write, the system generates
+            a suggested draft based on their rating. They can edit or post
+            as-is.
           </li>
           <li>
             <strong>Real-time analytics dashboard</strong> — track reviews
-            collected, platform breakdown, staff performance, and trends over
-            time.
+            collected, platform breakdown, staff performance, and trends
+            over time.
           </li>
         </ul>
 
         <h2>My role</h2>
         <p>
-          I built this as part of the engineering team at Anarchy Labs. I worked
-          on the full stack: Next.js frontend, TypeScript, QR code generation
-          and scanning logic, the multi-platform routing system, and the
-          analytics dashboard.
+          I worked on this as part of the engineering team at Anarchy Labs. My
+          work covered the full stack: Next.js frontend, TypeScript, QR code
+          generation and scanning logic, the multi-platform routing system,
+          and the analytics dashboard.
         </p>
 
         <h2>Tech stack</h2>
@@ -176,10 +178,10 @@ export const caseStudies: CaseStudy[] = [
 
         <h2>Results</h2>
         <p>
-          Starboard is live at getbetterreviews.online and serving Indian local
-          businesses. The QR-to-review flow removes the friction from review
-          collection, and the leaderboard mechanic gives staff a reason to keep
-          pushing it.
+          Starboard is live at getbetterreviews.online and serving businesses
+          across India. The QR-to-review flow removes the friction from
+          review collection, and the leaderboard mechanic gives staff a
+          measurable reason to keep driving it.
         </p>
       </>
     ),
