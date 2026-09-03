@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CalendarDays, Clock, ArrowLeft, ExternalLink } from "lucide-react";
-import { getCaseStudy, caseStudies } from "@/data/projects";
+import { getCaseStudy, caseStudies } from "@/data/work";
 import { resume } from "@/data/resume";
 import { SITE_URL } from "@/lib/site";
 

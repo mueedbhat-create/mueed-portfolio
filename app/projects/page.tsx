@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
-import { caseStudies } from "@/data/projects";
+import { caseStudies } from "@/data/work";
 import { SITE_TITLE } from "@/lib/site";
 
 export const metadata: Metadata = {
