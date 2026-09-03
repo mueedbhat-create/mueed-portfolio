@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
-import { caseStudies } from "@/data/work";
+import { caseStudies } from "@/data/projects";
 import { SITE_TITLE } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: `Work — ${SITE_TITLE}`,
   description:
     "Case studies from projects at Anarchy Labs and independent builds — AI automation, SaaS products, and luxury real estate websites.",
-  alternates: { canonical: "/work" },
+  alternates: { canonical: "/projects" },
   openGraph: {
     type: "website",
-    url: "/work",
+    url: "/projects",
     title: `Work — ${SITE_TITLE}`,
     description:
       "Case studies from projects at Anarchy Labs and independent builds.",
@@ -51,7 +51,7 @@ export default function WorkPage() {
 
       {featured && (
         <Link
-          href={`/work/${featured.slug}`}
+          href={`/projects/${featured.slug}`}
           className="lift group mt-14 block rounded-sm border border-border bg-card p-8"
         >
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-xs tracking-wide text-muted-foreground">
@@ -94,7 +94,7 @@ export default function WorkPage() {
         {rest.map((s) => (
           <Link
             key={s.slug}
-            href={`/work/${s.slug}`}
+            href={`/projects/${s.slug}`}
             className="lift group flex flex-col rounded-sm border border-border bg-card p-6"
           >
             <div className="flex items-center gap-3 font-mono text-xs tracking-wide text-muted-foreground">

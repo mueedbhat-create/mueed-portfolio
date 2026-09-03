@@ -37,13 +37,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     })),
     {
-      url: `${SITE_URL}/work`,
+      url: `${SITE_URL}/projects`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.9,
     },
     ...caseStudies.map((s) => ({
-      url: `${SITE_URL}/work/${s.slug}`,
+      url: `${SITE_URL}/projects/${s.slug}`,
       lastModified: new Date(s.date),
       changeFrequency: "monthly" as const,
       priority: 0.8,

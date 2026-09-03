@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CalendarDays, Clock, ArrowLeft, ExternalLink } from "lucide-react";
-import { getCaseStudy, caseStudies } from "@/data/work";
+import { getCaseStudy, caseStudies } from "@/data/projects";
 import { resume } from "@/data/resume";
 import { SITE_URL } from "@/lib/site";
 
@@ -23,10 +23,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${study.title} — Mueed Nazir Bhat`,
     description: study.description,
-    alternates: { canonical: `/work/${study.slug}` },
+    alternates: { canonical: `/projects/${study.slug}` },
     openGraph: {
       type: "article",
-      url: `${SITE_URL}/work/${study.slug}`,
+      url: `${SITE_URL}/projects/${study.slug}`,
       title: study.title,
       description: study.description,
       siteName: resume.name,
@@ -71,7 +71,7 @@ export default async function CaseStudyPage({ params }: Props) {
     keywords: study.tags.join(", "),
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `${SITE_URL}/work/${study.slug}`,
+      "@id": `${SITE_URL}/projects/${study.slug}`,
     },
     author: {
       "@type": "Person",
@@ -105,13 +105,13 @@ export default async function CaseStudyPage({ params }: Props) {
         "@type": "ListItem",
         position: 2,
         name: "Work",
-        item: `${SITE_URL}/work`,
+        item: `${SITE_URL}/projects`,
       },
       {
         "@type": "ListItem",
         position: 3,
         name: study.title,
-        item: `${SITE_URL}/work/${study.slug}`,
+        item: `${SITE_URL}/projects/${study.slug}`,
       },
     ],
   };
@@ -128,7 +128,7 @@ export default async function CaseStudyPage({ params }: Props) {
       />
       <article className="mx-auto max-w-3xl px-5 pt-28 pb-24">
         <Link
-          href="/work"
+          href="/projects"
           className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
         >
           <ArrowLeft className="h-4 w-4" /> All projects
@@ -266,7 +266,7 @@ export default async function CaseStudyPage({ params }: Props) {
               {related.map((s) => (
                 <Link
                   key={s.slug}
-                  href={`/work/${s.slug}`}
+                  href={`/projects/${s.slug}`}
                   className="lift group rounded-sm border border-border bg-card p-5"
                 >
                   <p className="font-mono text-xs uppercase tracking-wide text-muted-foreground">
