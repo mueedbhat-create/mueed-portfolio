@@ -257,6 +257,73 @@ export const caseStudies: CaseStudy[] = [
       </>
     ),
   },
+  {
+    slug: "oculon-product-marketing-strategy",
+    title: "Oculon: Product Marketing Strategy & Positioning Research",
+    description:
+      "Competitive analysis, segment selection, go-to-market positioning, and a 30-day launch plan for an AI-native finance platform.",
+    intro:
+      "Oculon is an AI-native system of work for finance. The assignment was to pick a segment, map the competitive set, develop a positioning strategy, and deliver a 30-day go-to-market plan. Everything had to be sourced from public data.",
+    date: "2026-09-07",
+    tags: ["Product Marketing", "Competitive Analysis", "Positioning", "Go-to-Market"],
+    role: "Solo project",
+    readingMinutes: 5,
+    featured: false,
+    content: (
+      <>
+        <h2>The brief</h2>
+        <p>
+          Oculon needed a product marketing strategy built from scratch. The
+          work covered segment selection, competitive mapping, positioning,
+          pricing analysis, distribution planning, homepage messaging, and a
+          30-day launch plan. Every recommendation had to be sourced from
+          public data — the website, pricing page, launch post, job ads, and
+          about forty public sources on companies that tried this before.
+        </p>
+
+        <h2>The problem</h2>
+        <p>
+          The company website called Oculon four different things across four
+          pages. A buyer who reads two of them does not know what the product
+          does. The first job was to fix that before building anything on top
+          of it.
+        </p>
+
+        <h2>What I delivered</h2>
+        <p>
+          A complete positioning deck covering segment analysis, competitive
+          mapping, go-to-market messaging, pricing review, distribution
+          strategy, and a detailed 30-day launch plan with built-in kill
+          criteria. The segment analysis identified the right buyer and
+          documented two rejected segments with reasoning for each. The
+          competitive map ranked competitors by real threat over twelve months.
+          The positioning work resulted in a specific day-one messaging
+          strategy and a proposed homepage headline focused on the job the
+          product does, not the category it belongs to.
+        </p>
+
+        <h2>The approach</h2>
+        <p>
+          I started with what the company already said about itself. Four
+          contradictory descriptions on four pages became the opening slide —
+          not as criticism, but as proof that the positioning work had not
+          been done yet. Every recommendation was backed by a source, every
+          number was either linked on the slide it appeared on or tagged as an
+          assumption. Six claims were removed during the process because they
+          could not be supported.
+        </p>
+
+        <h2>What it shows</h2>
+        <p>
+          This is the kind of work that sits between research and strategy.
+          It is not design. It is not code. It is reading everything, mapping
+          the landscape, making a call, and being specific enough about what
+          would prove the call wrong that the team can act on it without
+          waiting for more research.
+        </p>
+      </>
+    ),
+  },
 ];
 
 export function getCaseStudy(slug: string): CaseStudy | undefined {
