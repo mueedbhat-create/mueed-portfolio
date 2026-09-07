@@ -209,40 +209,26 @@ export const caseStudies: CaseStudy[] = [
         </p>
 
         <h2>What we built</h2>
-        <ul>
-          <li>
-            <strong>Homepage</strong> — brokerage and development split section
-            with a pull quote, streamlined CTA, and animated stats counter on
-            scroll.
-          </li>
-          <li>
-            <strong>About page</strong> — redesigned team section with compact
-            founder portraits and a hover "View Bio" overlay showing specialty,
-            markets, and focus. Real founder bios replaced placeholders.
-          </li>
-          <li>
-            <strong>Projects page</strong> — replaced the full-bleed alternating
-            layout with a seamless editorial grid. Uniform cards with image,
-            gradient overlay, and project details.
-          </li>
-          <li>
-            <strong>Contact form</strong> — simplified to name, email, phone,
-            and an optional message. Name, email, and phone are required.
-          </li>
-          <li>
-            <strong>WhatsApp button</strong> — floating button with the Alif
-            logo. Number is configurable from the admin portal, not hardcoded.
-          </li>
-          <li>
-            <strong>IDX Broker integration</strong> — live property listings
-            fetched via IDX Broker API, rendered in Alif branding.
-          </li>
-          <li>
-            <strong>Admin portal</strong> — settings page where the client can
-            configure the WhatsApp number. Protected with auth. Database-backed
-            with a new site_settings table.
-          </li>
-        </ul>
+        <p>
+          A full-stack website for a luxury real estate brokerage — redesigned
+          from the ground up to match the Alif brand and give the client full
+          control over their content.
+        </p>
+        <p>
+          The homepage introduces both the brokerage and development arms with
+          a clean editorial layout, animated metrics, and clear conversion
+          paths. The about page showcases the team with interactive profiles.
+          The projects section presents the portfolio in a structured grid that
+          adapts across devices.
+        </p>
+        <p>
+          On the backend, we integrated live property listings through IDX
+          Broker, built an admin portal where the client can manage site
+          settings without touching code, and simplified the contact flow to
+          reduce friction on inbound leads. The entire stack is built on
+          Next.js with TypeScript, backed by PostgreSQL, and deployed on
+          Netlify.
+        </p>
 
         <h2>My role</h2>
         <p>

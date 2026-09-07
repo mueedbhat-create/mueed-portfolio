@@ -167,7 +167,16 @@ export const posts: BlogPost[] = [
         </ul>
         <p>
           The compounding effect is that your team stops doing the work a
-          machine can do and starts doing the work only a person can.
+          machine can do and starts doing the work only a person can. If you
+          are deciding between platforms, I compared{" "}
+          <Link href="/blog/n8n-vs-zapier-vs-make-marketing">
+            n8n, Zapier and Make
+          </Link>{" "}
+          side by side. For a hands-on start, see my{" "}
+          <Link href="/blog/n8n-beginners-first-ai-automation-30-minutes-2026">
+            n8n beginner tutorial
+          </Link>
+          .
         </p>
 
         <h2>Where AI automation still needs humans</h2>
@@ -183,7 +192,7 @@ export const posts: BlogPost[] = [
           <a href="https://www.anarchylabs.in/team/mueed-nazir-bhat">
             Anarchy Labs
           </a>
-          . <Link href="/#services">See the services</Link> or{" "}
+          . <Link href="/services/ai-automation">See AI automation services</Link> or{" "}
           <Link href="/#contact">start a workflow audit</Link>.
         </p>
       </>
@@ -320,8 +329,21 @@ export const posts: BlogPost[] = [
         <p>
           Start with the simplest tool that solves the problem. If AI and data
           control matter to you, and in 2026 they should, that answer
-          increasingly is n8n. Need help deciding or building it?{" "}
-          <Link href="/#services">I build marketing automations</Link> on all three,{" "}
+          increasingly is n8n. For a hands-on start, see my{" "}
+          <Link href="/blog/n8n-beginners-first-ai-automation-30-minutes-2026">
+            n8n beginner tutorial
+          </Link>
+          . If you need to ground AI in your own data, read about{" "}
+          <Link href="/blog/rag-for-marketing-2026">
+            RAG for marketing
+          </Link>
+          . And if you are deciding between n8n AI nodes and the raw API, I
+          compared them{" "}
+          <Link href="/blog/openai-api-vs-n8n-ai-nodes-2026">
+            here
+          </Link>
+          . Need help deciding or building it?{" "}
+          <Link href="/services/performance-marketing">I build marketing automations</Link> on all three,{" "}
           <Link href="/#contact">and I can map your first workflow for free</Link>.
         </p>
       </>
@@ -451,7 +473,15 @@ export const posts: BlogPost[] = [
           <a href="https://www.anarchylabs.in/team/mueed-nazir-bhat">
             AI-assisted copy and content at Anarchy Labs
           </a>
-          . <Link href="/#services">See how it works</Link> or{" "}
+          . I wrote more about this approach in my{" "}
+          <Link href="/blog/ai-editorial-engine-revision-cycles-2026">
+            editorial engine case study
+          </Link>{" "}
+          and in{" "}
+          <Link href="/blog/honest-truth-ai-content-six-months-2026">
+            honest truth about AI content
+          </Link>
+          . <Link href="/services/ai-copy-content">See copy and content services</Link> or{" "}
           <Link href="/#contact">start a project</Link>.
         </p>
       </>
@@ -591,7 +621,15 @@ export const posts: BlogPost[] = [
           <a href="https://www.anarchylabs.in/team/mueed-nazir-bhat">
             Anarchy Labs
           </a>
-          . <Link href="/#services">See the services</Link> or{" "}
+          . For more on what AI content actually achieves, see my{" "}
+          <Link href="/blog/honest-truth-ai-content-six-months-2026">
+            honest truth about AI content
+          </Link>{" "}
+          and{" "}
+          <Link href="/blog/will-ai-replace-marketers-what-changes-2026">
+            will AI replace marketers
+          </Link>
+          . <Link href="/services/ai-strategy">See AI strategy services</Link> or{" "}
           <Link href="/#contact">book a GEO audit</Link>.
         </p>
       </>
@@ -676,11 +714,20 @@ export const posts: BlogPost[] = [
         <p>
           Start with a workflow audit. I review the repetitive tasks eating
           your team&apos;s time, pick the automations with the biggest payoff,
-          and build a roadmap. You can read about my approach on my{" "}
+          and build a roadmap. I wrote a step-by-step guide on{" "}
+          <Link href="/blog/audit-marketing-workflow-ai-automation-2026">
+            how to audit your marketing workflow
+          </Link>
+          , and a broader{" "}
+          <Link href="/blog/ai-marketing-automation-guide-2026">
+            AI marketing automation guide
+          </Link>{" "}
+          if you are starting from scratch. You can read about my approach on
+          my{" "}
           <a href="https://www.anarchylabs.in/team/mueed-nazir-bhat">
             Anarchy Labs profile
           </a>
-          , see the <Link href="/#services">services I offer</Link>, or{" "}
+          , see the <Link href="/services/ai-automation">services I offer</Link>, or{" "}
           <Link href="/#contact">contact me</Link> to start.
         </p>
       </>
@@ -830,7 +877,15 @@ export const posts: BlogPost[] = [
           <a href="https://www.anarchylabs.in/team/mueed-nazir-bhat">
             Anarchy Labs
           </a>
-          . <Link href="/#services">See the services</Link> or{" "}
+          . I compared{" "}
+          <Link href="/blog/n8n-vs-zapier-vs-make-marketing">
+            n8n, Zapier and Make
+          </Link>{" "}
+          for building these pipelines, and my{" "}
+          <Link href="/blog/ai-marketing-automation-guide-2026">
+            AI marketing automation guide
+          </Link>{" "}
+          covers the broader picture. <Link href="/services/ai-automation">See AI automation services</Link> or{" "}
           <Link href="/#contact">start a workflow audit</Link>.
         </p>
       </>
@@ -979,7 +1034,16 @@ export const posts: BlogPost[] = [
           <a href="https://www.anarchylabs.in/team/mueed-nazir-bhat">
             Anarchy Labs
           </a>
-          . <Link href="/#services">See the services</Link> or{" "}
+          . I wrote a step-by-step{" "}
+          <Link href="/blog/audit-marketing-workflow-ai-automation-2026">
+            marketing workflow audit
+          </Link>{" "}
+          you can follow, and a{" "}
+          <Link href="/blog/n8n-vs-zapier-vs-make-marketing">
+            comparison of n8n, Zapier and Make
+          </Link>{" "}
+          for the platforms that run these automations.{" "}
+          <Link href="/services/ai-automation">See AI automation services</Link> or{" "}
           <Link href="/#contact">start a workflow audit</Link>.
         </p>
       </>
@@ -1058,12 +1122,21 @@ export const posts: BlogPost[] = [
           problems or fact-free copy. Fewer passes, better output.
         </p>
 
-        <h2>What didn&apos;t work</h2>
-        <p>
-          AI-only pipelines. Drafts without a human editor read generic and lose
-          brand voice. The editor is non-negotiable. The model is the junior
-          writer. The human is the senior.
-        </p>
+          <h2>What didn&apos;t work</h2>
+          <p>
+            AI-only pipelines. Drafts without a human editor read generic and lose
+            brand voice. The editor is non-negotiable. The model is the junior
+            writer. The human is the senior. I explored this further in my{" "}
+            <Link href="/blog/ai-copywriting-where-it-works-2026">
+              AI copywriting breakdown
+            </Link>{" "}
+            and in{" "}
+            <Link href="/blog/honest-truth-ai-content-six-months-2026">
+              honest truth about AI content
+            </Link>
+            .{" "}
+            <Link href="/services/ai-copy-content">See copy and content services</Link>.
+          </p>
       </>
     ),
   },
@@ -1191,7 +1264,16 @@ export const posts: BlogPost[] = [
           The rule of thumb: start with the AI nodes. Switch to the HTTP
           Request only when you hit a limitation. You will know when you hit it.
           The AI node will not give you the output format you need, or it will
-          not support the model you want to use.
+          not support the model you want to use. For a broader comparison of
+          automation platforms, see my{" "}
+          <Link href="/blog/n8n-vs-zapier-vs-make-marketing">
+            n8n vs Zapier vs Make
+          </Link>{" "}
+          breakdown. If you are just getting started, my{" "}
+          <Link href="/blog/n8n-beginners-first-ai-automation-30-minutes-2026">
+            n8n beginner tutorial
+          </Link>{" "}
+          walks through building your first workflow.
         </p>
 
         <h2>One gotcha</h2>
@@ -1300,8 +1382,17 @@ export const posts: BlogPost[] = [
           generate all our social content, create all our ad copy. These are
           high-risk, medium-reward automations. The boring tasks: formatting,
           data pulling, follow-up emails, reporting. Those are where the real
-          time savings live. Automate the boring stuff first. Use the saved
-          hours for the creative work that actually moves the metrics.
+          time savings live. I listed{" "}
+          <Link href="/blog/5-marketing-tasks-automate-ai-this-week-2026">
+            5 quick-win tasks
+          </Link>{" "}
+          you can automate this week. And if you are deciding whether a task
+          needs a workflow or an agent, see my{" "}
+          <Link href="/blog/ai-agents-vs-workflows-marketing">
+            AI agents vs workflows
+          </Link>{" "}
+          comparison. Automate the boring stuff first. Use the saved hours for
+          the creative work that actually moves the metrics.
         </p>
       </>
     ),
@@ -1410,14 +1501,23 @@ export const posts: BlogPost[] = [
           New blog post goes live overnight, captions are ready by breakfast.
         </p>
 
-        <h2>What to build next</h2>
-        <p>
-          Once this workflow runs, you have the foundation. From here you can
-          add branches (different prompts for different platforms), error
-          handling (retry on API failures), or notifications (send the
-          captions to Slack for review before posting). Each addition follows
-          the same pattern: add a node, connect it, test it.
-        </p>
+          <h2>What to build next</h2>
+          <p>
+            Once this workflow runs, you have the foundation. From here you can
+            add branches (different prompts for different platforms), error
+            handling (retry on API failures), or notifications (send the
+            captions to Slack for review before posting). Each addition follows
+            the same pattern: add a node, connect it, test it. For a broader
+            comparison of automation platforms, see my{" "}
+            <Link href="/blog/n8n-vs-zapier-vs-make-marketing">
+              n8n vs Zapier vs Make
+            </Link>{" "}
+            breakdown. And for more quick wins, I listed{" "}
+            <Link href="/blog/5-marketing-tasks-automate-ai-this-week-2026">
+              5 marketing tasks
+            </Link>{" "}
+            you can automate this week.
+          </p>
       </>
     ),
   },
@@ -1523,13 +1623,23 @@ export const posts: BlogPost[] = [
           <strong>Time saved:</strong> 1 to 2 hours per week.
         </p>
 
-        <h2>The pattern</h2>
-        <p>
-          Every automation on this list follows the same structure: trigger,
-          AI, output. Trigger: something happens (form submission, schedule,
-          URL change). AI: process the data. Output: email, sheet, dashboard,
-          post. Start with one. Get it working. Then add the next.
-        </p>
+          <h2>The pattern</h2>
+          <p>
+            Every automation on this list follows the same structure: trigger,
+            AI, output. Trigger: something happens (form submission, schedule,
+            URL change). AI: process the data. Output: email, sheet, dashboard,
+            post. Start with one. Get it working. Then add the next. For a
+            step-by-step walkthrough, see my{" "}
+            <Link href="/blog/n8n-beginners-first-ai-automation-30-minutes-2026">
+              n8n beginner tutorial
+            </Link>
+            . And for a structured approach to finding more opportunities, read
+            my{" "}
+            <Link href="/blog/audit-marketing-workflow-ai-automation-2026">
+              marketing workflow audit
+            </Link>
+            .
+          </p>
       </>
     ),
   },
@@ -1645,7 +1755,16 @@ export const posts: BlogPost[] = [
         <p>
           The project is open source at github.com/mueedbhat-create/jobtailor.
           Anyone can install it, point it at their own resume and keywords, and
-          run their own automated job search.
+          run their own automated job search. For more on AI automation in
+          marketing, see my{" "}
+          <Link href="/blog/ai-marketing-automation-guide-2026">
+            AI marketing automation guide
+          </Link>{" "}
+          and my{" "}
+          <Link href="/blog/n8n-beginners-first-ai-automation-30-minutes-2026">
+            n8n beginner tutorial
+          </Link>
+          .
         </p>
       </>
     ),
@@ -1678,34 +1797,18 @@ export const posts: BlogPost[] = [
 
         <h2>What we built</h2>
 
-        <h3>Homepage</h3>
         <p>
-          A brokerage and development split section with a pull quote, streamlined
-          CTA, and animated stats counter that loads as the user scrolls. The old
-          hero video was replaced with a custom design matching the Alif color
-          palette.
+          A full-stack website for a luxury real estate brokerage — redesigned
+          from the ground up to match the Alif brand and give the client full
+          control over their content.
         </p>
 
-        <h3>About page</h3>
         <p>
-          Redesigned team section with a new TeamCard component. Compact 4:5
-          founder portraits with a hover overlay showing bio, specialty,
-          markets, and focus. Real founder bios replaced the "Bio coming soon"
-          placeholders.
-        </p>
-
-        <h3>Projects page</h3>
-        <p>
-          Replaced the full-bleed alternating layout with a seamless editorial
-          grid. Uniform cards with image, gradient overlay, and project
-          details. Single column on mobile.
-        </p>
-
-        <h3>Contact form</h3>
-        <p>
-          Simplified to name, email, phone, and an optional message. Name,
-          email, and phone are required. The old form had an inquiry type
-          selector that confused most visitors.
+          The homepage introduces both the brokerage and development arms with
+          a clean editorial layout, animated metrics, and clear conversion
+          paths. The about page showcases the team with interactive profiles.
+          The projects section presents the portfolio in a structured grid that
+          adapts across devices.
         </p>
 
         <h3>IDX Broker integration</h3>
@@ -1717,10 +1820,10 @@ export const posts: BlogPost[] = [
 
         <h3>Admin portal</h3>
         <p>
-          A Settings page where the client can configure the WhatsApp button
-          number without touching code. Protected with authentication.
-          Database-backed with a new site_settings table. No more hardcoding
-          business numbers in the source code.
+          A settings page where the client can manage site configuration
+          without touching code. Protected with authentication and backed by
+          PostgreSQL. The client controls their own content and business
+          settings.
         </p>
 
         <h2>My role</h2>
@@ -1731,15 +1834,21 @@ export const posts: BlogPost[] = [
           with database migrations.
         </p>
 
-        <h2>The AI angle</h2>
-        <p>
-          Real estate marketing is moving toward AI-driven property matching,
-          chatbots for lead qualification, and automated listing descriptions.
-          The IDX integration we built is the foundation for that. The next
-          step is connecting an AI layer that can answer "Show me 3-bedroom
-          apartments under 500K near downtown" and return filtered IDX results.
-          The website is the front door. The AI is the concierge.
-        </p>
+          <h2>The AI angle</h2>
+          <p>
+            Real estate marketing is moving toward AI-driven property matching,
+            chatbots for lead qualification, and automated listing descriptions.
+            The IDX integration we built is the foundation for that. The next
+            step is connecting an AI layer that can answer "Show me 3-bedroom
+            apartments under 500K near downtown" and return filtered IDX results.
+            The website is the front door. The AI is the concierge. For more on
+            optimizing for AI search, see my{" "}
+            <Link href="/blog/optimize-website-for-ai-search-geo-2026">
+              GEO playbook
+            </Link>
+            . The full case study is at{" "}
+            <Link href="/projects/alif-realty">Alif Realty project</Link>.
+          </p>
 
         <h2>Tech stack</h2>
         <ul>
@@ -1849,15 +1958,23 @@ export const posts: BlogPost[] = [
           blank-page problem.
         </p>
 
-        <h2>Results</h2>
-        <p>
-          Starboard is live at getbetterreviews.online and serving businesses
-          across India. The QR-to-review flow removes the friction from
-          review collection, and the leaderboard mechanic gives staff a
-          measurable reason to keep driving it. Businesses using the system
-          report a steady increase in review volume across all connected
-          platforms.
-        </p>
+          <h2>Results</h2>
+          <p>
+            Starboard is live at getbetterreviews.online and serving businesses
+            across India. The QR-to-review flow removes the friction from
+            review collection, and the leaderboard mechanic gives staff a
+            measurable reason to keep driving it. Businesses using the system
+            report a steady increase in review volume across all connected
+            platforms. For more on AI automation in marketing, see my{" "}
+            <Link href="/blog/what-is-ai-automation-performance-marketing">
+              definition of AI automation and performance marketing
+            </Link>{" "}
+            and my{" "}
+            <Link href="/blog/n8n-vs-zapier-vs-make-marketing">
+              n8n vs Zapier vs Make
+            </Link>{" "}
+            comparison.
+          </p>
       </>
     ),
   },
@@ -1950,14 +2067,24 @@ export const posts: BlogPost[] = [
           </li>
         </ul>
 
-        <h2>What to do about it</h2>
-        <p>
-          Learn to work with AI, not against it. The marketer who can build an
-          AI workflow, write a brand voice prompt, and validate AI output
-          against real metrics is worth more than the marketer who can only
-          write copy or only pull reports. The skill is not AI. The skill is
-          marketing judgment applied to AI output.
-        </p>
+          <h2>What to do about it</h2>
+          <p>
+            Learn to work with AI, not against it. The marketer who can build an
+            AI workflow, write a brand voice prompt, and validate AI output
+            against real metrics is worth more than the marketer who can only
+            write copy or only pull reports. The skill is not AI. The skill is
+            marketing judgment applied to AI output. I shared more lessons in
+            my{" "}
+            <Link href="/blog/honest-truth-ai-content-six-months-2026">
+              honest truth about AI content
+            </Link>{" "}
+            and a{" "}
+            <Link href="/blog/what-is-ai-automation-performance-marketing">
+              definition of AI automation and performance marketing
+            </Link>
+            .{" "}
+            <Link href="/services/ai-strategy">See AI strategy services</Link>.
+          </p>
       </>
     ),
   },
@@ -2076,12 +2203,22 @@ export const posts: BlogPost[] = [
           </li>
         </ul>
 
-        <h2>The bottom line</h2>
-        <p>
-          AI content works when a human is in control. It does not work when
-          the human steps away. The tool is the junior writer. The human is
-          the senior. That is the honest truth after six months.
-        </p>
+          <h2>The bottom line</h2>
+          <p>
+            AI content works when a human is in control. It does not work when
+            the human steps away. The tool is the junior writer. The human is
+            the senior. That is the honest truth after six months. For a
+            practical example, see my{" "}
+            <Link href="/blog/ai-editorial-engine-revision-cycles-2026">
+              editorial engine case study
+            </Link>
+            . And for where AI copy specifically works and fails, read my{" "}
+            <Link href="/blog/ai-copywriting-where-it-works-2026">
+              AI copywriting breakdown
+            </Link>
+            .{" "}
+            <Link href="/services/ai-copy-content">See copy and content services</Link>.
+          </p>
       </>
     ),
   },
