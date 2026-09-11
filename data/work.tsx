@@ -46,24 +46,24 @@ export const caseStudies: CaseStudy[] = [
         </p>
         <ul>
           <li>
-            <strong>Find jobs</strong> — searches multiple job boards and
+            <strong>Find jobs:</strong> searches multiple job boards and
             company career pages. Everything is filtered to remote-only.
           </li>
           <li>
-            <strong>Read jobs</strong> — pulls the full job description and
+            <strong>Read jobs:</strong> pulls the full job description and
             extracts the skills and requirements the employer wants.
           </li>
           <li>
-            <strong>Rewrite resume</strong> — an LLM adjusts a LaTeX resume
+            <strong>Rewrite resume:</strong> an LLM adjusts a LaTeX resume
             to highlight matching skills. Each version lives on its own git
             branch. The original is never touched.
           </li>
           <li>
-            <strong>Make PDF</strong> — compiles the rewritten LaTeX into a
+            <strong>Make PDF:</strong> compiles the rewritten LaTeX into a
             ready-to-upload PDF.
           </li>
           <li>
-            <strong>Open applications</strong> — opens each job&apos;s
+            <strong>Open applications:</strong> opens each job&apos;s
             application page with the tailored PDF pre-attached. You review
             and click Submit.
           </li>
@@ -131,29 +131,29 @@ export const caseStudies: CaseStudy[] = [
         <h2>What it does</h2>
         <ul>
           <li>
-            <strong>QR code at the counter</strong> — customers scan with
+            <strong>QR code at the counter:</strong> customers scan with
             their phone. No app download, no login required.
           </li>
           <li>
-            <strong>Multi-platform routing</strong> — the system detects the
+            <strong>Multi-platform routing:</strong> the system detects the
             business category and routes the customer to the correct review
             platform. Restaurants go to Zomato. Clinics go to Practo. Retail
             shops go to Google or Justdial.
           </li>
           <li>
-            <strong>Staff attribution and leaderboards</strong> — each QR scan
+            <strong>Staff attribution and leaderboards:</strong> each QR scan
             is tied to the staff member on shift. Live leaderboards surface
             who is generating the most reviews, turning collection into a
             measurable activity.
           </li>
           <li>
-            <strong>AI-drafted reviews</strong> — for customers who want to
+            <strong>AI-drafted reviews:</strong> for customers who want to
             leave a review but are unsure what to write, the system generates
             a suggested draft based on their rating. They can edit or post
             as-is.
           </li>
           <li>
-            <strong>Real-time analytics dashboard</strong> — track reviews
+            <strong>Real-time analytics dashboard:</strong> track reviews
             collected, platform breakdown, staff performance, and trends
             over time.
           </li>
@@ -190,7 +190,7 @@ export const caseStudies: CaseStudy[] = [
     slug: "alif-realty",
     title: "Alif Realty: Luxury Real Estate Website Redesign",
     description:
-      "A full website redesign for a luxury real estate brokerage — Next.js, IDX Broker API integration, admin portal with configurable settings, WhatsApp button, and redesigned About, Projects, Home, and Contact pages.",
+      "A full website redesign for a luxury real estate brokerage: Next.js, IDX Broker API integration, admin portal with configurable settings, WhatsApp button, and redesigned About, Projects, Home, and Contact pages.",
     intro:
       "Alif Realty is a luxury real estate brokerage. I was part of the team that redesigned their website from the ground up: a new homepage, about page with founder bios, editorial project grid, simplified contact form, IDX Broker integration for live listings, and an admin portal the client can manage themselves.",
     date: "2026-08-13",
@@ -210,7 +210,7 @@ export const caseStudies: CaseStudy[] = [
 
         <h2>What we built</h2>
         <p>
-          A full-stack website for a luxury real estate brokerage — redesigned
+          A full-stack website for a luxury real estate brokerage, redesigned
           from the ground up to match the Alif brand and give the client full
           control over their content.
         </p>
