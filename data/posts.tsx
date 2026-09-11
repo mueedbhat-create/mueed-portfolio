@@ -19,11 +19,11 @@ export type BlogPost = {
 export const posts: BlogPost[] = [
   {
     slug: "ai-marketing-automation-guide-2026",
-    title: "AI Marketing Automation: A Practical Guide for Small Teams (2026)",
+    title: "AI marketing automation: a practical guide for small teams (2026)",
     description:
       "What to automate first, which tools to use, and how to build AI marketing workflows with n8n, Zapier and Make. A practical 2026 guide for small teams.",
     intro:
-      "AI marketing automation is the use of AI tools, like large language models and workflow platforms such as n8n, Zapier and Make, to run repetitive marketing tasks without a person doing them by hand. It covers lead capture, follow-up, content research, drafting, publishing and reporting. A typical workflow triggers on an event, transforms data with AI, and hands the result to the next step: a lead fills a form, an AI drafts a personalized reply, and a sequence schedules follow-ups until the lead replies or converts. Teams use it to respond to leads in minutes instead of days, ship content faster, and cut manual hours. The best automations feel invisible: the same work gets done faster, with fewer errors and nothing dropped. It does not replace strategy or brand voice. It removes the busywork, so marketers can spend their time on what actually moves the metrics.",
+      "AI marketing automation is the use of AI tools, like large language models and workflow platforms such as n8n, Zapier and Make, to run repetitive marketing tasks without a person doing them by hand. It covers lead capture, follow-up, content research, drafting, publishing and reporting. A typical workflow triggers on an event, transforms data with AI, and hands the result to the next step: a lead fills a form, an AI drafts a personalized reply, and a sequence schedules follow-ups until the lead replies or converts. Teams use it to respond to leads in minutes instead of days, ship content faster, and cut manual hours. The best automations feel invisible: the same work gets done faster, with fewer errors and nothing dropped. It does not replace strategy or brand voice. It removes the busywork, so marketers can spend their time on what moves the metrics.",
     date: "2026-07-28",
     keywords: [
       "AI marketing automation",
@@ -184,7 +184,7 @@ export const posts: BlogPost[] = [
           Brand voice, strategy, creative judgment, sensitive customer
           conversations and final approval. AI drafts and executes; humans
           decide. The teams that treat automation as an amplifier for their
-          marketers, not a replacement, keep the durable wins.
+          marketers, not a replacement, keep the advantage.
         </p>
         <p>
           Want to see where automation pays off in your own marketing? That is
@@ -200,7 +200,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "n8n-vs-zapier-vs-make-marketing",
-    title: "n8n vs Zapier vs Make in 2026: Which Automation Tool Should Marketers Choose?",
+    title: "n8n vs Zapier vs Make in 2026: which automation tool should marketers choose?",
     description:
       "A side-by-side comparison of n8n, Zapier and Make for marketing automation in 2026, covering pricing, AI support, complexity, and when each is the right choice.",
     intro:
@@ -216,7 +216,7 @@ export const posts: BlogPost[] = [
     readingMinutes: 7,
     content: (
       <>
-        <h2>Why this comparison matters in 2026</h2>
+        <h2>Why this comparison matters</h2>
         <p>
           Five years ago automation tools were mostly connectors. Today they are
           the front line of AI adoption in marketing, the place where LLMs,
@@ -281,7 +281,7 @@ export const posts: BlogPost[] = [
           sensitive data, such as customer lists, contracts or internal docs,
           must not leave your infrastructure. Its LLM nodes, RAG support and
           code steps make it the platform where a marketing workflow can
-          actually think. You trade some setup effort for the most capability.
+          think. You trade some setup effort for the most capability.
           It is the tool I reach for first at{" "}
           <a href="https://www.anarchylabs.in/team/mueed-nazir-bhat">
             Anarchy Labs
@@ -351,11 +351,11 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "ai-copywriting-where-it-works-2026",
-    title: "AI Copywriting in 2026: Where It Works, Where It Fails, and How to Keep Brand Voice",
+    title: "AI copywriting in 2026: where it works, where it fails, and how to keep brand voice",
     description:
-      "AI copywriting is great at first drafts and variations, weak at persuasion and brand voice. How to run an AI-assisted copy workflow that actually converts.",
+      "AI copywriting is great at first drafts and variations, weak at persuasion and brand voice. How to run an AI-assisted copy workflow that converts.",
     intro:
-      "AI copywriting is using large language models to produce marketing copy, such as ads, landing pages, emails, blogs and social posts, with a human editor deciding what ships. In 2026 the tooling is good enough that AI handles the heavy lifting of research, first drafts and variations, and weak exactly where it has always been weak: originality, persuasion and brand voice. The gap between the best and worst AI copy is rarely the model. It is the brief and the editor behind it. Used well, an AI-assisted workflow cuts production time and revision cycles. In my client work that has meant around 25% fewer revisions on blogs and promotional copy. Used carelessly, it produces generic text that reads like everyone else's. The difference is process: give the model a tight brief and brand guidance, generate options, then edit like a copywriter. The models are the junior writers; the human is the senior.",
+      "AI copywriting is using large language models to produce marketing copy, such as ads, landing pages, emails, blogs and social posts, with a human editor deciding what ships. In 2026 the tooling is good enough that AI handles the heavy lifting of research, first drafts and variations, and weak exactly where it has always been weak: originality, persuasion and brand voice. The gap between the best and worst AI copy is rarely the model. It is the brief and the editor behind it. Used well, an AI-assisted workflow cuts production time and revision cycles. In my client work that has meant around 25% fewer revisions on blogs and promotional copy. Used carelessly, it produces generic text that reads like everyone else's. The difference is process: give the model a tight brief and brand guidance, generate options, then edit like a copywriter. The models produce drafts; the human decides what ships.",
     date: "2026-07-09",
     keywords: [
       "AI copywriting",
@@ -367,7 +367,7 @@ export const posts: BlogPost[] = [
     readingMinutes: 7,
     content: (
       <>
-        <h2>What AI copywriting actually is</h2>
+        <h2>What AI copywriting is</h2>
         <p>
           AI copywriting is not &quot;push a button, get a finished ad.&quot; It
           is a workflow: research with AI, brief the model well, generate several
@@ -489,7 +489,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "optimize-website-for-ai-search-geo-2026",
-    title: "How to Optimize Your Website for AI Search (GEO): A 2026 Playbook",
+    title: "How to optimize your website for AI search (GEO): a 2026 playbook",
     description:
       "GEO (Generative Engine Optimization) done right: citable passages, brand mentions, freshness and schema. How AI Overviews, ChatGPT and Perplexity choose sources.",
     intro:
@@ -599,7 +599,7 @@ export const posts: BlogPost[] = [
 
         <h2>AI surfaces pick sources differently</h2>
         <p>
-          Google AI Overviews cites pages that already rank well. Google AI Mode
+          Google AI Overviews cite pages that already rank well. Google AI Mode
           draws from a broader pool where freshness and entity authority matter
           more than position. ChatGPT leans on Wikipedia and Reddit. Perplexity
           favors community validation. Practically, build an entity on LinkedIn,
@@ -622,7 +622,7 @@ export const posts: BlogPost[] = [
           <a href="https://www.anarchylabs.in/team/mueed-nazir-bhat">
             Anarchy Labs
           </a>
-          . For more on what AI content actually achieves, see my{" "}
+          . For more on what AI content achieves, see my{" "}
           <Link href="/blog/honest-truth-ai-content-six-months-2026">
             honest truth about AI content
           </Link>{" "}
@@ -638,7 +638,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "what-is-ai-automation-performance-marketing",
-    title: "What Is AI Automation & Performance Marketing? (Definition & How It Works)",
+    title: "What is AI automation and performance marketing? (definition and how it works)",
     description:
       "A plain-language definition of AI automation and performance marketing: what it is, how the two halves combine, and what results teams can expect in 2026.",
     intro:
@@ -681,7 +681,7 @@ export const posts: BlogPost[] = [
           that ships faster, spends smarter and scales without adding headcount.
         </p>
 
-        <h2>What a specialist actually does day to day</h2>
+        <h2>What a specialist does day to day</h2>
         <ul>
           <li>Audits workflows to find the tasks that waste the most time.</li>
           <li>
@@ -708,7 +708,7 @@ export const posts: BlogPost[] = [
           Strategy, brand voice, creative judgment, sensitive conversations and
           final approval. AI drafts and executes; humans decide. The teams that
           treat the combination as an amplifier for their marketers, not a
-          replacement, keep the durable wins.
+          replacement, keep the advantage.
         </p>
 
         <h2>How to work with a specialist</h2>
@@ -736,7 +736,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "rag-for-marketing-2026",
-    title: "RAG for Marketing: Put AI to Work on Your Own Data (2026)",
+    title: "RAG for marketing: put AI to work on your own data (2026)",
     description:
       "A plain-language guide to RAG for marketing teams: what retrieval-augmented generation is, where it beats plain prompts, and how to build a grounded pipeline over your own brand docs and data.",
     intro:
@@ -853,7 +853,7 @@ export const posts: BlogPost[] = [
           </li>
           <li>
             Weak retrieval. The answer is only as good as the chunks pulled. If
-            the model drifts back into guessing, check what it actually
+            the model drifts back into guessing, check what it
             retrieved before blaming the model.
           </li>
           <li>
@@ -894,7 +894,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "ai-agents-vs-workflows-marketing",
-    title: "AI Agents vs Workflows for Marketing: When to Use Each (2026)",
+    title: "AI agents vs workflows for marketing: when to use each (2026)",
     description:
       "Workflows are predictable, agents are autonomous. How to tell which your marketing task needs, the cost and control tradeoff, and how to add agents without losing your grip.",
     intro:
@@ -1052,7 +1052,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "ai-editorial-engine-revision-cycles-2026",
-    title: "How an AI-Assisted Editorial Engine Cut Revision Cycles by 25%",
+    title: "How an AI-assisted editorial engine cuts revision cycles by 25%",
     description:
       "A three-stage editorial pipeline using AI for research and drafting, with a human editor in control. Real results: 25% fewer revision cycles and higher engagement on client content.",
     intro:
@@ -1081,7 +1081,7 @@ export const posts: BlogPost[] = [
 
         <h2>1. Research and outline</h2>
         <p>
-          AI handles keyword research, competitor analysis, and builds a
+          AI handles keyword research and competitor analysis and builds a
           structured outline with target headers. This replaces two to three
           hours of manual research per piece.
         </p>
@@ -1089,8 +1089,8 @@ export const posts: BlogPost[] = [
         <h2>2. First draft with constraints</h2>
         <p>
           The LLM writes inside a tight brief: brand voice guide, target word
-          count, required keywords, structural rules. The model acts as a
-          junior writer. Fast, but not final.
+          count, required keywords, structural rules. The model produces a
+          draft. Fast, but not final.
         </p>
 
         <h2>3. Human editorial pass</h2>
@@ -1126,8 +1126,8 @@ export const posts: BlogPost[] = [
           <h2>What didn&apos;t work</h2>
           <p>
             AI-only pipelines. Drafts without a human editor read generic and lose
-            brand voice. The editor is non-negotiable. The model is the junior
-            writer. The human is the senior. I explored this further in my{" "}
+            brand voice. The editor is non-negotiable. The model produces drafts;
+            the human decides what ships. I explored this further in my{" "}
             <Link href="/blog/ai-copywriting-where-it-works-2026">
               AI copywriting breakdown
             </Link>{" "}
@@ -1143,7 +1143,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "openai-api-vs-n8n-ai-nodes-2026",
-    title: "OpenAI API vs n8n AI Nodes: Which Should You Use?",
+    title: "OpenAI API vs n8n AI nodes: which should you use?",
     description:
       "The difference between calling the OpenAI API directly and using n8n's built-in AI nodes. When each makes sense, with practical examples for marketing workflows.",
     intro:
@@ -1175,22 +1175,22 @@ export const posts: BlogPost[] = [
         </p>
         <ul>
           <li>
-            <strong>Quick automations.</strong> Lead follow-up, content
+            Quick automations: lead follow-up, content
             summarization, email drafting. Set it up in minutes, not hours.
           </li>
           <li>
-            <strong>Tool chaining.</strong> The AI Agent node lets you give the
+            Tool chaining: the AI Agent node lets you give the
             LLM access to tools: web search, database lookup, HTTP requests.
             The model decides which tool to call. You do not write the routing
             logic.
           </li>
           <li>
-            <strong>RAG workflows.</strong> n8n has built-in vector store nodes
+            RAG workflows: n8n has built-in vector store nodes
             and document loaders. Connecting a knowledge base to an AI Agent is
             a few clicks.
           </li>
           <li>
-            <strong>Team handoff.</strong> Non-technical team members can modify
+            Team handoff: non-technical team members can modify
             the workflow in the n8n editor without touching code.
           </li>
         </ul>
@@ -1202,29 +1202,29 @@ export const posts: BlogPost[] = [
         </p>
         <ul>
           <li>
-            <strong>Structured outputs.</strong> If you need the model to return
+            Structured outputs: if you need the model to return
             JSON matching a specific schema (for example, extracting fields from
             a job description into a defined format), the API lets you define
             that schema. The AI nodes handle free-form text better than
             structured data.
           </li>
           <li>
-            <strong>Fine-tuned models.</strong> If you are using a fine-tuned
+            Fine-tuned models: if you are using a fine-tuned
             model, you need to pass the model ID directly. The AI nodes may not
             support your custom model name.
           </li>
           <li>
-            <strong>Streaming.</strong> The API supports server-sent events for
+            Streaming: the API supports server-sent events for
             streaming responses. Useful if you want to show partial results in a
             dashboard as they generate.
           </li>
           <li>
-            <strong>Advanced parameters.</strong> Temperature, top-p, frequency
+            Advanced parameters: temperature, top-p, frequency
             penalty, presence penalty, logprobs. The AI nodes expose
             temperature and nothing else.
           </li>
           <li>
-            <strong>Batch processing.</strong> If you are processing hundreds of
+            Batch processing: if you are processing hundreds of
             items per run, direct API calls let you control rate limiting,
             retries, and error handling at a granular level.
           </li>
@@ -1251,12 +1251,12 @@ export const posts: BlogPost[] = [
         <h2>What I use in practice</h2>
         <ul>
           <li>
-            <strong>n8n AI nodes for 80% of workflows.</strong> Lead capture,
+            n8n AI nodes for 80% of workflows: lead capture,
             content drafting, summarization, email sequences. Fast to build,
             easy to modify, good enough for most use cases.
           </li>
           <li>
-            <strong>HTTP Request for the other 20%.</strong> Structured data
+            HTTP Request for the other 20%: structured data
             extraction, fine-tuned models, batch processing, anything where I
             need precise control over the API parameters.
           </li>
@@ -1290,7 +1290,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "audit-marketing-workflow-ai-automation-2026",
-    title: "How to Audit Your Marketing Workflow for AI Automation",
+    title: "How to audit your marketing workflow for AI automation",
     description:
       "A step-by-step framework for finding the highest-leverage places to add AI automation to your marketing workflow. Based on real client audits.",
     intro:
@@ -1328,12 +1328,12 @@ export const posts: BlogPost[] = [
         </p>
         <ul>
           <li>
-            <strong>Repeatability.</strong> How similar is each execution? A task
+            Repeatability: how similar is each execution? A task
             that follows the same steps every time scores high. A task that
             requires creative judgment every time scores low.
           </li>
           <li>
-            <strong>Data availability.</strong> How much structured input does
+            Data availability: how much structured input does
             the task need? A task that pulls numbers from a dashboard scores
             high. A task that requires reading between the lines of a client
             brief scores low.
@@ -1393,14 +1393,14 @@ export const posts: BlogPost[] = [
             AI agents vs workflows
           </Link>{" "}
           comparison. Automate the boring stuff first. Use the saved hours for
-          the creative work that actually moves the metrics.
+          the creative work that moves the metrics.
         </p>
       </>
     ),
   },
   {
     slug: "n8n-beginners-first-ai-automation-30-minutes-2026",
-    title: "n8n for Beginners: Your First AI Marketing Automation in 30 Minutes",
+    title: "n8n for beginners: your first AI marketing automation in 30 minutes",
     description:
       "A step-by-step guide to building your first AI-powered marketing automation in n8n. From zero to a working workflow in 30 minutes, no coding required.",
     intro:
@@ -1499,7 +1499,7 @@ export const posts: BlogPost[] = [
         <p>
           Replace the Manual Trigger with a Schedule Trigger. Set it to run
           daily at 9am. Now your workflow runs automatically every morning.
-          New blog post goes live overnight, captions are ready by breakfast.
+          New blog post goes live overnight, and captions are ready by breakfast.
         </p>
 
           <h2>What to build next</h2>
@@ -1524,7 +1524,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "5-marketing-tasks-automate-ai-this-week-2026",
-    title: "5 Marketing Tasks You Should Automate With AI This Week",
+    title: "5 marketing tasks you should automate with AI this week",
     description:
       "Five high-impact marketing tasks you can automate with AI tools right now. Each one takes under an hour to set up and saves hours every week.",
     intro:
@@ -1646,7 +1646,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "how-i-built-daily-job-application-pipeline-ai-2026",
-    title: "How I Built a Daily Job Application Pipeline With AI",
+    title: "How I built a daily job application pipeline with AI",
     description:
       "A deep dive into JobTailor: an open-source AI pipeline that scrapes 8+ job boards, tailors a resume per job using LLMs, compiles PDFs, and opens applications every morning at 7am.",
     intro:
@@ -1747,7 +1747,7 @@ export const posts: BlogPost[] = [
         <p>
           Not the AI. Not the scraping. The resume tailoring. Getting an LLM
           to rewrite a resume without inventing skills is harder than it
-          sounds. The prompt has to be explicit: rephrase, reorder, emphasize.
+          sounds. The prompt has to be explicit: rephrase, reorder, highlight.
           Do not add. Do not embellish. The model will try to make the resume
           sound better by adding claims the user never made. The guardrail is
           in the prompt and in the validation step.
@@ -1772,7 +1772,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "ai-real-estate-marketing-alif-realty-redesign-2026",
-    title: "AI for Real Estate Marketing: How We Redesigned Alif Realty",
+    title: "AI for real estate marketing: how we redesigned Alif Realty",
     description:
       "How the team at Anarchy Labs redesigned a luxury real estate website with Next.js, IDX Broker API integration, admin portal, and AI-friendly architecture.",
     intro:
@@ -1807,7 +1807,7 @@ export const posts: BlogPost[] = [
         <p>
           The homepage introduces both the brokerage and development arms with
           a clean editorial layout, animated metrics, and clear conversion
-          paths. The about page showcases the team with interactive profiles.
+          paths. The about page shows the team with interactive profiles.
           The projects section presents the portfolio in a structured grid that
           adapts across devices.
         </p>
@@ -1872,7 +1872,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "review-collection-qr-codes-ai-customer-ratings-2026",
-    title: "Review Collection at Scale: How QR Codes + AI Drive Customer Ratings",
+    title: "Review collection at scale: how QR codes + AI drive customer ratings",
     description:
       "How Starboard uses QR-code scanning, multi-platform routing, and AI-drafted reviews to help Indian businesses collect more customer reviews with less friction.",
     intro:
@@ -1945,14 +1945,14 @@ export const posts: BlogPost[] = [
           Asking a customer to leave a review puts them on the spot. They
           agree and forget. A QR code is passive. The customer scans when
           they want to. The friction is lower: scan, tap, submit. The
-          conversion rate from scan to review is significantly higher than
+          conversion rate from scan to review is higher than
           from a verbal request to a review.
         </p>
 
         <h2>The AI angle</h2>
         <p>
           The AI-drafted reviews are the multiplier. Without them, a fraction
-          of customers who scan actually write a review. With a suggested
+          of customers who scan write a review. With a suggested
           draft, that number increases. The customer reads the draft, edits
           one or two sentences, and posts. The review is authentic because it
           is based on their actual rating and visit. The AI removes the
@@ -1981,9 +1981,9 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "will-ai-replace-marketers-what-changes-2026",
-    title: "Will AI Replace Marketers? What Actually Changes in 2026",
+    title: "Will AI replace marketers? what actually changes in 2026",
     description:
-      "An honest look at what AI is actually doing to marketing roles in 2026. What changes, what stays, and where the real opportunities are.",
+      "An honest look at what AI is doing to marketing roles in 2026. What changes, what stays, and where the real opportunities are.",
     intro:
       "The question everyone asks: will AI replace marketers? After building AI automation for marketing teams and working with clients who use it daily, here is what I have seen. The short answer is no. The longer answer is more useful.",
     date: "2026-07-14",
@@ -1997,7 +1997,7 @@ export const posts: BlogPost[] = [
     readingMinutes: 5,
     content: (
       <>
-        <h2>What AI actually does in marketing right now</h2>
+        <h2>What AI does in marketing right now</h2>
         <p>
           AI handles the repetitive, rules-based parts of marketing. Data
           pulling, formatting, first-draft writing, email personalization,
@@ -2015,7 +2015,7 @@ export const posts: BlogPost[] = [
           skills. They are not going away.
         </p>
 
-        <h2>What actually changes</h2>
+        <h2>What changes</h2>
         <p>
           The role shifts. Marketers spend less time on execution and more
           time on strategy, creative direction, and analysis. The person who
@@ -2035,18 +2035,18 @@ export const posts: BlogPost[] = [
         <h2>The roles that grow</h2>
         <ul>
           <li>
-            <strong>AI workflow builders.</strong> People who can design and
+            AI workflow builders: people who can design and
             maintain AI marketing automations. This is a new role that did not
             exist two years ago.
           </li>
           <li>
-            <strong>Prompt engineers for marketing.</strong> Not generic prompt
+            Prompt engineers for marketing: not generic prompt
             engineering. Marketing-specific: brand voice prompts, campaign
             briefs that AI can execute, content constraints that keep output
             on brand.
           </li>
           <li>
-            <strong>AI-augmented strategists.</strong> Marketers who use AI to
+            AI-augmented strategists: marketers who use AI to
             generate data, test hypotheses faster, and validate ideas before
             committing budget. Strategy gets faster, not replaced.
           </li>
@@ -2055,13 +2055,13 @@ export const posts: BlogPost[] = [
         <h2>The roles that shrink</h2>
         <ul>
           <li>
-            <strong>Execution-only roles.</strong> People whose entire job is
+            Execution-only roles: people whose entire job is
             formatting, scheduling, copying data between tools, pulling
             reports. These tasks are being automated. The role either evolves
             or disappears.
           </li>
           <li>
-            <strong>Generic content writers.</strong> Writers who produce
+            Generic content writers: writers who produce
             standard blog posts, product descriptions, and social captions
             without a distinctive voice. AI can generate this at scale. The
             writers who survive have a voice that AI cannot replicate.
@@ -2091,9 +2091,9 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "honest-truth-ai-content-six-months-2026",
-    title: "The Honest Truth About AI Content: What I've Seen After 6 Months",
+    title: "What I've learned about AI content after 6 months",
     description:
-      "What actually works with AI content, what does not, and the lessons I have learned building and publishing AI-assisted content for clients and my own site.",
+      "What works with AI content, what does not, and the lessons I have learned building and publishing AI-assisted content for clients and my own site.",
     intro:
       "I have been building AI content workflows for clients and using them on my own site for about six months. Here is what I have learned. No hype, no doom. Just what works, what does not, and what I would do differently.",
     date: "2026-07-30",
@@ -2112,7 +2112,7 @@ export const posts: BlogPost[] = [
           I expected AI to cut content production time in half. It did. I
           expected the quality to be comparable to human-only writing. It was
           not. I expected AI content to rank the same as human content. It did
-          not, at first. Here is what actually happened.
+          not, at first. Here is what happened.
         </p>
 
         <h2>What works well</h2>
@@ -2199,7 +2199,7 @@ export const posts: BlogPost[] = [
           <li>
             <strong>Measure engagement, not just output.</strong> I tracked how
             many pieces we published. I should have tracked how many pieces
-            people actually read, shared, and commented on. Volume is not
+            people read, shared, and commented on. Volume is not
             quality.
           </li>
         </ul>
@@ -2207,8 +2207,8 @@ export const posts: BlogPost[] = [
           <h2>The bottom line</h2>
           <p>
             AI content works when a human is in control. It does not work when
-            the human steps away. The tool is the junior writer. The human is
-            the senior. That is the honest truth after six months. For a
+            the human steps away. The tool produces drafts; the human decides
+            what ships. That is what I have learned after six months. For a
             practical example, see my{" "}
             <Link href="/blog/ai-editorial-engine-revision-cycles-2026">
               editorial engine case study
