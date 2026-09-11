@@ -108,7 +108,7 @@ export const caseStudies: CaseStudy[] = [
     slug: "starboard",
     title: "Starboard: Review Collection SaaS for Indian Businesses",
     description:
-      "A customer review collection platform with QR-code scanning at counters, multi-platform routing to Google, Zomato, Practo, Justdial and TripAdvisor, staff leaderboards, AI-drafted reviews, and a real-time analytics dashboard.",
+      "A customer review collection platform with QR code scanning at counters, multiplatform routing to Google, Zomato, Practo, Justdial and TripAdvisor, staff leaderboards, AI drafted reviews, and a realtime analytics dashboard.",
     intro:
       "Starboard helps Indian local businesses collect more customer reviews by making it effortless. A QR code at the counter, a quick scan, and the customer is routed to the right review platform for their business category. Staff compete on live leaderboards. The dashboard shows everything in real time.",
     date: "2025-06-01",
@@ -147,7 +147,7 @@ export const caseStudies: CaseStudy[] = [
             measurable activity.
           </li>
           <li>
-            <strong>AI-drafted reviews:</strong> for customers who want to
+            <strong>AI drafted reviews:</strong> for customers who want to
             leave a review but are unsure what to write, the system generates
             a suggested draft based on their rating. They can edit or post
             as-is.
@@ -163,7 +163,7 @@ export const caseStudies: CaseStudy[] = [
         <p>
           I worked on this as part of the engineering team at Anarchy Labs. My
           work covered the full stack: Next.js frontend, TypeScript, QR code
-          generation and scanning logic, the multi-platform routing system,
+          generation and scanning logic, the multiplatform routing system,
           and the analytics dashboard.
         </p>
 

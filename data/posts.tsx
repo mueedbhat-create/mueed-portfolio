@@ -353,15 +353,15 @@ export const posts: BlogPost[] = [
     slug: "ai-copywriting-where-it-works-2026",
     title: "AI copywriting in 2026: where it works, where it fails, and how to keep brand voice",
     description:
-      "AI copywriting is great at first drafts and variations, weak at persuasion and brand voice. How to run an AI-assisted copy workflow that converts.",
+      "AI copywriting is great at first drafts and variations, weak at persuasion and brand voice. How to run an AI assisted copy workflow that converts.",
     intro:
-      "AI copywriting is using large language models to produce marketing copy, such as ads, landing pages, emails, blogs and social posts, with a human editor deciding what ships. In 2026 the tooling is good enough that AI handles the heavy lifting of research, first drafts and variations, and weak exactly where it has always been weak: originality, persuasion and brand voice. The gap between the best and worst AI copy is rarely the model. It is the brief and the editor behind it. Used well, an AI-assisted workflow cuts production time and revision cycles. In my client work that has meant around 25% fewer revisions on blogs and promotional copy. Used carelessly, it produces generic text that reads like everyone else's. The difference is process: give the model a tight brief and brand guidance, generate options, then edit like a copywriter. The models produce drafts; the human decides what ships.",
+      "AI copywriting is using large language models to produce marketing copy, such as ads, landing pages, emails, blogs and social posts, with a human editor deciding what ships. In 2026 the tooling is good enough that AI handles the heavy lifting of research, first drafts and variations, and weak exactly where it has always been weak: originality, persuasion and brand voice. The gap between the best and worst AI copy is rarely the model. It is the brief and the editor behind it. Used well, an AI assisted workflow cuts production time and revision cycles. In my client work that has meant around 25% fewer revisions on blogs and promotional copy. Used carelessly, it produces generic text that reads like everyone else's. The difference is process: give the model a tight brief and brand guidance, generate options, then edit like a copywriter. The models produce drafts; the human decides what ships.",
     date: "2026-07-09",
     keywords: [
       "AI copywriting",
       "AI copywriting tools",
       "AI content marketing",
-      "AI-assisted copywriting",
+      "AI assisted copywriting",
     ],
     category: "Copy & Content",
     readingMinutes: 7,
@@ -456,12 +456,12 @@ export const posts: BlogPost[] = [
         <p>
           The same way you measure all copy: CTR, conversion, engagement, and
           time to production. In my experience the measurable wins are speed and
-          revision count, roughly 25% fewer revision cycles on AI-assisted
+          revision count, roughly 25% fewer revision cycles on AI assisted
           editorial work, while the marketing numbers depend on the brief, offer
           and channel, exactly as with human-written copy.
         </p>
 
-        <h2>Checklist before you publish AI-assisted copy</h2>
+        <h2>Checklist before you publish AI assisted copy</h2>
         <ul>
           <li>Facts, numbers and claims verified by a human.</li>
           <li>Opening rewritten. AI openings are the weakest part.</li>
@@ -471,7 +471,7 @@ export const posts: BlogPost[] = [
         <p>
           That is the workflow I run for clients:{" "}
           <a href="https://www.anarchylabs.in/team/mueed-nazir-bhat">
-            AI-assisted copy and content at Anarchy Labs
+            AI assisted copy and content at Anarchy Labs
           </a>
           . I wrote more about this approach in my{" "}
           <Link href="/blog/ai-editorial-engine-revision-cycles-2026">
@@ -689,13 +689,13 @@ export const posts: BlogPost[] = [
             research, drafting and personalization.
           </li>
           <li>Designs funnels and paid campaigns around measurable outcomes.</li>
-          <li>Writes the AI-assisted copy and content those campaigns need.</li>
+          <li>Writes the AI assisted copy and content those campaigns need.</li>
           <li>Reports on what worked and iterates on what did not.</li>
         </ul>
 
         <h2>What results can you expect?</h2>
         <p>
-          From my own client work: AI-assisted campaigns have lifted brand
+          From my own client work: AI assisted campaigns have lifted brand
           visibility by 35% and engagement by 28%; automated editorial workflows
           cut production time and revision cycles by about 25%; and automated
           follow-up means leads get a reply in minutes instead of days. Results
@@ -1052,11 +1052,11 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "ai-editorial-engine-revision-cycles-2026",
-    title: "How an AI-assisted editorial engine cuts revision cycles by 25%",
+    title: "How an AI assisted editorial engine cuts revision cycles by 25%",
     description:
       "A three-stage editorial pipeline using AI for research and drafting, with a human editor in control. Real results: 25% fewer revision cycles and higher engagement on client content.",
     intro:
-      "Most content teams spend more time fixing drafts than writing them. The cycle goes: brief, draft, revise, revise again, revise once more, then finally ship. Each pass eats editorial hours and pushes publication dates out. I built an AI-assisted pipeline for client content that changed this.",
+      "Most content teams spend more time fixing drafts than writing them. The cycle goes: brief, draft, revise, revise again, revise once more, then finally ship. Each pass eats editorial hours and pushes publication dates out. I built an AI assisted pipeline for client content that changed this.",
     date: "2026-09-01",
     keywords: [
       "AI editorial workflow",
@@ -1075,7 +1075,7 @@ export const posts: BlogPost[] = [
           publication dates out.
         </p>
         <p>
-          I built an AI-assisted pipeline for client content, blogs, articles,
+          I built an AI assisted pipeline for client content, blogs, articles,
           and promo copy. It has three stages.
         </p>
 
@@ -1110,7 +1110,7 @@ export const posts: BlogPost[] = [
             headcount
           </li>
           <li>
-            Engagement on AI-assisted pieces rose up to 40% on some client
+            Engagement on AI assisted pieces rose up to 40% on some client
             campaigns
           </li>
         </ul>
@@ -1402,7 +1402,7 @@ export const posts: BlogPost[] = [
     slug: "n8n-beginners-first-ai-automation-30-minutes-2026",
     title: "n8n for beginners: your first AI marketing automation in 30 minutes",
     description:
-      "A step-by-step guide to building your first AI-powered marketing automation in n8n. From zero to a working workflow in 30 minutes, no coding required.",
+      "A step-by-step guide to building your first AI powered marketing automation in n8n. From zero to a working workflow in 30 minutes, no coding required.",
     intro:
       "n8n is a visual workflow automation tool. You connect nodes on a canvas, data flows between them, and things happen. Here is how to build your first AI marketing automation in 30 minutes, starting from nothing.",
     date: "2026-08-20",
@@ -1799,7 +1799,7 @@ export const posts: BlogPost[] = [
         <h2>What we built</h2>
 
         <p>
-          A full-stack website for a luxury real estate brokerage — redesigned
+          A full-stack website for a luxury real estate brokerage, redesigned
           from the ground up to match the Alif brand and give the client full
           control over their content.
         </p>
@@ -1874,7 +1874,7 @@ export const posts: BlogPost[] = [
     slug: "review-collection-qr-codes-ai-customer-ratings-2026",
     title: "Review collection at scale: how QR codes + AI drive customer ratings",
     description:
-      "How Starboard uses QR-code scanning, multi-platform routing, and AI-drafted reviews to help Indian businesses collect more customer reviews with less friction.",
+      "How Starboard uses QR code scanning, multiplatform routing, and AI drafted reviews to help Indian businesses collect more customer reviews with less friction.",
     intro:
       "Most businesses know reviews matter. Few have a system for collecting them. Starboard is a review collection platform that turns a QR code scan into a review on the right platform. Here is how it works and why it works.",
     date: "2026-08-27",
@@ -1924,7 +1924,7 @@ export const posts: BlogPost[] = [
           because they can see the results on the board.
         </p>
 
-        <h3>AI-drafted reviews</h3>
+        <h3>AI drafted reviews</h3>
         <p>
           Some customers want to leave a review but are unsure what to write.
           The system generates a suggested draft based on their rating and
@@ -1951,7 +1951,7 @@ export const posts: BlogPost[] = [
 
         <h2>The AI angle</h2>
         <p>
-          The AI-drafted reviews are the multiplier. Without them, a fraction
+          The AI drafted reviews are the multiplier. Without them, a fraction
           of customers who scan write a review. With a suggested
           draft, that number increases. The customer reads the draft, edits
           one or two sentences, and posts. The review is authentic because it
@@ -2093,7 +2093,7 @@ export const posts: BlogPost[] = [
     slug: "honest-truth-ai-content-six-months-2026",
     title: "What I've learned about AI content after 6 months",
     description:
-      "What works with AI content, what does not, and the lessons I have learned building and publishing AI-assisted content for clients and my own site.",
+      "What works with AI content, what does not, and the lessons I have learned building and publishing AI assisted content for clients and my own site.",
     intro:
       "I have been building AI content workflows for clients and using them on my own site for about six months. Here is what I have learned. No hype, no doom. Just what works, what does not, and what I would do differently.",
     date: "2026-07-30",

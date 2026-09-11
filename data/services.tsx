@@ -125,13 +125,13 @@ export const services: Service[] = [
     description:
       "Ad copy, landing pages and SEO content produced with AI speed and human editorial skill. Brand voice stays consistent while production time drops.",
     intro:
-      "AI-assisted copy and content means research and drafting get machine speed while persuasion stays human. AI handles keyword research, outlines, first drafts and variants. A working copywriter edits every piece for voice, claims and flow before it ships. I have run both sides of this pipeline professionally: three-plus years of copywriting before AI entered the picture, and now automated editorial workflows that cut client revision cycles by 25% while engagement rose as much as 40%. The services cover ad copy, landing pages, SEO articles, email sequences and brand voice systems your own team can reuse. If you want AI content that does not sound like everyone else's AI content, this is the discipline that gets you there.",
+      "AI assisted copy and content means research and drafting get machine speed while persuasion stays human. AI handles keyword research, outlines, first drafts and variants. A working copywriter edits every piece for voice, claims and flow before it ships. I have run both sides of this pipeline professionally: three-plus years of copywriting before AI entered the picture, and now automated editorial workflows that cut client revision cycles by 25% while engagement rose as much as 40%. The services cover ad copy, landing pages, SEO articles, email sequences and brand voice systems your own team can reuse. If you want AI content that does not sound like everyone else's AI content, this is the discipline that gets you there.",
     keywords: [
       "AI copywriting services",
       "AI content marketing",
       "brand voice AI",
       "SEO content writer",
-      "AI-assisted copywriting",
+      "AI assisted copywriting",
     ],
     faqs: [
       {

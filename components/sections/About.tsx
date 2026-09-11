@@ -76,7 +76,7 @@ export default function About() {
           <p className="mt-4 leading-relaxed text-muted-foreground">
             On the performance side, I design funnels and paid campaigns tuned
             to the numbers that matter: CTR, ROAS and conversion rate. The two
-            skills compound. In recent client work, AI-assisted campaigns
+            skills compound. In recent client work, AI assisted campaigns
             lifted brand visibility by 35% and engagement by 28%. Automated
             content workflows cut production time and revision cycles by 25%.
             The result is a marketing operation that ships faster, spends

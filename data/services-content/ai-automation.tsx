@@ -113,7 +113,7 @@ export function AiAutomationContent() {
         build run daily: automated voice agents qualify inbound leads, n8n
         workflows move data between the tools the team already uses, and LLM
         pipelines turn client documents into working knowledge bases. On the
-        client side, an AI-assisted campaign system lifted brand visibility by
+        client side, an AI assisted campaign system lifted brand visibility by
         35% and engagement by 28%. An editorial automation pipeline cut
         revision cycles by 25%, which meant the same team published more
         without working nights.

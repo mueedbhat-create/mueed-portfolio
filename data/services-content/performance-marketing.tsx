@@ -69,7 +69,7 @@ export function PerformanceMarketingContent() {
 
       <h2>Results from real work</h2>
       <p>
-        At Sadat Paints &amp; Plastics, I designed the data-driven campaign
+        At Sadat Paints &amp; Plastics, I designed the data driven campaign
         strategy that lifted brand visibility by 35% and engagement by 28%,
         with customer interactions up 20% on the back of refreshed copy and
         sharper targeting. Freelance clients have seen engagement gains up to

@@ -3,9 +3,9 @@ import Link from "next/link";
 export function AiCopyContentContent() {
   return (
     <>
-      <h2>What is AI-assisted copy and content?</h2>
+      <h2>What is AI assisted copy and content?</h2>
       <p>
-        AI-assisted copy and content means the research and drafting get
+        AI assisted copy and content means the research and drafting get
         machine speed, while the persuasion stays human. AI handles keyword
         research, outlines, first drafts, variants and summaries. A working
         copywriter edits for voice, claims and flow before anything ships. The
@@ -45,7 +45,7 @@ export function AiCopyContentContent() {
         </li>
         <li>
           Brand voice systems. Style guides and prompt libraries so any future
-          AI-assisted drafting on your team starts from your voice instead of
+          AI assisted drafting on your team starts from your voice instead of
           the internet&apos;s average.
         </li>
       </ul>

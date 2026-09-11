@@ -7,14 +7,14 @@ import { SITE_TITLE } from "@/lib/site";
 export const metadata: Metadata = {
   title: `Services — ${SITE_TITLE}`,
   description:
-    "AI workflow automation, performance marketing, AI-assisted copy and content, and AI strategy consulting by Mueed Nazir Bhat.",
+    "AI workflow automation, performance marketing, AI assisted copy and content, and AI strategy consulting by Mueed Nazir Bhat.",
   alternates: { canonical: "/services" },
   openGraph: {
     type: "website",
     url: "/services",
     title: `Services — ${SITE_TITLE}`,
     description:
-      "AI workflow automation, performance marketing, AI-assisted copy and content, and AI strategy consulting.",
+      "AI workflow automation, performance marketing, AI assisted copy and content, and AI strategy consulting.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
 };

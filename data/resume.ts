@@ -26,7 +26,7 @@ export const resume = {
   name: "Mueed Nazir Bhat",
   title: "AI Automation · Performance Marketing",
   tagline:
-    "I help teams eliminate busywork and grow — AI-powered automations and data-driven marketing that scale.",
+    "I help teams eliminate busywork and grow — AI powered automations and data driven marketing that scale.",
   location: "Srinagar, India",
   email: "mueed.nazir@gmail.com",
   phone: "+91 6006628812",
@@ -39,7 +39,7 @@ export const resume = {
 
   about: [
     "I combine a 3+ year marketing and copywriting background with hands-on software development and AI automation. I build full-stack products, automate repetitive marketing with LLMs and n8n, and write the copy that actually converts.",
-    "As a developer at Anarchy Labs, I built Starboard — a review collection SaaS for Indian businesses with QR-based ratings, multi-platform routing and AI-drafted reviews. I also build automation pipelines, dashboards and internal tools with Python, TypeScript and Next.js.",
+    "As a developer at Anarchy Labs, I built Starboard — a review collection SaaS for Indian businesses with QR based ratings, multiplatform routing and AI drafted reviews. I also build automation pipelines, dashboards and internal tools with Python, TypeScript and Next.js.",
     "Landing pages, funnels, SaaS products, and content workflows — built and shipped with AI where it accelerates, human skill where it matters.",
   ],
 
@@ -78,7 +78,7 @@ export const resume = {
     {
       title: "Starboard",
       description:
-        "Customer review collection platform for Indian local businesses — QR-code scanning at counters, multi-platform routing to Google/Zomato/Practo/Justdial/TripAdvisor by business category, staff attribution with live leaderboards, AI-drafted reviews, and real-time analytics dashboard.",
+        "Customer review collection platform for Indian local businesses — QR code scanning at counters, multiplatform routing to Google/Zomato/Practo/Justdial/TripAdvisor by business category, staff attribution with live leaderboards, AI drafted reviews, and realtime analytics dashboard.",
       tags: ["Next.js", "TypeScript", "QR Codes", "AI Reviews", "SaaS", "Payments"],
       link: "https://getbetterreviews.online",
       featured: true,
@@ -94,7 +94,7 @@ export const resume = {
     {
       title: "AI-Assisted Campaign Suite",
       description:
-        "Data-driven marketing strategy plus AI-assisted copy and targeting that lifted brand visibility by 35% and engagement by 28%.",
+        "Data-driven marketing strategy plus AI assisted copy and targeting that lifted brand visibility by 35% and engagement by 28%.",
       tags: ["AI Strategy", "Copywriting", "Campaigns"],
       featured: true,
     },
@@ -113,7 +113,7 @@ export const resume = {
     {
       title: "AI-Assisted Editorial Engine",
       description:
-        "Blogs, articles and promotional copy produced with AI-assisted research and editing, reducing revision cycles by 25%.",
+        "Blogs, articles and promotional copy produced with AI assisted research and editing, reducing revision cycles by 25%.",
       tags: ["AI Tools", "Editorial", "Research"],
     },
   ],
@@ -208,11 +208,11 @@ export const resume = {
       period: "2025 – Present",
       link: "https://www.anarchylabs.in/team/mueed-nazir-bhat",
       points: [
-        "Built Starboard — a customer review collection SaaS for Indian businesses with QR-code scanning, multi-platform routing (Google, Zomato, Practo), staff leaderboards, AI-drafted reviews and real-time analytics.",
+        "Built Starboard — a customer review collection SaaS for Indian businesses with QR code scanning, multiplatform routing (Google, Zomato, Practo), staff leaderboards, AI drafted reviews and realtime analytics.",
         "Builds AI automations — automated voice agents and chat flows for lead capture and follow-up, wired into real business workflows.",
         "Designs marketing automations on n8n, Zapier and Make — from lead capture and follow-up to content research, drafting and publishing.",
         "Builds LLM-powered automation workflows with the OpenAI API, using RAG and prompt engineering to turn client documents into working tools.",
-        "Pairs AI-assisted copy and campaign strategy with performance marketing: funnels, paid ads, and analytics tuned to CTR, ROAS and conversion.",
+        "Pairs AI assisted copy and campaign strategy with performance marketing: funnels, paid ads, and analytics tuned to CTR, ROAS and conversion.",
         "Audits client workflows and builds AI automation roadmaps for where automation pays off fastest.",
       ],
     },
@@ -221,9 +221,9 @@ export const resume = {
       role: "Marketing Strategist & Copywriter",
       period: "Feb 2022 – Apr 2026",
       points: [
-        "Designed data-driven strategies that lifted brand visibility by 35% and engagement by 28%.",
+        "Designed data driven strategies that lifted brand visibility by 35% and engagement by 28%.",
         "Created persuasive copy for brochures, campaigns, websites and social media — up 20% in customer interactions.",
-        "Leveraged AI-assisted tools for keyword analysis, audience targeting and campaign optimisation.",
+        "Leveraged AI assisted tools for keyword analysis, audience targeting and campaign optimisation.",
         "Ran market research and competitor analysis throughout a series of successful campaigns.",
       ],
     },
@@ -267,8 +267,8 @@ export const resume = {
       a: "I build automations with n8n, Zapier and Make. I use LLMs and the OpenAI API for content and reasoning, and RAG for working with a client's own documents. On the marketing side I work with funnels, paid ads, analytics and A/B testing. I write all the copy myself.",
     },
     {
-      q: "What results can AI-assisted copy and content deliver?",
-      a: "AI-assisted editorial workflows reduce production time and revision cycles. I've seen revision cycles cut by 25% on blogs, articles and promotional copy. The key is keeping the human editor in control. AI handles research and first drafts. Persuasive brand voice stays with a skilled copywriter.",
+      q: "What results can AI assisted copy and content deliver?",
+      a: "AI assisted editorial workflows reduce production time and revision cycles. I've seen revision cycles cut by 25% on blogs, articles and promotional copy. The key is keeping the human editor in control. AI handles research and first drafts. Persuasive brand voice stays with a skilled copywriter.",
     },
     {
       q: "How do we get started with AI automation?",

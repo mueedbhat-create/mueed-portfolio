@@ -67,7 +67,7 @@ export default function Contact() {
             Let&apos;s automate your <span className="text-gradient">next win.</span>
           </h2>
           <p className="mt-5 leading-relaxed text-muted-foreground">
-            Want to automate a workflow or build an AI-assisted growth funnel? Tell me
+            Want to automate a workflow or build an AI assisted growth funnel? Tell me
             what&apos;s slowing you down — I&apos;ll help you design a system that scales.
           </p>
 
