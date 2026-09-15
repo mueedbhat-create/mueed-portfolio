@@ -84,7 +84,6 @@ export default async function ServicePage({ params }: Props) {
     description: SITE_DESCRIPTION,
     image: `${SITE_URL}/mueed-nazir-bhat.jpg`,
     email: resume.email,
-    telephone: "+916006628812",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Srinagar",

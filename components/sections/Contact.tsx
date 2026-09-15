@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { toast } from "sonner";
-import { Loader2, Phone, Send } from "lucide-react";
+import { Loader2, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -77,12 +77,6 @@ export default function Contact() {
               className="link-underline flex w-fit items-center gap-3 text-muted-foreground transition-colors hover:text-primary"
             >
               <Send className="h-4 w-4 text-muted-foreground" /> {resume.email}
-            </a>
-            <a
-              href={`tel:${resume.phone.replace(/\s/g, "")}`}
-              className="link-underline flex w-fit items-center gap-3 text-muted-foreground transition-colors hover:text-primary"
-            >
-              <Phone className="h-4 w-4 text-muted-foreground" /> {resume.phone}
             </a>
           </div>
         </div>

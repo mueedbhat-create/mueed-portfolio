@@ -97,7 +97,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     jobTitle: "AI Automation & Performance Marketing Specialist",
     description: resume.tagline,
     email: "mailto:mueed.nazir@gmail.com",
-    telephone: "+916006628812",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Srinagar",

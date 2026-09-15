@@ -29,7 +29,6 @@ export const resume = {
     "I help teams eliminate busywork and grow — AI powered automations and data driven marketing that scale.",
   location: "Srinagar, India",
   email: "mueed.nazir@gmail.com",
-  phone: "+91 6006628812",
   available: "Available for Projects",
   socials: {
     github: "https://github.com/mueedbhat-create",
