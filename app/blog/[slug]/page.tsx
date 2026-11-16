@@ -144,6 +144,18 @@ export default async function BlogPostPage({ params }: Props) {
               day: "numeric",
             })}
           </span>
+          {post.updated && post.updated !== post.date && (
+            <span>
+              Updated{" "}
+              <time dateTime={post.updated}>
+                {new Date(post.updated).toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}
+              </time>
+            </span>
+          )}
           <span className="inline-flex items-center gap-1.5">
             <Clock className="h-3.5 w-3.5" />
             {post.readingMinutes} min read
