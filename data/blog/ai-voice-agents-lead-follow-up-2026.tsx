@@ -9,7 +9,7 @@ export const post: BlogPost = {
     "How AI voice agents work for lead capture and follow-up calls, the speech-to-text, LLM and text-to-speech loop behind them, which calls they handle well, and where a human should take over.",
   intro:
     "An AI voice agent is a phone system that listens, thinks and talks back. It turns the caller's speech into text, sends that text to a language model along with instructions and business data, and turns the model's reply back into speech, in a loop that repeats every turn of the conversation. For lead follow-up it works well on short, structured calls: confirming interest after a form fill, asking a few qualifying questions, booking a slot into a calendar, and sending a summary to the CRM. It struggles with noisy lines, heavy interruptions, unfamiliar accents or mixed languages, emotional or sensitive conversations, and anything off the script. The pause before each reply also has to feel natural, which limits how much the agent can do in a single turn. I build these for lead capture and follow-up at Anarchy Labs, and the rule I use is to give the agent a narrow job, a clear way to hand off to a person, and a call log someone actually reviews.",
-  date: "2026-11-16",
+  date: "2026-10-21",
   keywords: [
     "AI voice agents",
     "AI voice agent lead follow-up",

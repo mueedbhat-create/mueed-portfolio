@@ -9,7 +9,7 @@ export const post: BlogPost = {
     "AI can write 50 ad variations in a minute, but your traffic can only test a few. How to calculate sample size, pick variations worth testing, and avoid false winners.",
   intro:
     "AI makes ad variations cheap, but testing them isn't. Each variation needs enough impressions to tell a real difference from noise, and the smaller the difference you want to detect, the more traffic you need. A useful rule of thumb for 80% power at 95% confidence is about 16 × p × (1 − p) ÷ d² impressions per variation, where p is your baseline rate and d is the absolute difference you want to detect. At a 2% CTR, spotting a 20% relative lift (2.0% to 2.4%) takes about 19,600 impressions per variation. Spotting a 10% lift takes about 78,400. So most accounts should test two to four clearly different angles at a time, not fifty small rewrites. Use AI to generate many options, cut them down by hand to a few that test different ideas, decide the sample size before launching, and don't call a winner early just because one variation is ahead on day two.",
-  date: "2026-11-16",
+  date: "2026-09-24",
   keywords: [
     "A/B testing ad copy",
     "AI ad copy testing",

@@ -9,7 +9,7 @@ export const post: BlogPost = {
     "Most brand voice guides are adjectives a model can't act on. How to write one with rules, banned words, sample sentences and before-and-after rewrites, then test it.",
   intro:
     "A brand voice guide that AI can follow describes the voice as instructions and examples rather than adjectives. Telling a model to be \"friendly but professional\" gives it nothing to act on, because every brand claims those words. What works is a short guide with four parts: three voice traits, each with a do and a don't; concrete rules about sentence length, person, contractions and formatting; a list of banned words and phrases; and several real sample sentences plus before-and-after rewrites that show the voice in action. Models copy examples far more reliably than they follow descriptions, so the samples carry most of the weight. Then test the guide: generate a few pieces with it, have an editor mark where the voice drifts, and turn each repeated drift into a new rule. Keep the core guide to about one page so it fits in every prompt, and keep longer reference material in a separate document the AI can retrieve when needed.",
-  date: "2026-11-16",
+  date: "2026-10-08",
   keywords: [
     "brand voice guide for AI",
     "AI brand voice",

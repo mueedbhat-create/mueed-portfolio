@@ -10,7 +10,7 @@ export const post: BlogPost = {
   intro:
     "n8n, Zapier and Make are the three automation platforms marketers use most in 2026, and the right one depends on your team, your data and your budget. Zapier is the quickest way to connect two apps and has almost no learning curve, so it suits simple, high-volume integrations for teams that don't want to maintain anything. Make gives you a visual canvas for medium-complexity scenarios and is usually cheaper than Zapier at moderate volume. n8n is the most capable of the three. It is open source, you can host it yourself, it handles code steps, and it has the best native AI support through LLM nodes and RAG. That makes it my default when a workflow needs AI or touches data that shouldn't leave your own server. Teams rarely switch once they've built on one, so the first choice matters. My short version: n8n for AI-heavy, custom or sensitive work, Make for visual workflows, Zapier for speed and simplicity.",
   date: "2026-07-18",
-  updated: "2026-11-16",
+  updated: "2026-11-03",
   keywords: [
     "n8n vs zapier vs make",
     "n8n marketing automation",

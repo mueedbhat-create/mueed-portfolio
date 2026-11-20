@@ -10,7 +10,7 @@ export const post: BlogPost = {
   intro:
     "RAG (retrieval-augmented generation) gets a language model to answer from your own data instead of from whatever it learned in training. The model doesn't learn from your files. When a question comes in, the system searches a knowledge base, pulls the most relevant passages and puts them into the prompt before the model writes anything. So the answer is built on documents you supplied, rather than on the model's guess about what you meant. This matters for marketing because the material that makes your work yours (brand guidelines, product details, past campaign results, customer questions) isn't inside the model. It lives in Notion, Drive, a CRM or a spreadsheet. Without RAG, AI writing for you is working blind. With it, the AI drafts from the same sources your best hire would use. The pieces are simple: split documents into chunks, embed them into a vector store, retrieve the relevant chunks when a question arrives, and pass them to the model. n8n makes this buildable without an ML team. The catch is that RAG is only as good as the source material, so stale or messy documents give you confident-sounding wrong answers.",
   date: "2026-08-05",
-  updated: "2026-11-16",
+  updated: "2026-11-08",
   keywords: [
     "RAG for marketing",
     "retrieval augmented generation",

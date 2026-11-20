@@ -10,7 +10,7 @@ export const post: BlogPost = {
   intro:
     "The five marketing tasks worth automating with AI first are lead follow-up emails, blog post formatting, a weekly analytics summary, social media captions and competitor monitoring. Each takes less than an hour to set up in n8n or Zapier and saves time every week. Personal lead follow-up saves 3 to 5 hours a week for a team handling 20 or more leads. Social captions save 2 to 3 hours a week if you post daily. Competitor monitoring saves 1 to 2 hours, the Monday analytics summary saves about an hour, and blog formatting saves 20 to 30 minutes per post. All five follow the same pattern: something triggers the workflow, AI processes the data, and the result lands in an email, sheet, dashboard or post. The point isn't to replace your marketing team. It's to take away the tasks that eat time without adding anything.",
   date: "2026-07-26",
-  updated: "2026-11-16",
+  updated: "2026-11-05",
   keywords: [
     "marketing tasks automate AI",
     "AI marketing automation quick wins",

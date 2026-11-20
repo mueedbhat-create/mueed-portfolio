@@ -10,7 +10,7 @@ export const post: BlogPost = {
   intro:
     "JobTailor is an open-source Python pipeline I built to automate the most repetitive part of job hunting. Every morning at 7am it searches 8+ job sources for remote roles, reads each job description, asks a language model to tailor my LaTeX resume to that job, compiles the result to PDF with Tectonic and opens each application page with the tailored PDF ready. I review every application and click Submit myself. Nothing is submitted automatically. The key rule is that the model may only rephrase and reorder what is already on the resume, never add skills or experience. Each tailored version sits on its own git branch so the original stays untouched. What used to take about 2 hours of manual work each day now takes about 15 minutes of review. The code is on GitHub for anyone who wants to point it at their own resume.",
   date: "2026-08-22",
-  updated: "2026-11-16",
+  updated: "2026-11-13",
   keywords: [
     "AI job application automation",
     "JobTailor open source",

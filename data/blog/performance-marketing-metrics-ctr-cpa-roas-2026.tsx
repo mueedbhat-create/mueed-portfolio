@@ -9,7 +9,7 @@ export const post: BlogPost = {
     "What CTR, CPC, conversion rate, CPA and ROAS measure, the formula for each, how they chain together, and which one to fix first when a campaign underperforms.",
   intro:
     "Performance marketing runs on five connected numbers. CTR (click-through rate) is clicks divided by impressions and tells you whether the ad earns attention. CPC (cost per click) is spend divided by clicks. Conversion rate is conversions divided by clicks and tells you whether the landing page and offer do their job. CPA (cost per acquisition) is spend divided by conversions, which works out to CPC divided by conversion rate. ROAS (return on ad spend) is revenue divided by spend. They form a chain, so a problem at one step shows up in every number after it. A weak ad lowers CTR, which usually raises CPC, which raises CPA and lowers ROAS, even when the landing page is fine. When a campaign underperforms, walk the chain from the top and fix the first broken link rather than the last number on the report. ROAS also needs context: a ROAS of 3 can lose money if your margin is thin, so work out your break-even ROAS before you judge a campaign.",
-  date: "2026-11-16",
+  date: "2026-09-09",
   keywords: [
     "performance marketing metrics",
     "CTR CPC CPA ROAS",

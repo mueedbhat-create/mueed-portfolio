@@ -10,7 +10,7 @@ export const post: BlogPost = {
   intro:
     "After about six months of building AI content workflows for clients and using them on my own site, my conclusion is that AI content works when a person stays in control and fails when they step away. AI did cut production time roughly in half, as I expected. Quality wasn't as good as human-only writing, though, and AI content didn't rank as well at first. AI is very good at research and outlines (saving 2 to 3 hours per piece), first drafts that are 60 to 70% there, repurposing content into other formats, and consistent on-page SEO. It's bad at persuasion, original ideas, holding a brand voice through a long piece, and anything that needs original data. Drafts published without an editor read generic and got little engagement. If I started over, I'd build the editorial process and the brand voice guide before generating anything, and I'd track engagement instead of how many pieces we published.",
   date: "2026-07-30",
-  updated: "2026-11-16",
+  updated: "2026-11-07",
   keywords: [
     "AI content honest review",
     "AI content what works",

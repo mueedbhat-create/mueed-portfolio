@@ -10,7 +10,7 @@ export const post: BlogPost = {
   intro:
     "Workflows and agents are two ways to automate marketing with AI, and they solve different problems. A workflow is fixed: when X happens, do Y, then Z. Every run takes the same path and you can see the whole path in advance. An agent is closer to handing someone a task. You give it a goal and it plans, picks tools, checks results and changes its own steps until it finishes or gives up. That freedom is useful and risky in equal measure. For repetitive, rule-based work like lead capture, follow-up and publishing, a workflow is cheaper, faster and easier to check. For open-ended work like researching a market, drafting a campaign brief or finding content gaps, an agent can do in an hour what a workflow would need dozens of branches to imitate. I treat it as a ladder: start with workflows, prove they work, and add an agent only where the task really needs judgment. Most teams think they need more autonomy than they do, and agents cost more because every step of thinking burns tokens.",
   date: "2026-08-19",
-  updated: "2026-11-16",
+  updated: "2026-11-11",
   keywords: [
     "AI agents for marketing",
     "workflow automation vs AI agents",

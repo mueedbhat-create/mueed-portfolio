@@ -442,3 +442,31 @@
     -webkit-overflow-scrolling: touch;
   }
 }
+
+/* Line chart + matrix + series nav */
+.viz-line { width: 100%; height: auto; display: block; overflow: visible; }
+.viz-grid { stroke: var(--border); stroke-width: 1; }
+.viz-tick { fill: currentColor; opacity: 0.7; font-size: 12px; font-family: var(--font-label), monospace; }
+.viz-axis { fill: currentColor; font-size: 12.5px; }
+.viz-mark { fill: currentColor; font-size: 12.5px; font-weight: 600; }
+.viz-matrix { display: grid; grid-template-columns: 4.5rem 1fr 1fr; gap: 0.4rem; }
+.viz-matrix-ylabel, .viz-matrix-xlabel {
+  font-size: 0.7rem; font-family: var(--font-label), monospace; opacity: 0.7; line-height: 1.3;
+}
+.viz-matrix-ylabel { align-self: center; }
+.viz-matrix-xlabel { text-align: center; }
+@media (max-width: 479px) { .viz-matrix { grid-template-columns: 3.5rem 1fr 1fr; } }
+.viz-cell {
+  display: flex; flex-direction: column; gap: 0.25rem;
+  border: 1px solid var(--border); border-radius: 4px; padding: 0.7rem 0.8rem;
+  background: var(--background);
+}
+.viz-cell-hi { border-color: var(--viz-1); box-shadow: inset 3px 0 0 var(--viz-1); }
+.series-nav ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.15rem; }
+.series-nav li a, .series-nav li span.current {
+  display: grid; grid-template-columns: 2rem 1fr; gap: 0.5rem; padding: 0.35rem 0.5rem;
+  border-radius: 3px; font-size: 0.9rem; line-height: 1.4;
+}
+.series-nav li a:hover { background: var(--background); color: var(--primary); }
+.series-nav li span.current { background: var(--background); font-weight: 600; }
+.series-nav .num { font-family: var(--font-label), monospace; font-size: 0.75rem; opacity: 0.6; padding-top: 0.15rem; }

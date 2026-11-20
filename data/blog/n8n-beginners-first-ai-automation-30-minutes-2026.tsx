@@ -10,7 +10,7 @@ export const post: BlogPost = {
   intro:
     "n8n is a visual workflow automation tool: you connect nodes on a canvas, data flows from one to the next, and each node does one job. This tutorial builds a first AI marketing automation in about 30 minutes with no code. The workflow takes a blog post URL, fetches the page, asks an AI model to turn it into three social captions (LinkedIn, Twitter and Instagram) and appends them to a Google Sheet. It uses four nodes: a Manual Trigger, an HTTP Request, a Basic LLM Chain or AI Agent, and Google Sheets. You'll need a free n8n cloud trial, an OpenAI API key and a Google account. Once it works, you can swap the Manual Trigger for a Schedule Trigger so captions are ready every morning, and add a Slack review step before anything gets posted.",
   date: "2026-08-20",
-  updated: "2026-11-16",
+  updated: "2026-11-12",
   keywords: [
     "n8n tutorial beginners",
     "first n8n workflow",

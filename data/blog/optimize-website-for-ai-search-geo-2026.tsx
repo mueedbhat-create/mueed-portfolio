@@ -10,7 +10,7 @@ export const post: BlogPost = {
   intro:
     "Generative Engine Optimization (GEO) is the work of making your site the source an AI answer cites. Google's position is that this is still SEO: the quality, structure and authority that earn rankings also earn citations in AI Overviews. The research I've seen points to a handful of levers. Brand mentions correlate about 3x more strongly with AI citations than backlinks do. Self-contained passages of roughly 134 to 167 words get lifted into answers, and nearly half of all citations come from the first 30% of a page. Freshness counts too: content updated in the last three months is around 3x more likely to be cited, and pages left alone for six months drop out. Pages with images and clear structure get selected more often. And only about 11% of domains are cited by both ChatGPT and Google AI Overviews, so the same page can do well on one surface and badly on another.",
   date: "2026-08-11",
-  updated: "2026-11-16",
+  updated: "2026-11-10",
   keywords: [
     "optimize for AI search",
     "GEO optimization",

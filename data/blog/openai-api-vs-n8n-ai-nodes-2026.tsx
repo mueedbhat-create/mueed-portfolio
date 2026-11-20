@@ -10,7 +10,7 @@ export const post: BlogPost = {
   intro:
     "In n8n you can add AI to a workflow in two ways: the built-in AI nodes (AI Agent, Basic LLM Chain, Summarize) or an HTTP Request node that calls the OpenAI API directly. The AI nodes are quicker to set up, handle credentials for you, support tool calling and RAG, and are easy for non-technical teammates to edit. The direct API gives you full control: structured JSON output against a schema, fine-tuned model IDs, streaming, every sampling parameter, and your own retry and rate-limit handling for big batches. I use the AI nodes for about 80% of marketing workflows (lead follow-up, drafting, summaries, email sequences) and switch to HTTP Request for the other 20%, mostly structured data extraction, fine-tuned models and batch jobs. Start with the AI nodes and switch only when you hit a limit you can name, like an output format they won't give you or a model they don't support.",
   date: "2026-07-05",
-  updated: "2026-11-16",
+  updated: "2026-10-29",
   keywords: [
     "n8n AI nodes vs OpenAI API",
     "n8n automation",

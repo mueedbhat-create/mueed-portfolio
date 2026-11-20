@@ -10,7 +10,7 @@ export const post: BlogPost = {
   intro:
     "Alif Realty is a luxury real estate brokerage, and our team at Anarchy Labs rebuilt its website from scratch in Next.js and TypeScript. The new site has an editorial homepage covering both the brokerage and development arms, an about page with founder profiles, a projects grid, a simpler contact form, live Buy, Rent and Sell listings pulled from the IDX Broker API, and an admin portal backed by PostgreSQL so the client can change settings without a developer. My part was the homepage redesign, the projects grid, the contact form updates, a WhatsApp button the client configures from the admin, and the settings page with its database migrations. The IDX integration also lays the groundwork for AI features real estate marketing is heading toward, like answering a plain-language property search with filtered live listings.",
   date: "2026-08-24",
-  updated: "2026-11-16",
+  updated: "2026-11-14",
   keywords: [
     "AI real estate marketing",
     "real estate website redesign",

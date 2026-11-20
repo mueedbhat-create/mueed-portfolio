@@ -299,3 +299,154 @@ export function Funnel({ title, stages, caption }: FunnelProps) {
     </Figure>
   );
 }
+
+/* ---------- Line chart (curves and trends) ---------- */
+
+type LineSeries = { label: string; points: [number, number][]; dashed?: boolean };
+
+type LineChartProps = {
+  title: string;
+  series: LineSeries[];
+  xLabel: string;
+  yLabel: string;
+  /** Tick values shown on each axis. */
+  xTicks: number[];
+  yTicks: number[];
+  formatX?: "plain" | "k" | "pct" | "rupee";
+  formatY?: "plain" | "k" | "pct" | "rupee";
+  /** Optional labelled points, e.g. a break-even marker. */
+  marks?: { x: number; y: number; label: string }[];
+  caption?: ReactNode;
+};
+
+function fmt(v: number, f: LineChartProps["formatX"]) {
+  if (f === "k") return v >= 1000 ? `${v / 1000}k` : `${v}`;
+  if (f === "pct") return `${v}%`;
+  if (f === "rupee") return v >= 1000 ? `₹${v / 1000}k` : `₹${v}`;
+  return `${v}`;
+}
+
+export function LineChart({
+  title,
+  series,
+  xLabel,
+  yLabel,
+  xTicks,
+  yTicks,
+  formatX = "plain",
+  formatY = "plain",
+  marks = [],
+  caption,
+}: LineChartProps) {
+  const W = 640;
+  const H = 300;
+  const L = 56;
+  const R = 16;
+  const T = 16;
+  const B = 44;
+  const xMin = Math.min(...xTicks);
+  const xMax = Math.max(...xTicks);
+  const yMin = Math.min(...yTicks);
+  const yMax = Math.max(...yTicks);
+  const sx = (x: number) => L + ((x - xMin) / (xMax - xMin)) * (W - L - R);
+  const sy = (y: number) => T + (1 - (y - yMin) / (yMax - yMin)) * (H - T - B);
+  const colors = ["var(--viz-1)", "var(--viz-2)", "var(--viz-3)"];
+  const summary = series
+    .map((s) => `${s.label}: ${s.points.map(([x, y]) => `${fmt(x, formatX)} → ${fmt(y, formatY)}`).join(", ")}`)
+    .join("; ");
+
+  return (
+    <Figure title={title} caption={caption}>
+      {series.length > 1 && (
+        <div className="viz-legend mb-3">
+          {series.map((s, i) => (
+            <span key={s.label}>
+              <i style={{ background: colors[i] }} />
+              {s.label}
+            </span>
+          ))}
+        </div>
+      )}
+      <svg viewBox={`0 0 ${W} ${H}`} className="viz-line" role="img" aria-label={`${title}. ${summary}`}>
+        {yTicks.map((t) => (
+          <g key={`y${t}`}>
+            <line x1={L} x2={W - R} y1={sy(t)} y2={sy(t)} className="viz-grid" />
+            <text x={L - 8} y={sy(t) + 4} textAnchor="end" className="viz-tick">
+              {fmt(t, formatY)}
+            </text>
+          </g>
+        ))}
+        {xTicks.map((t) => (
+          <text key={`x${t}`} x={sx(t)} y={H - B + 18} textAnchor="middle" className="viz-tick">
+            {fmt(t, formatX)}
+          </text>
+        ))}
+        <text x={(L + W - R) / 2} y={H - 6} textAnchor="middle" className="viz-axis">
+          {xLabel}
+        </text>
+        <text x={12} y={(T + H - B) / 2} textAnchor="middle" className="viz-axis" transform={`rotate(-90 12 ${(T + H - B) / 2})`}>
+          {yLabel}
+        </text>
+        {series.map((s, i) => (
+          <polyline
+            key={s.label}
+            fill="none"
+            stroke={colors[i]}
+            strokeWidth={2.5}
+            strokeLinejoin="round"
+            strokeDasharray={s.dashed ? "6 5" : undefined}
+            points={s.points.map(([x, y]) => `${sx(x)},${sy(y)}`).join(" ")}
+          />
+        ))}
+        {marks.map((m) => (
+          <g key={m.label}>
+            <circle cx={sx(m.x)} cy={sy(m.y)} r={5} fill="var(--viz-2)" />
+            <text
+              x={sx(m.x) + (sx(m.x) > W * 0.55 ? -10 : 10)}
+              y={sy(m.y) - 10}
+              textAnchor={sx(m.x) > W * 0.55 ? "end" : "start"}
+              className="viz-mark"
+            >
+              {m.label}
+            </text>
+          </g>
+        ))}
+      </svg>
+    </Figure>
+  );
+}
+
+/* ---------- 2x2 matrix ---------- */
+
+type MatrixProps = {
+  title: string;
+  xAxis: [string, string];
+  yAxis: [string, string];
+  /** Quadrants in reading order: top-left, top-right, bottom-left, bottom-right. */
+  cells: [MatrixCell, MatrixCell, MatrixCell, MatrixCell];
+  caption?: ReactNode;
+};
+type MatrixCell = { title: string; detail: string; highlight?: boolean };
+
+export function Matrix({ title, xAxis, yAxis, cells, caption }: MatrixProps) {
+  return (
+    <Figure title={title} caption={caption}>
+      <div className="viz-matrix">
+        {[0, 1].map((row) => (
+          <div className="contents" key={row}>
+            <span className="viz-matrix-ylabel">{row === 0 ? yAxis[1] : yAxis[0]}</span>
+            {cells.slice(row * 2, row * 2 + 2).map((c) => (
+              <div key={c.title} className={c.highlight ? "viz-cell viz-cell-hi" : "viz-cell"}>
+                <span className="viz-node-title">{c.title}</span>
+                <span className="viz-node-detail">{c.detail}</span>
+              </div>
+            ))}
+          </div>
+        ))}
+        <span />
+        <span className="viz-matrix-xlabel">{xAxis[0]}</span>
+        <span className="viz-matrix-xlabel">{xAxis[1]}</span>
+      </div>
+    </Figure>
+  );
+}

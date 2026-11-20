@@ -3,6 +3,7 @@ import Link from "next/link";
 import { CalendarDays, Clock } from "lucide-react";
 import { visiblePosts } from "@/data/posts";
 import { SITE_TITLE } from "@/lib/site";
+import { series } from "@/data/blog/series";
 
 export const metadata: Metadata = {
   title: `Blog — ${SITE_TITLE}`,
@@ -20,7 +21,10 @@ export const metadata: Metadata = {
 };
 
 export default function BlogPage() {
-  const [featured, ...rest] = visiblePosts;
+  // Pinned pillar post; everything else lists newest first.
+  const featured =
+    visiblePosts.find((p) => p.slug === "ai-marketing-automation-guide-2026") ?? visiblePosts[0];
+  const rest = visiblePosts.filter((p) => p !== featured);
 
   return (
     <div className="mx-auto max-w-4xl px-5 pt-28 pb-24">
@@ -77,6 +81,41 @@ export default function BlogPage() {
           </p>
         </Link>
       )}
+
+      {series.map((s) => (
+        <section key={s.id} className="mt-10 rounded-sm border border-border bg-card p-8">
+          <p className="font-mono text-xs uppercase tracking-[0.14em] text-muted-foreground">
+            Series · {s.parts.length} parts
+          </p>
+          <h2
+            className="mt-3 text-2xl leading-snug tracking-tight"
+            style={{ fontFamily: "var(--font-display), Georgia, serif", fontWeight: 400 }}
+          >
+            {s.name}
+          </h2>
+          <p className="mt-2 max-w-2xl leading-relaxed text-muted-foreground">{s.description}</p>
+          <ol className="mt-6 grid gap-x-8 gap-y-2 sm:grid-cols-2">
+            {s.parts.map((part, i) => (
+              <li key={part.slug}>
+                <Link
+                  href={`/blog/${part.slug}`}
+                  className="group grid grid-cols-[2rem_1fr] gap-2 text-sm leading-snug"
+                >
+                  <span className="font-mono text-xs text-muted-foreground pt-0.5">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <span className="transition-colors group-hover:text-primary">
+                    {part.short}
+                    <span className="ml-2 font-mono text-[0.65rem] uppercase tracking-wide text-muted-foreground">
+                      {part.level}
+                    </span>
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))}
 
       <div className="mt-10 grid gap-6 sm:grid-cols-2">
         {rest.map((p) => (

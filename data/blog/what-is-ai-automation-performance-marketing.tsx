@@ -10,7 +10,7 @@ export const post: BlogPost = {
   intro:
     "AI automation and performance marketing combines two disciplines. AI automation uses language models and workflow platforms like n8n, Zapier and Make to handle repetitive marketing tasks (lead capture, follow-up, content research, drafting, publishing) without someone doing them by hand. Performance marketing is the numbers side: funnels, paid campaigns and analytics judged on measurable outcomes like CTR, ROAS and conversion rate. Each one covers the other's weak spot. Automation produces more work, faster and more consistently, and performance marketing makes sure that work is measured and improved instead of just piling up. In practice the AI drafts and runs the pipeline while a person keeps the strategy, the brand voice and the final say. Teams that run both answer leads in minutes, publish several times faster and spend fewer hours on manual work, which leaves more time for the decisions that move the numbers.",
   date: "2026-06-30",
-  updated: "2026-11-16",
+  updated: "2026-10-27",
   keywords: [
     "AI automation and performance marketing",
     "AI automation",

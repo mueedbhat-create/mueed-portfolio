@@ -10,7 +10,7 @@ export const post: BlogPost = {
   intro:
     "AI marketing automation means using language models together with workflow tools like n8n, Zapier and Make to run the repetitive parts of marketing without someone doing them by hand. Lead capture, follow-up, content research, drafting, publishing and reporting all fit. A typical workflow starts with an event and ends with an action. A lead fills a form, the AI reads the answers and drafts a personal reply, and a sequence keeps following up until the lead books a call or goes quiet. Small teams use it to answer leads in minutes instead of days, to publish more without hiring, and to stop copying numbers between tabs every Monday. It doesn't replace strategy or brand voice. What it removes is the busywork around them. My rule for every build is the same: automate the pipeline and keep the judgment with a person. If an automation doesn't move a number you care about, switch it off.",
   date: "2026-07-28",
-  updated: "2026-11-16",
+  updated: "2026-11-06",
   keywords: [
     "AI marketing automation",
     "how to automate marketing with AI",

@@ -21,10 +21,30 @@ import { post as p_ai_real_estate_marketing_alif_realty_redesign_2026 } from "./
 import { post as p_review_collection_qr_codes_ai_customer_ratings_2026 } from "./blog/review-collection-qr-codes-ai-customer-ratings-2026";
 import { post as p_will_ai_replace_marketers_what_changes_2026 } from "./blog/will-ai-replace-marketers-what-changes-2026";
 import { post as p_honest_truth_ai_content_six_months_2026 } from "./blog/honest-truth-ai-content-six-months-2026";
+import { post as pm_1 } from "./blog/what-is-performance-marketing-beginners-guide";
+import { post as pm_2 } from "./blog/performance-marketing-unit-economics-cac-ltv-break-even";
+import { post as pm_3 } from "./blog/conversion-tracking-setup-pixel-capi-utm-ga4";
+import { post as pm_4 } from "./blog/choosing-performance-marketing-channels-intent-vs-demand";
+import { post as pm_5 } from "./blog/google-search-ads-auction-quality-score-explained";
+import { post as pm_6 } from "./blog/meta-ads-account-structure-learning-phase";
+import { post as pm_7 } from "./blog/ad-creative-testing-framework-hooks-angles-fatigue";
+import { post as pm_8 } from "./blog/landing-page-cro-paid-traffic-message-match";
+import { post as pm_9 } from "./blog/scaling-ad-spend-bidding-diminishing-returns";
+import { post as pm_10 } from "./blog/incrementality-testing-mmm-mer-measurement";
 
 export type { BlogPost };
 
 export const posts: BlogPost[] = [
+  pm_10,
+  pm_9,
+  pm_8,
+  pm_7,
+  pm_6,
+  pm_5,
+  pm_4,
+  pm_3,
+  pm_2,
+  pm_1,
   p_ai_marketing_automation_guide_2026,
   p_performance_marketing_metrics_ctr_cpa_roas_2026,
   p_n8n_ai_lead_qualification_workflow_2026,
@@ -53,4 +73,6 @@ export function getPost(slug: string): BlogPost | undefined {
   return posts.find((p) => p.slug === slug);
 }
 
-export const visiblePosts = posts.filter((p) => !p.hidden);
+export const visiblePosts = posts
+  .filter((p) => !p.hidden)
+  .sort((a, b) => b.date.localeCompare(a.date));

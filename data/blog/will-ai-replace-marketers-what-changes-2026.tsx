@@ -10,7 +10,7 @@ export const post: BlogPost = {
   intro:
     "No, AI won't replace marketers, but it is changing what the job involves. From building AI automation for marketing teams and working with clients who use it every day, what I see is that AI takes over the repetitive execution work: pulling data, formatting, first drafts, email personalization, generating A/B variations and writing report summaries. It does those faster and with fewer mistakes than doing them by hand. What it can't do is understand a brand's voice, read a cultural moment or make the judgment calls that turn a decent campaign into a great one. So marketers spend less time executing and more time on strategy, creative direction and analysis. Roles built around building AI workflows, writing marketing-specific prompts and testing ideas faster are growing. Execution-only roles and generic content writing are shrinking. The skill that matters most is marketing judgment applied to what AI produces.",
   date: "2026-07-14",
-  updated: "2026-11-16",
+  updated: "2026-11-02",
   keywords: [
     "AI replace marketers",
     "AI marketing jobs 2026",

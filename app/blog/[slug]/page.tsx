@@ -6,6 +6,8 @@ import { CalendarDays, Clock, ArrowLeft } from "lucide-react";
 import { getPost, posts, visiblePosts } from "@/data/posts";
 import { resume } from "@/data/resume";
 import { SITE_URL } from "@/lib/site";
+import { SeriesNav } from "@/components/blog/series-nav";
+import { getSeries } from "@/data/blog/series";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -59,6 +61,7 @@ export default async function BlogPostPage({ params }: Props) {
   if (!post) notFound();
 
   const related = visiblePosts.filter((p) => p.slug !== post.slug).slice(0, 2);
+  const seriesInfo = post.series ? getSeries(post.series.id) : undefined;
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -69,6 +72,16 @@ export default async function BlogPostPage({ params }: Props) {
     datePublished: post.date,
     dateModified: post.updated ?? post.date,
     keywords: post.keywords.join(", "),
+    ...(seriesInfo && post.series
+      ? {
+          position: post.series.part,
+          isPartOf: {
+            "@type": "CreativeWorkSeries",
+            name: seriesInfo.name,
+            url: `${SITE_URL}/blog/${seriesInfo.parts[0].slug}`,
+          },
+        }
+      : {}),
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": `${SITE_URL}/blog/${post.slug}`,
@@ -207,7 +220,11 @@ export default async function BlogPostPage({ params }: Props) {
           <p className="mt-2 leading-relaxed text-muted-foreground">{post.intro}</p>
         </div>
 
+        {post.series && <SeriesNav id={post.series.id} part={post.series.part} />}
+
         <div className="blog-content mt-12">{post.content}</div>
+
+        {post.series && <SeriesNav id={post.series.id} part={post.series.part} />}
 
         <div className="mt-16 rounded-sm border border-border bg-card p-8 text-center">
           <p

@@ -9,7 +9,7 @@ export const post: BlogPost = {
     "A step-by-step n8n build that scores inbound leads with an LLM against your ideal customer profile, returns structured JSON, routes hot leads to sales and nurtures the rest.",
   intro:
     "An AI lead qualification workflow reads every inbound lead, scores it against your ideal customer profile and sends it to the right place without anyone triaging the inbox. In n8n the core of it is five nodes. A Webhook receives the form submission. An HTTP Request fetches the lead's company website. An AI step compares the lead's answers and website to a written ideal customer profile and returns structured JSON with a fit score, a hot, warm or cold label, a one-line reason and a suggested next step. A Switch node routes on that label: hot leads go to the CRM with a Slack alert so a person calls them, warm leads get a personal email drafted for review, and cold leads join a nurture sequence. The two things that make it reliable are forcing the model to return JSON against a fixed schema, and writing the ideal customer profile down as explicit rules instead of leaving the model to guess what a good lead looks like.",
-  date: "2026-11-16",
+  date: "2026-11-04",
   keywords: [
     "AI lead qualification",
     "n8n lead scoring",

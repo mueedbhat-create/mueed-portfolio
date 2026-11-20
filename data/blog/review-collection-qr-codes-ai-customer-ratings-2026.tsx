@@ -10,7 +10,7 @@ export const post: BlogPost = {
   intro:
     "Starboard is a review collection platform I built at Anarchy Labs for local businesses in India. A customer scans a QR code at the counter, with no app and no login, and lands on a short review flow. The system knows the business category and sends the customer to the platform that matters for it: Zomato for restaurants, Practo for clinics, Google or Justdial for retail, TripAdvisor for hotels. Customers who don't know what to write get an AI drafted review based on their own rating, which they can edit or post as it is. Every scan is credited to the staff member on shift, and a live leaderboard shows who is bringing in the most reviews, so collecting reviews becomes something the team actively does. A dashboard tracks reviews by platform, staff member and time. A QR code works better than asking out loud because the customer scans when they're ready, and the steps are just scan, tap and submit.",
   date: "2026-08-27",
-  updated: "2026-11-16",
+  updated: "2026-11-15",
   keywords: [
     "QR code review collection",
     "AI customer reviews",

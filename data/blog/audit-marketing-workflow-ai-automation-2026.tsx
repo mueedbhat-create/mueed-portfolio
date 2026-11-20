@@ -10,7 +10,7 @@ export const post: BlogPost = {
   intro:
     "A marketing workflow audit finds the few tasks where AI automation saves the most time for the least risk. You don't automate everything. You list every recurring task, note how long each one takes and how often it happens, and score it from 1 to 5 on two things: how repeatable it is and how much structured data it has to work with. Multiply the two scores, and anything at 16 or above is a candidate. Then check what happens if the automation gets it wrong, and start with the low-risk ones. Pick three, build them, measure the hours saved, then pick the next three. In a recent client audit, 22 recurring tasks produced five strong candidates. Automating the first three in week one gave the team back 8 hours a month. The other 17 tasks stayed manual because they needed human judgment.",
   date: "2026-07-12",
-  updated: "2026-11-16",
+  updated: "2026-11-01",
   keywords: [
     "marketing workflow audit",
     "AI automation audit",

@@ -10,7 +10,7 @@ export const post: BlogPost = {
   intro:
     "AI copywriting means using language models to produce marketing copy, such as ads, landing pages, emails, blogs and social posts, while a human editor decides what actually ships. In 2026 the models are good at research, first drafts and generating lots of variations. They are still weak where they've always been weak: originality, persuasion and sounding like a specific brand. The gap between good and bad AI copy rarely comes down to the model. It comes down to the brief going in and the editor at the end. Done well, an AI assisted workflow cuts production time and revisions; on my own client blogs and promo copy it has meant about 25% fewer revision cycles. Done carelessly, it produces copy that reads like everyone else's. So the process matters most: write a tight brief with real brand guidance, ask for several directions, then edit like a copywriter would.",
   date: "2026-07-09",
-  updated: "2026-11-16",
+  updated: "2026-10-31",
   keywords: [
     "AI copywriting",
     "AI copywriting tools",

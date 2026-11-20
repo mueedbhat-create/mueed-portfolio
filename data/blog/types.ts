@@ -12,5 +12,7 @@ export type BlogPost = {
   readingMinutes: number;
   hidden?: boolean;
   featured?: boolean;
+  /** Part of a numbered series (see data/blog/series.ts). */
+  series?: { id: string; part: number };
   content: ReactNode;
 };
